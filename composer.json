@@ -1,0 +1,24 @@
+{
+    "name": "drupal-smartstore/smart-store",
+    "description": "Drupal Commerce related projects maintained by smart store.",
+    "type": "metapackage",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/drupal-smartstore",
+    "authors": [
+        {
+            "name": "Smart Store"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/better_exposed_filters": "^6"
+    }
+}
