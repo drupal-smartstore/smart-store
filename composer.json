@@ -1,5 +1,5 @@
 {
-    "name": "drupal-smartstore/smart-store",
+    "name": "ttn/smart-store",
     "description": "Drupal Commerce related projects maintained by smart store.",
     "type": "metapackage",
     "license": "GPL-2.0-or-later",
