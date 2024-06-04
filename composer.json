@@ -1,7 +1,7 @@
 {
     "name": "smartstore/smart-store",
     "description": "Drupal Commerce related projects maintained by smart store.",
-    "type": "metapackage",
+    "type": "drupal-profile",
     "license": "GPL-2.0-or-later",
     "homepage": "https://github.com/drupal-smartstore",
     "authors": [
@@ -19,6 +19,7 @@
     ],
     "require": {
         "drupal/admin_toolbar": "^3.4",
-        "drupal/better_exposed_filters": "^6"
+        "drupal/better_exposed_filters": "^6",
+        "drupal/commerce": "^2.35"
     }
 }
