@@ -1,6 +1,6 @@
 name: Smart Store
 type: profile
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^10
 description: 'The fastest way to start building on Drupal Smart Store.'
 distribution:
   name: 'Smart Store'
@@ -69,5 +69,5 @@ install:
   - admin_toolbar_tools
 
 themes:
-  - olivero
-  - claro
+  - kart
+  - gin
