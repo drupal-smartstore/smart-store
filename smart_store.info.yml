@@ -5,7 +5,7 @@ description: 'The fastest way to start building on Drupal Smart Store.'
 distribution:
   name: 'Smart Store'
   install:
-    theme: claro
+    theme: smart_store_admin
 
 # Dependencies cannot be uninstalled.
 dependencies:
@@ -70,4 +70,4 @@ install:
 
 themes:
   - kart
-  - gin
+  - smart_store_admin

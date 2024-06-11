@@ -1,0 +1,12 @@
+<?php
+/**
+ * Implements hook_install().
+ */
+function smart_store_install() {
+  // Set default theme.
+  \Drupal::configFactory()->getEditable('system.theme')
+    ->set('default', 'kart')
+    ->set('admin', 'smart_store_admin')
+    ->save();
+}
+

@@ -21,8 +21,10 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/better_exposed_filters": "^6",
         "drupal/commerce": "^2.35",
-        "drupal/gin": "^3.0@RC",
+        "drupal/adminimal_theme": "^1.7",
         "drupal/kart": "1.0",
-        "drupal/estore": "^2.2"
+        "drupal/estore": "^2.2",
+        "smartstore/smart_store_admin":"1.x-dev"
+
     }
 }
