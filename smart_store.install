@@ -5,7 +5,7 @@
 function smart_store_install() {
   // Set default theme.
   \Drupal::configFactory()->getEditable('system.theme')
-    ->set('default', 'kart')
+    ->set('default', 'vitoria')
     ->set('admin', 'smart_store_admin')
     ->save();
 }
