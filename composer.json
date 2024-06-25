@@ -27,7 +27,8 @@
         "drupal/kart": "1.0",
         "smartstore/smart_store_admin":"1.x-dev",
         "smartstore/vitoria": "1.0.x-dev",
-        "drupal/commerce_autosku": "^2.1"
+        "drupal/commerce_autosku": "^2.1",
+        "drupal/backup_migrate": "^5.0"
 
     }
 }
