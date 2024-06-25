@@ -72,6 +72,7 @@ install:
   # Contrib
   - admin_toolbar
   - admin_toolbar_tools
+  - commerce_autosku
 
 themes:
   - vitoria
