@@ -1,5 +1,5 @@
 {
-    "name": "smartstore/smart-store",
+    "name": "smartstore/smart_store",
     "description": "Drupal Commerce related projects maintained by smart store.",
     "type": "drupal-profile",
     "license": "GPL-2.0-or-later",
