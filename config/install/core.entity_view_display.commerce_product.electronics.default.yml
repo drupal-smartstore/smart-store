@@ -1,0 +1,42 @@
+uuid: 9a4a3808-abec-4bd6-abe5-5cac5cbd0ae6
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.electronics
+    - field.field.commerce_product.electronics.body
+  module:
+    - commerce_product
+    - text
+id: commerce_product.electronics.default
+targetEntityType: commerce_product
+bundle: electronics
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -5
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  created: true
+  stores: true
+  uid: true
