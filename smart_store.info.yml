@@ -74,6 +74,9 @@ install:
   - admin_toolbar_tools
   - commerce_autosku
   - backup_migrate
+  - color_field
+  - search_api
+  - facets
 
 themes:
   - vitoria
