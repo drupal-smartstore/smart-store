@@ -1,7 +1,15 @@
 uuid: 3e87fe63-9561-4dea-ba49-fa6c9d3515b4
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - commerce_autosku
+third_party_settings:
+  commerce_autosku:
+    mode: enabled
+    plugin: token
+    configuration:
+      pattern: '[commerce_product_variation:type]_[commerce_product_variation:variation_id]'
 id: electronics
 label: Electronics
 traits: {  }

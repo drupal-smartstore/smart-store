@@ -1,0 +1,25 @@
+uuid: 9b6fcbc4-9066-4eca-9aa7-d564a36ae48c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9a9fb31b-3fd1-4d6f-ad84-47a15542dacb'
+  module:
+    - block_content
+  theme:
+    - vitoria
+id: vitoria_brandlogo
+theme: vitoria
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:9a9fb31b-3fd1-4d6f-ad84-47a15542dacb'
+settings:
+  id: 'block_content:9a9fb31b-3fd1-4d6f-ad84-47a15542dacb'
+  label: 'Brand Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

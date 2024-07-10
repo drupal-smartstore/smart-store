@@ -1,0 +1,8 @@
+uuid: 6fc235ae-e3d7-407f-ac20-f29655f3921f
+langcode: en
+status: true
+dependencies: {  }
+id: hero_slider
+label: 'Hero Slider'
+revision: false
+description: 'Hero slider which contains text, image and link.'

@@ -5,8 +5,11 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.electronics
     - field.field.commerce_product.electronics.body
+    - field.field.commerce_product.electronics.field_image
+    - field.field.commerce_product.electronics.field_product_brand
   module:
     - commerce_product
+    - image
     - text
 id: commerce_product.electronics.default
 targetEntityType: commerce_product
@@ -19,6 +22,25 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 11
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_product_brand:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
     region: content
   title:
     type: string

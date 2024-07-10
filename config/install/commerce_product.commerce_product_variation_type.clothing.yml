@@ -1,7 +1,15 @@
 uuid: 5d816a74-eca8-4e74-aae8-6fdc8309cd3a
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - commerce_autosku
+third_party_settings:
+  commerce_autosku:
+    mode: enabled
+    plugin: token
+    configuration:
+      pattern: '[commerce_product_variation:type]_[commerce_product_variation:variation_id]'
 id: clothing
 label: Clothing
 traits: {  }

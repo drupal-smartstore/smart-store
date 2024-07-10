@@ -1,12 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: ''
-name: ''
-mail: ''
+uuid: 1ca70768-deb9-449e-8bb3-a2a52a58a287
+name: 'Smart Store'
+mail: smart-store@drupal.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

@@ -1,0 +1,25 @@
+uuid: 88bec0a9-f07a-497d-b8c0-d37885c457fb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4866285c-a2b7-4e8e-8e4e-a53474cd3099'
+  module:
+    - block_content
+  theme:
+    - vitoria
+id: vitoria_clearancesales
+theme: vitoria
+region: header
+weight: -5
+provider: null
+plugin: 'block_content:4866285c-a2b7-4e8e-8e4e-a53474cd3099'
+settings:
+  id: 'block_content:4866285c-a2b7-4e8e-8e4e-a53474cd3099'
+  label: 'Clearance Sales'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

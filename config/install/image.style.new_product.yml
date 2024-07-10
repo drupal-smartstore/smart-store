@@ -1,0 +1,15 @@
+uuid: 3353ee36-1eae-4804-9ddd-21417a31ad4c
+langcode: en
+status: true
+dependencies: {  }
+name: new_product
+label: 'New Product'
+effects:
+  ff101e50-a154-4c66-ae07-7b8f4993c872:
+    uuid: ff101e50-a154-4c66-ae07-7b8f4993c872
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 397
+      height: 397
+      anchor: center-center

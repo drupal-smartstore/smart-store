@@ -1,0 +1,25 @@
+uuid: b33929f0-af16-4fec-8ca3-31080db5d608
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-support-menu
+  module:
+    - system
+  theme:
+    - vitoria
+id: vitoria_footersupportmenu
+theme: vitoria
+region: footer_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-support-menu'
+settings:
+  id: 'system_menu_block:footer-support-menu'
+  label: Support
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

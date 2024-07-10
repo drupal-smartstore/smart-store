@@ -1,0 +1,15 @@
+uuid: 1855df50-69e9-4cac-8d7e-47f57d969d56
+langcode: en
+status: true
+dependencies: {  }
+name: brand_logo
+label: 'Brand Logo'
+effects:
+  ddaa7e8f-1ca3-4c79-aa9d-e1bbc24dbaa2:
+    uuid: ddaa7e8f-1ca3-4c79-aa9d-e1bbc24dbaa2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 144
+      height: 72
+      anchor: center-center

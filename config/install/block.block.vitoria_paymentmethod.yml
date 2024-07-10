@@ -1,0 +1,25 @@
+uuid: d951de96-6ae7-47d3-be0d-e85399d0b38c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e85b8cc7-c03d-401f-bdcf-06a9e80e926c'
+  module:
+    - block_content
+  theme:
+    - vitoria
+id: vitoria_paymentmethod
+theme: vitoria
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:e85b8cc7-c03d-401f-bdcf-06a9e80e926c'
+settings:
+  id: 'block_content:e85b8cc7-c03d-401f-bdcf-06a9e80e926c'
+  label: 'Payment Method'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

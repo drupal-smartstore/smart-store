@@ -1,0 +1,80 @@
+uuid: 89defb25-c7d9-4540-b4ae-4f3f3ca66710
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.commerce_product.body
+    - field.storage.commerce_product.field_product_brand
+    - field.storage.commerce_product.field_product_categories
+    - search_api.server.database
+  module:
+    - commerce_product
+    - search_api
+id: products
+name: Products
+description: ''
+read_only: false
+field_settings:
+  body:
+    label: Body
+    datasource_id: 'entity:commerce_product'
+    property_path: body
+    type: text
+    dependencies:
+      config:
+        - field.storage.commerce_product.body
+  created:
+    label: Created
+    datasource_id: 'entity:commerce_product'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - commerce_product
+  field_product_brand:
+    label: 'Product Brand'
+    datasource_id: 'entity:commerce_product'
+    property_path: field_product_brand
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_product_brand
+  field_product_categories:
+    label: 'Product Categories'
+    datasource_id: 'entity:commerce_product'
+    property_path: field_product_categories
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_product_categories
+  title:
+    label: Title
+    datasource_id: 'entity:commerce_product'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - commerce_product
+datasource_settings:
+  'entity:commerce_product':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  custom_value: {  }
+  entity_type: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  cron_limit: 50
+  index_directly: true
+  track_changes_in_references: true
+server: database

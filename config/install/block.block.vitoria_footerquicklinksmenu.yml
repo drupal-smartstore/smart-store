@@ -1,0 +1,25 @@
+uuid: a9233c21-3fb0-44e6-9c0a-dbe67b697aea
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-quick-links-menu
+  module:
+    - system
+  theme:
+    - vitoria
+id: vitoria_footerquicklinksmenu
+theme: vitoria
+region: footer_top
+weight: -2
+provider: null
+plugin: 'system_menu_block:footer-quick-links-menu'
+settings:
+  id: 'system_menu_block:footer-quick-links-menu'
+  label: 'Quick Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 3138af66-c9b9-451d-9e8f-b5a789ee6a40
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.new_products_carousel
+  module:
+    - system
+    - views
+  theme:
+    - vitoria
+id: vitoria_views_block__new_products_carousel_block_1
+theme: vitoria
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:new_products_carousel-block_1'
+settings:
+  id: 'views_block:new_products_carousel-block_1'
+  label: 'New Products'
+  label_display: visible
+  provider: views
+  views_label: 'New Products'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

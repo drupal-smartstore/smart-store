@@ -1,0 +1,25 @@
+uuid: e9ebd45d-655f-4c16-b542-4afe3c9384f5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:915cbd38-5f0e-4b78-9d83-6269a43fb225'
+  module:
+    - block_content
+  theme:
+    - vitoria
+id: vitoria_footerabout
+theme: vitoria
+region: footer_top
+weight: -3
+provider: null
+plugin: 'block_content:915cbd38-5f0e-4b78-9d83-6269a43fb225'
+settings:
+  id: 'block_content:915cbd38-5f0e-4b78-9d83-6269a43fb225'
+  label: 'Footer About'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -6,6 +6,8 @@ dependencies:
     - commerce_product.commerce_product_type.clothing
     - field.field.commerce_product.clothing.body
     - field.field.commerce_product.clothing.field_image
+    - field.field.commerce_product.clothing.field_product_brand
+    - field.field.commerce_product.clothing.field_product_categories
   module:
     - commerce_product
     - image
@@ -32,6 +34,22 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 12
+    region: content
+  field_product_brand:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_product_categories:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 14
     region: content
   title:
     type: string

@@ -1,0 +1,23 @@
+uuid: 5d748f04-5ce1-42f0-a8b4-782d1b30f456
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_slider
+    - field.storage.block_content.field_link
+  module:
+    - link
+id: block_content.hero_slider.field_link
+field_name: field_link
+entity_type: block_content
+bundle: hero_slider
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
