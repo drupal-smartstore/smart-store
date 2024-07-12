@@ -31,7 +31,9 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/color_field": "^3.0",
         "drupal/search_api": "^1.35",
-        "drupal/facets": "^3.0@beta"
+        "drupal/facets": "^3.0@beta",
+        "drupal/fivestar": "^1.0@alpha",
+        "drupal/votingapi": "^3.0@beta"
         
 
     }
