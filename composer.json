@@ -34,7 +34,8 @@
         "drupal/facets": "^3.0@beta",
         "drupal/fivestar": "^1.0@alpha",
         "drupal/votingapi": "^3.0@beta",
-        "drupal/commerce_ajax_atc": "^1.0@RC"
+        "drupal/commerce_ajax_atc": "^1.0@RC",
+        "drupal/field_group": "^3.4"
         
 
     }
