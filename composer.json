@@ -31,11 +31,13 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/color_field": "^3.0",
         "drupal/search_api": "^1.35",
-        "drupal/facets": "^3.0@beta",
+        "drupal/facets": "^2.0",
         "drupal/fivestar": "^1.0@alpha",
         "drupal/votingapi": "^3.0@beta",
         "drupal/commerce_ajax_atc": "^1.0@RC",
-        "drupal/field_group": "^3.4"
+        "drupal/field_group": "^3.4",
+        "drupal/core_views_facets": "^2.1",
+        "drupal/facets_pretty_paths": "^2.0"
         
 
     }
