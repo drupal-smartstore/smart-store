@@ -39,7 +39,8 @@
         "drupal/core_views_facets": "^2.1",
         "drupal/facets_pretty_paths": "^2.0",
         "drupal/commerce_wishlist": "^3.0@beta",
-        "drupal/commerce_shipping": "^2.9"
+        "drupal/commerce_shipping": "^2.9",
+        "drupal/simplenews": "^4.0"
         
 
     }
