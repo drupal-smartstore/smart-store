@@ -1,0 +1,15 @@
+uuid: 193cbd7e-f542-46fa-ab3f-62bdf5709d62
+langcode: en
+status: true
+dependencies: {  }
+name: promotion_two_585_264
+label: 'Promotion Two(585*264)'
+effects:
+  f82bccb6-7ad8-4fe8-b8b9-fadc111c1163:
+    uuid: f82bccb6-7ad8-4fe8-b8b9-fadc111c1163
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 585
+      height: 264
+      anchor: center-center

@@ -1,0 +1,29 @@
+uuid: 6cc14e4e-c695-420f-a54c-866938c21209
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.product_categories
+  module:
+    - facets
+    - system
+  theme:
+    - vitoria
+id: vitoria_productcategories
+theme: vitoria
+region: content_above
+weight: -8
+provider: null
+plugin: 'facet_block:product_categories'
+settings:
+  id: 'facet_block:product_categories'
+  label: Categories
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: vitoria_productcategories
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/products\r\n/products*"

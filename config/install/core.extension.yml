@@ -7,6 +7,7 @@ module:
   announcements_feed: 0
   automated_cron: 0
   backup_migrate: 0
+  better_exposed_filters: 0
   big_pipe: 0
   block: 0
   block_class: 0
@@ -16,6 +17,7 @@ module:
   color_field: 0
   comment: 0
   commerce: 0
+  commerce_ajax_atc: 0
   commerce_autosku: 0
   commerce_cart: 0
   commerce_checkout: 0
@@ -26,11 +28,14 @@ module:
   commerce_price: 0
   commerce_product: 0
   commerce_promotion: 0
+  commerce_shipping: 0
   commerce_store: 0
   commerce_tax: 0
+  commerce_wishlist: 0
   config: 0
   contact: 0
   contextual: 0
+  core_views_facets: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -39,9 +44,11 @@ module:
   entity_reference_revisions: 0
   facets: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
+  fivestar: 0
   help: 0
   history: 0
   image: 0
@@ -55,11 +62,13 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  physical: 0
   profile: 0
   search: 0
   search_api: 0
   search_api_db: 0
   shortcut: 0
+  simplenews: 0
   state_machine: 0
   system: 0
   taxonomy: 0
@@ -69,6 +78,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  votingapi: 0
   views: 10
   smart_store: 1000
 theme:
@@ -76,4 +86,6 @@ theme:
   claro: 0
   vitoria: 0
   smart_store_admin: 0
+  stable9: 0
+  kart: 0
 profile: smart_store

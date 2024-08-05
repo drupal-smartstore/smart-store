@@ -1,0 +1,35 @@
+uuid: 07c90bc1-0d7b-4556-8deb-26cf553e1468
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - simplenews
+    - system
+  theme:
+    - vitoria
+third_party_settings:
+  block_class:
+    classes: wrapper
+id: vitoria_simplenewssubscription
+theme: vitoria
+region: content
+weight: -5
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Sign up Newsletter'
+  label_display: visible
+  provider: simplenews
+  newsletters: {  }
+  default_newsletters:
+    default: default
+  message: ''
+  show_manage: false
+  unique_id: e392e916-52ee-4854-956d-9e7a63f64244
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

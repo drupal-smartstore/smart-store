@@ -1,0 +1,33 @@
+uuid: 5bccbdca-910f-417f-9e29-6041bac0c7fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.home_page_products
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - vitoria
+third_party_settings:
+  block_class:
+    classes: product-sec
+id: vitoria_views_block__home_page_products_block_1
+theme: vitoria
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:home_page_products-block_1'
+settings:
+  id: 'views_block:home_page_products-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

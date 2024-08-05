@@ -14,8 +14,8 @@ third_party_settings:
     classes: call-to-order
 id: vitoria_calltoorder
 theme: vitoria
-region: header
-weight: -3
+region: header_mid
+weight: -6
 provider: null
 plugin: 'block_content:b08bcafe-c94e-4985-ad89-9f98a36eb9af'
 settings:

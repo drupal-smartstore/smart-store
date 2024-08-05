@@ -8,8 +8,8 @@ effects:
   ff101e50-a154-4c66-ae07-7b8f4993c872:
     uuid: ff101e50-a154-4c66-ae07-7b8f4993c872
     id: image_scale_and_crop
-    weight: 1
+    weight: -9
     data:
-      width: 397
-      height: 397
+      width: 350
+      height: 350
       anchor: center-center

@@ -5,11 +5,16 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.clothing
     - field.field.commerce_product.clothing.body
+    - field.field.commerce_product.clothing.field_featured
     - field.field.commerce_product.clothing.field_image
     - field.field.commerce_product.clothing.field_product_brand
     - field.field.commerce_product.clothing.field_product_categories
+    - field.field.commerce_product.clothing.field_rating
   module:
+    - commerce_ajax_atc
     - commerce_product
+    - commerce_wishlist
+    - fivestar
     - image
     - text
 id: commerce_product.clothing.default
@@ -22,7 +27,17 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 11
+    weight: 1
+    region: content
+  field_featured:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 7
     region: content
   field_image:
     type: image
@@ -33,7 +48,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 12
+    weight: 2
     region: content
   field_product_brand:
     type: entity_reference_label
@@ -41,7 +56,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 13
+    weight: 4
     region: content
   field_product_categories:
     type: entity_reference_label
@@ -49,7 +64,17 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 14
+    weight: 5
+    region: content
+  field_rating:
+    type: fivestar_stars
+    label: hidden
+    settings:
+      text_format: average
+      display_format: average
+      fivestar_widget: basic
+    third_party_settings: {  }
+    weight: 6
     region: content
   title:
     type: string
@@ -57,17 +82,24 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: -5
+    weight: 0
     region: content
   variations:
     type: commerce_add_to_cart
     label: above
     settings:
       combine: true
-    third_party_settings: {  }
-    weight: 10
+    third_party_settings:
+      commerce_ajax_atc:
+        enable_ajax: true
+      commerce_wishlist:
+        show_wishlist: true
+        weight_wishlist: 99
+        label_wishlist: 'Add to Wishlist'
+    weight: 3
     region: content
 hidden:
   created: true
+  search_api_excerpt: true
   stores: true
   uid: true

@@ -1,0 +1,29 @@
+uuid: b7b4eec4-47bd-46d5-b705-50acbe0465c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.product_brand
+  module:
+    - facets
+    - system
+  theme:
+    - vitoria
+id: vitoria_productbrand
+theme: vitoria
+region: content_above
+weight: -7
+provider: null
+plugin: 'facet_block:product_brand'
+settings:
+  id: 'facet_block:product_brand'
+  label: Brand
+  label_display: visible
+  provider: facets
+  context_mapping: {  }
+  block_id: vitoria_productbrand
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/products\r\n/products*"

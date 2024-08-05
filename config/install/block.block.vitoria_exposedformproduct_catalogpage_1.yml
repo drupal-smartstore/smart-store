@@ -1,0 +1,23 @@
+uuid: 6f225b5f-65bf-46ae-89b8-a2a2be938163
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_catalog
+  module:
+    - views
+  theme:
+    - vitoria
+id: vitoria_exposedformproduct_catalogpage_1
+theme: vitoria
+region: header_mid
+weight: -7
+provider: null
+plugin: 'views_exposed_filter_block:product_catalog-page_1'
+settings:
+  id: 'views_exposed_filter_block:product_catalog-page_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility: {  }

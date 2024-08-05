@@ -139,7 +139,14 @@ display:
           value:
             product_brands: product_brands
       style:
-        type: default
+        type: html_list
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          type: ul
+          wrapper_class: item-list
+          class: ''
       row:
         type: fields
       query:
@@ -151,7 +158,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      css_class: brand-logo-outer
+      css_class: 'brand-logo-outer show7 wrapper'
       header: {  }
       footer: {  }
       display_extenders: {  }

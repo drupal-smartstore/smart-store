@@ -1,0 +1,22 @@
+uuid: 427357b9-a643-4058-8214-62270059d92a
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - vitoria
+id: vitoria_cart
+theme: vitoria
+region: header_mid
+weight: -5
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+  show_if_empty: true
+visibility: {  }

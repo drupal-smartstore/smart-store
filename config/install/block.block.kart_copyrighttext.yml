@@ -1,0 +1,25 @@
+uuid: 6ed386cd-4884-4ca0-8386-d75c842d14ef
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d3aae2e9-b4fc-418a-84e4-9adb4a1ac7ee'
+  module:
+    - block_content
+  theme:
+    - kart
+id: kart_copyrighttext
+theme: kart
+region: footer_bottom
+weight: -2
+provider: null
+plugin: 'block_content:d3aae2e9-b4fc-418a-84e4-9adb4a1ac7ee'
+settings:
+  id: 'block_content:d3aae2e9-b4fc-418a-84e4-9adb4a1ac7ee'
+  label: 'Copyright Text'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

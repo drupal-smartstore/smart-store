@@ -1,0 +1,25 @@
+uuid: 90de61f5-8b72-47d3-94a8-bbbdf6b17044
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-about-menu
+  module:
+    - system
+  theme:
+    - kart
+id: kart_footeraboutmenu
+theme: kart
+region: footer_top
+weight: -1
+provider: null
+plugin: 'system_menu_block:footer-about-menu'
+settings:
+  id: 'system_menu_block:footer-about-menu'
+  label: About
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

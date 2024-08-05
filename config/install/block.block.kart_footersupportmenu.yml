@@ -1,0 +1,25 @@
+uuid: 56b5d2ba-9c1e-4ba2-be5c-9466e90c8152
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-support-menu
+  module:
+    - system
+  theme:
+    - kart
+id: kart_footersupportmenu
+theme: kart
+region: footer_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-support-menu'
+settings:
+  id: 'system_menu_block:footer-support-menu'
+  label: Support
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

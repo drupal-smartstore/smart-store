@@ -1,0 +1,25 @@
+uuid: afed7f1b-df2e-40ec-98c7-a1eba481712f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-account-menu
+  module:
+    - system
+  theme:
+    - kart
+id: kart_footeraccountmenu
+theme: kart
+region: footer_top
+weight: 1
+provider: null
+plugin: 'system_menu_block:footer-account-menu'
+settings:
+  id: 'system_menu_block:footer-account-menu'
+  label: Account
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

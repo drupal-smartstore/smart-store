@@ -1,0 +1,15 @@
+uuid: dbfa1e94-4274-4188-a2bc-f059069fbe13
+langcode: en
+status: true
+dependencies: {  }
+name: popular_categories
+label: 'Popular Categories'
+effects:
+  1ea4cd48-086e-4740-b997-845b7f4a9558:
+    uuid: 1ea4cd48-086e-4740-b997-845b7f4a9558
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 131
+      height: 131
+      anchor: center-center

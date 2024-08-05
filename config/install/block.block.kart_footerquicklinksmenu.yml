@@ -1,0 +1,25 @@
+uuid: f029720e-ec84-41e5-9f34-913dbe70a584
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-quick-links-menu
+  module:
+    - system
+  theme:
+    - kart
+id: kart_footerquicklinksmenu
+theme: kart
+region: footer_top
+weight: -2
+provider: null
+plugin: 'system_menu_block:footer-quick-links-menu'
+settings:
+  id: 'system_menu_block:footer-quick-links-menu'
+  label: 'Quick Links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

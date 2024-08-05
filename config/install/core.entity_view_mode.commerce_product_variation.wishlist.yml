@@ -1,0 +1,17 @@
+uuid: b80a11e2-e89e-4cdc-ad89-a4387aeeb5e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+  enforced:
+    module:
+      - commerce_product
+      - commerce_wishlist
+_core:
+  default_config_hash: ir0ZAfTnxjCxwjHdreaE8qBRtAui00PP77puTcAUocw
+id: commerce_product_variation.wishlist
+label: Wishlist
+description: ''
+targetEntityType: commerce_product_variation
+cache: true

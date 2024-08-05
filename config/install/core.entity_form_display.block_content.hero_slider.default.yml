@@ -5,13 +5,10 @@ dependencies:
   config:
     - block_content.type.hero_slider
     - field.field.block_content.hero_slider.body
-    - field.field.block_content.hero_slider.field_background_color
-    - field.field.block_content.hero_slider.field_bg_image
     - field.field.block_content.hero_slider.field_image
     - field.field.block_content.hero_slider.field_link
     - image.style.thumbnail
   module:
-    - color_field
     - image
     - link
     - text
@@ -29,21 +26,6 @@ content:
       summary_rows: 3
       placeholder: ''
       show_summary: false
-    third_party_settings: {  }
-  field_background_color:
-    type: color_field_widget_html5
-    weight: 30
-    region: content
-    settings:
-      show_extra: false
-    third_party_settings: {  }
-  field_bg_image:
-    type: image_image
-    weight: 29
-    region: content
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
     third_party_settings: {  }
   field_image:
     type: image_image

@@ -10,8 +10,8 @@ dependencies:
     - vitoria
 id: vitoria_clearancesales
 theme: vitoria
-region: header
-weight: -5
+region: header_top
+weight: -8
 provider: null
 plugin: 'block_content:4866285c-a2b7-4e8e-8e4e-a53474cd3099'
 settings:

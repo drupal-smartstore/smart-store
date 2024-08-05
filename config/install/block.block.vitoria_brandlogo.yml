@@ -10,8 +10,8 @@ dependencies:
     - vitoria
 id: vitoria_brandlogo
 theme: vitoria
-region: header
-weight: -4
+region: header_mid
+weight: -8
 provider: null
 plugin: 'block_content:9a9fb31b-3fd1-4d6f-ad84-47a15542dacb'
 settings:

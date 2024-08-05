@@ -1,0 +1,15 @@
+uuid: 2a1f4a51-c8a2-48c0-a81a-3ff2e684244a
+langcode: en
+status: true
+dependencies: {  }
+name: promotion_578_364
+label: 'Promotion(578*364)'
+effects:
+  99cd2cf1-2571-4eb6-a13b-03f619b270c8:
+    uuid: 99cd2cf1-2571-4eb6-a13b-03f619b270c8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 578
+      height: 364
+      anchor: center-center

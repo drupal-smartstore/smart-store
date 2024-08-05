@@ -5,9 +5,11 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.clothing
     - field.field.commerce_product.clothing.body
+    - field.field.commerce_product.clothing.field_featured
     - field.field.commerce_product.clothing.field_image
     - field.field.commerce_product.clothing.field_product_brand
     - field.field.commerce_product.clothing.field_product_categories
+    - field.field.commerce_product.clothing.field_rating
     - image.style.thumbnail
   module:
     - commerce
@@ -35,6 +37,13 @@ content:
     weight: 4
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_featured:
+    type: boolean_checkbox
+    weight: 11
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_image:
     type: image_image
@@ -115,4 +124,5 @@ content:
       revision: false
       removed_reference: optional
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_rating: true

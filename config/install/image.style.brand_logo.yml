@@ -5,11 +5,10 @@ dependencies: {  }
 name: brand_logo
 label: 'Brand Logo'
 effects:
-  ddaa7e8f-1ca3-4c79-aa9d-e1bbc24dbaa2:
-    uuid: ddaa7e8f-1ca3-4c79-aa9d-e1bbc24dbaa2
-    id: image_scale_and_crop
-    weight: 1
+  0082359e-7d59-4b30-aee2-c0fd713b00a5:
+    uuid: 0082359e-7d59-4b30-aee2-c0fd713b00a5
+    id: image_resize
+    weight: 2
     data:
-      width: 144
+      width: 178
       height: 72
-      anchor: center-center

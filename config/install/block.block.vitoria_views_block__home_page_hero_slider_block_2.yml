@@ -1,4 +1,4 @@
-uuid: decd75d0-651a-46f0-961c-77f07966fc7c
+uuid: 8aa73815-1135-4ca7-a8e7-bdcf891e0f8d
 langcode: en
 status: true
 dependencies:
@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - vitoria
-id: vitoria_views_block__home_page_hero_slider_block_1
+id: vitoria_views_block__home_page_hero_slider_block_2
 theme: vitoria
 region: content
 weight: -6
 provider: null
-plugin: 'views_block:home_page_hero_slider-block_1'
+plugin: 'views_block:home_page_hero_slider-block_2'
 settings:
-  id: 'views_block:home_page_hero_slider-block_1'
+  id: 'views_block:home_page_hero_slider-block_2'
   label: ''
   label_display: '0'
   provider: views

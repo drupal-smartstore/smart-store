@@ -77,6 +77,14 @@ install:
   - color_field
   - search_api
   - facets
+  - fivestar
+  - votingapi
+  - commerce_ajax_atc
+  - field_group
+  - core_views_facets
+  - commerce_wishlist
+  - commerce_shipping
+  - simplenews
 
 themes:
   - vitoria

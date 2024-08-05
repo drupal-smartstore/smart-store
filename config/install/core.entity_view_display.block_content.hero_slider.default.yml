@@ -5,12 +5,9 @@ dependencies:
   config:
     - block_content.type.hero_slider
     - field.field.block_content.hero_slider.body
-    - field.field.block_content.hero_slider.field_background_color
-    - field.field.block_content.hero_slider.field_bg_image
     - field.field.block_content.hero_slider.field_image
     - field.field.block_content.hero_slider.field_link
   module:
-    - color_field
     - image
     - link
     - text
@@ -25,26 +22,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_background_color:
-    type: color_field_formatter_text
-    label: above
-    settings:
-      format: hex
-      opacity: true
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_bg_image:
-    type: image
-    label: above
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 3
     region: content
   field_image:
     type: image
@@ -69,4 +46,5 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-hidden: {  }
+hidden:
+  search_api_excerpt: true

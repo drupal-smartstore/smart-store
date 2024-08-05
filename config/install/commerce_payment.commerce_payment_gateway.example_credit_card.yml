@@ -1,0 +1,19 @@
+uuid: 02402595-227c-465a-b03a-6726354eae11
+langcode: en
+status: true
+dependencies: {  }
+id: example_credit_card
+label: 'Example credit card'
+weight: null
+plugin: manual
+configuration:
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  instructions:
+    value: ''
+    format: plain_text
+conditions: {  }
+conditionOperator: AND

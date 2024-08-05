@@ -1,0 +1,29 @@
+uuid: 9707bc4e-672f-491a-9a6e-000149faf197
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b08bcafe-c94e-4985-ad89-9f98a36eb9af'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - kart
+third_party_settings:
+  block_class:
+    classes: call-to-order
+id: kart_calltoorder
+theme: kart
+region: header
+weight: -3
+provider: null
+plugin: 'block_content:b08bcafe-c94e-4985-ad89-9f98a36eb9af'
+settings:
+  id: 'block_content:b08bcafe-c94e-4985-ad89-9f98a36eb9af'
+  label: 'Call to order'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

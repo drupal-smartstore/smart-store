@@ -1,0 +1,46 @@
+uuid: 65fd3716-5774-48d3-ab16-ca5d76895082
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.product_categories.field_categories_logo
+    - field.field.taxonomy_term.product_categories.field_popular
+    - taxonomy.vocabulary.product_categories
+  module:
+    - image
+    - text
+id: taxonomy_term.product_categories.default
+targetEntityType: taxonomy_term
+bundle: product_categories
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_categories_logo:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_popular:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

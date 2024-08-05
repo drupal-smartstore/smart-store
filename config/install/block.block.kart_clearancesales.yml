@@ -1,0 +1,25 @@
+uuid: 018fa737-b366-4dd7-b970-1b27e037be2c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4866285c-a2b7-4e8e-8e4e-a53474cd3099'
+  module:
+    - block_content
+  theme:
+    - kart
+id: kart_clearancesales
+theme: kart
+region: header
+weight: -5
+provider: null
+plugin: 'block_content:4866285c-a2b7-4e8e-8e4e-a53474cd3099'
+settings:
+  id: 'block_content:4866285c-a2b7-4e8e-8e4e-a53474cd3099'
+  label: 'Clearance Sales'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

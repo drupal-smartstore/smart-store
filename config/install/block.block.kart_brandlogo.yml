@@ -1,0 +1,25 @@
+uuid: a2bc71fe-e300-440f-8292-88e4b241f29b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9a9fb31b-3fd1-4d6f-ad84-47a15542dacb'
+  module:
+    - block_content
+  theme:
+    - kart
+id: kart_brandlogo
+theme: kart
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:9a9fb31b-3fd1-4d6f-ad84-47a15542dacb'
+settings:
+  id: 'block_content:9a9fb31b-3fd1-4d6f-ad84-47a15542dacb'
+  label: 'Brand Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,17 +1,17 @@
-uuid: 2310c2bd-b124-4f74-9229-372d28971253
+uuid: fe4bd014-7f46-4c09-9c35-c30ecf3cedf0
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.hero_slider
-    - field.storage.block_content.field_bg_image
+    - commerce_product.commerce_product_variation_type.clothing
+    - field.storage.commerce_product_variation.field_image
   module:
     - image
-id: block_content.hero_slider.field_bg_image
-field_name: field_bg_image
-entity_type: block_content
-bundle: hero_slider
-label: 'Background Image'
+id: commerce_product_variation.clothing.field_image
+field_name: field_image
+entity_type: commerce_product_variation
+bundle: clothing
+label: image
 description: ''
 required: false
 translatable: false

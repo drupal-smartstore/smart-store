@@ -1,0 +1,25 @@
+uuid: c68487af-58d9-4313-8fbe-afe457680a0f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:915cbd38-5f0e-4b78-9d83-6269a43fb225'
+  module:
+    - block_content
+  theme:
+    - kart
+id: kart_footerabout
+theme: kart
+region: footer_top
+weight: -3
+provider: null
+plugin: 'block_content:915cbd38-5f0e-4b78-9d83-6269a43fb225'
+settings:
+  id: 'block_content:915cbd38-5f0e-4b78-9d83-6269a43fb225'
+  label: 'Footer About'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
