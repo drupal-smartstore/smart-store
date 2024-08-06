@@ -1,13 +1,14 @@
+uuid: 4db282dc-e943-4e59-9395-5095ce79c41a
 langcode: en
 status: true
 dependencies:
   module:
     - editor
+_core:
+  default_config_hash: mclCbTlJwWJORez4Y1eX2MqA0aGjSMAoJb3TaBABcK8
 name: 'Basic HTML'
 format: basic_html
 weight: 0
-roles:
-  - authenticated
 filters:
   editor_file_reference:
     id: editor_file_reference

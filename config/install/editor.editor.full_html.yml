@@ -1,3 +1,4 @@
+uuid: 50711b22-30b1-4f90-8676-a4c27a0e8e14
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - filter.format.full_html
   module:
     - ckeditor5
+_core:
+  default_config_hash: OPWefDnwy4tmy2n7dGK-VjZwSnqspgJ6m8148XlsA0A
 format: full_html
 editor: ckeditor5
 settings:
@@ -96,7 +99,7 @@ image_upload:
   status: true
   scheme: public
   directory: inline-images
-  max_size: ''
+  max_size: null
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

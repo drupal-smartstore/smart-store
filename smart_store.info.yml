@@ -76,6 +76,7 @@ install:
   - backup_migrate
   - color_field
   - search_api
+  - search_api_db
   - facets
   - fivestar
   - votingapi
@@ -85,7 +86,10 @@ install:
   - commerce_wishlist
   - commerce_shipping
   - simplenews
+  - better_exposed_filters
+  - block_class
 
 themes:
   - vitoria
   - smart_store_admin
+  - kart
