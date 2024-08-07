@@ -89,6 +89,7 @@ install:
   - better_exposed_filters
   - block_class
   - easy_breadcrumb
+  - commerce_combine_carts
 
 themes:
   - vitoria
