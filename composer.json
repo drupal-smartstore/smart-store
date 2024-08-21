@@ -42,7 +42,9 @@
         "drupal/commerce_shipping": "^2.9",
         "drupal/simplenews": "^4.0",
         "drupal/easy_breadcrumb": "^2.0",
-        "drupal/commerce_combine_carts": "^1.0@RC"
+        "drupal/commerce_combine_carts": "^1.0@RC",
+        "drupal/login_redirect_per_role": "^1.9",
+        "drupal/password_policy": "^4.0"
         
 
     }
