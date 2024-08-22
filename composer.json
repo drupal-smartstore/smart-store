@@ -15,6 +15,19 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "drupal-gitlab/change_user_route",
+                "type": "drupal-module",
+                "version": "dev-8.x-2.x@dev",
+                "source": {
+                  "type": "git",
+                  "url": "https://git.drupalcode.org/project/change_user_route.git",
+                  "reference": "8.x-2.x"
+                }
+            }
         }
     ],
     "require": {
@@ -46,14 +59,15 @@
         "drupal/commerce_combine_carts": "^1.0@RC",
         "drupal/login_redirect_per_role": "^1.9",
         "drupal/password_policy": "^4.0",
-        "drupal/change_user_route": "^3.0"
+        "drupal-gitlab/change_user_route": "dev-8.x-2.x@dev"
         
 
     },
     "extra": {
+        "enable-patching": true,
         "patches": {
-            "drupal/change_user_route": {
-                "Drupal 10 compatibility fixes": "https://www.drupal.org/files/issues/2022-09-18/change_user_route-3286445-4.patch"
+            "drupal-gitlab/change_user_route": {
+                "Drupal 10 compatibility fixes": "https://www.drupal.org/files/issues/2022-06-15/change_user_route.3.0.0.rector.patch"
             }
         }
     }
