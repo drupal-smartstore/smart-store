@@ -45,6 +45,7 @@
         "drupal/commerce_combine_carts": "^1.0@RC",
         "drupal/login_redirect_per_role": "^1.9",
         "drupal/password_policy": "^4.0",
+        "drupal/menu_per_role": "^1.7",
         "drupal-gitlab/change_user_route": "dev-8.x-2.x@dev"
         
 
