@@ -61,15 +61,16 @@ class CustomForm extends FormBase {
         'progress' => ['type' => 'throbber'],
       ],
     ];
+    $mdoulePath =  \Drupal::service('extension.path.resolver')->getPath('module', 'toolbar_always_vertical');
     $form['bg_image'] = [
       '#type' => 'radios',
       '#title' => $this->t('Menu with background image'),
       '#options' => [
-        'option1' => '<img class="img-1 bg-1" src="/modules/custom/toolbar_always_vertical/images/img-1.jpg" alt="' . $this->t('Option 1') . '">',
-        'option2' => '<img class="img-1 bg-2" src="/modules/custom/toolbar_always_vertical/images/img-2.jpg" alt="' . $this->t('Option 2') . '">',
-        'option3' => '<img class="img-1" src="/modules/custom/toolbar_always_vertical/images/img-3.jpg" alt="' . $this->t('Option 3') . '">',
-        'option4' => '<img class="img-1" src="/modules/custom/toolbar_always_vertical/images/img-4.jpg" alt="' . $this->t('Option 4') . '">',
-        'option5' => '<img class="img-1" src="/modules/custom/toolbar_always_vertical/images/img-5.jpg" alt="' . $this->t('Option 5') . '">',
+        'option1' => '<img class="img-1 bg-1" src="/'.$mdoulePath.'/images/img-1.jpg" alt="' . $this->t('Option 1') . '">',
+        'option2' => '<img class="img-1 bg-2" src="/'.$mdoulePath.'/images/img-2.jpg" alt="' . $this->t('Option 2') . '">',
+        'option3' => '<img class="img-1" src="/'.$mdoulePath.'/images/img-3.jpg" alt="' . $this->t('Option 3') . '">',
+        'option4' => '<img class="img-1" src="/'.$mdoulePath.'/images/img-4.jpg" alt="' . $this->t('Option 4') . '">',
+        'option5' => '<img class="img-1" src="/'.$mdoulePath.'/images/img-5.jpg" alt="' . $this->t('Option 5') . '">',
 
       ],
       '#default_value' => $config->get('bg_image') ?: '',
