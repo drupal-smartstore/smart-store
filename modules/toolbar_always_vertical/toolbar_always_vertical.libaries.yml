@@ -1,0 +1,6 @@
+toolbar:
+  version: 0.0.1
+  js:
+    js/toolbar.js: {}
+  dependencies:
+    - toolbar/toolbar
