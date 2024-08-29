@@ -97,6 +97,7 @@ install:
   - commerce_payment_example
   - facets_pretty_paths
   - pathauto
+  - toolbar_visibility
 
   # Custom
   - toolbar_always_vertical
