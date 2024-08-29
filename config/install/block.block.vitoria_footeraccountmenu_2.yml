@@ -1,0 +1,30 @@
+uuid: 0d6dddc4-9360-432f-bd24-21d6290c89bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-account-menu
+  module:
+    - block_class
+    - system
+  theme:
+    - vitoria
+id: vitoria_footeraccountmenu_2
+theme: vitoria
+region: sidebar
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-account-menu'
+settings:
+  id: 'system_menu_block:footer-account-menu'
+  label: 'Footer Account Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/wishlist\r\n/my-account\r\n/orders"

@@ -1,0 +1,12 @@
+uuid: c6325aa9-df89-471d-a880-ea16b28affb8
+langcode: en
+status: true
+dependencies: {  }
+id: search_api__views_block__product_catalog__block_1
+name: 'search_api:views_block__product_catalog__block_1'
+filter_key: ''
+url_processor: facets_pretty_paths
+breadcrumb:
+  active: false
+  before: true
+  group: false

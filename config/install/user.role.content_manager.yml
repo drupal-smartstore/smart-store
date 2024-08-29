@@ -1,0 +1,34 @@
+uuid: a8418e18-65a4-4d76-b9b0-820a74b3023a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - node.type.simplenews_issue
+  module:
+    - comment
+    - node
+    - path
+    - system
+    - toolbar
+id: content_manager
+label: 'Content Manager'
+weight: 5
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create page content'
+  - 'create simplenews_issue content'
+  - 'create url aliases'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit any simplenews_issue content'
+  - 'edit own comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'view all revisions'
+  - 'view the administration theme'

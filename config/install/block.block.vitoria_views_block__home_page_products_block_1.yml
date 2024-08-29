@@ -16,7 +16,7 @@ third_party_settings:
 id: vitoria_views_block__home_page_products_block_1
 theme: vitoria
 region: content
-weight: -10
+weight: -9
 provider: null
 plugin: 'views_block:home_page_products-block_1'
 settings:

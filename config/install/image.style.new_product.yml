@@ -5,11 +5,19 @@ dependencies: {  }
 name: new_product
 label: 'New Product'
 effects:
-  ff101e50-a154-4c66-ae07-7b8f4993c872:
-    uuid: ff101e50-a154-4c66-ae07-7b8f4993c872
-    id: image_scale_and_crop
-    weight: -9
+  6f899e30-73a1-4234-8205-0d70f0c92068:
+    uuid: 6f899e30-73a1-4234-8205-0d70f0c92068
+    id: image_scale
+    weight: 2
     data:
       width: 350
+      height: null
+      upscale: false
+  673f35d8-192d-4b92-b2bf-dde14db7c4f0:
+    uuid: 673f35d8-192d-4b92-b2bf-dde14db7c4f0
+    id: image_scale
+    weight: 2
+    data:
+      width: null
       height: 350
-      anchor: center-center
+      upscale: false

@@ -1,0 +1,20 @@
+uuid: 3826c1f8-ddd8-4c3a-9734-e30a99a0070c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - smart_store_admin
+id: smart_store_admin_tabs_2
+theme: smart_store_admin
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

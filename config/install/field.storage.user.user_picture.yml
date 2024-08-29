@@ -18,11 +18,11 @@ settings:
   display_default: false
   uri_scheme: public
   default_image:
-    uuid: null
-    alt: ''
+    uuid: 7e7c6ac7-2ed4-442a-9ba4-f49be9153865
+    alt: Profile
     title: ''
-    width: null
-    height: null
+    width: 360
+    height: 396
 module: image
 locked: false
 cardinality: 1

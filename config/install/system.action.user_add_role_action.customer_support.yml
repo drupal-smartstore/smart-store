@@ -1,0 +1,14 @@
+uuid: f22f594f-2db9-456a-b911-d3023bd08a23
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.customer_support
+  module:
+    - user
+id: user_add_role_action.customer_support
+label: 'Add the Customer Support role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: customer_support

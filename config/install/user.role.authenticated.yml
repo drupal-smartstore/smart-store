@@ -6,6 +6,8 @@ dependencies:
     - filter.format.basic_html
   module:
     - comment
+    - commerce_checkout
+    - commerce_order
     - commerce_product
     - commerce_wishlist
     - contact
@@ -19,10 +21,11 @@ dependencies:
 _core:
   default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
 id: authenticated
-label: 'Authenticated user'
+label: 'Customer (Authenticated)'
 weight: 1
 is_admin: false
 permissions:
+  - 'access checkout'
   - 'access comments'
   - 'access content'
   - 'access shortcuts'
@@ -36,3 +39,5 @@ permissions:
   - 'subscribe to newsletters'
   - 'use text format basic_html'
   - 'view commerce_product'
+  - 'view own commerce_order'
+  - 'view own commerce_wishlist'

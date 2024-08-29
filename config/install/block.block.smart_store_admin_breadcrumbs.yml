@@ -1,0 +1,20 @@
+uuid: d3bc5f61-e790-4a4a-a8f6-c668e40a1815
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - smart_store_admin
+id: smart_store_admin_breadcrumbs
+theme: smart_store_admin
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

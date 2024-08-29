@@ -1,0 +1,36 @@
+uuid: 7787dbe1-575e-440a-8416-2c108d041507
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+    - user
+  theme:
+    - smart_store_admin
+id: smart_store_admin_useraccountmenu
+theme: smart_store_admin
+region: top_nav
+weight: -3
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
+      customer_support: customer_support
+      content_manager: content_manager
+      store_manager: store_manager

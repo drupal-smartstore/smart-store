@@ -1,0 +1,18 @@
+uuid: 8308fe03-001c-499f-83c8-1161987fd968
+langcode: en
+status: true
+dependencies:
+  theme:
+    - smart_store_admin
+id: smart_store_admin_pagetitle
+theme: smart_store_admin
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

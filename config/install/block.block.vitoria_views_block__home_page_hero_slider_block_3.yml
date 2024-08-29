@@ -12,7 +12,7 @@ dependencies:
 id: vitoria_views_block__home_page_hero_slider_block_3
 theme: vitoria
 region: content
-weight: -8
+weight: -10
 provider: null
 plugin: 'views_block:home_page_hero_slider-block_3'
 settings:

@@ -1,0 +1,14 @@
+uuid: 372af05e-c22b-43c6-ae60-fa9db4a5e649
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.customer_support
+  module:
+    - user
+id: user_remove_role_action.customer_support
+label: 'Remove the Customer Support role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: customer_support

@@ -1,0 +1,20 @@
+uuid: 3de35294-d208-4ceb-b2f4-c769a11d216e
+langcode: en
+status: true
+dependencies:
+  module:
+    - toolbar_always_vertical
+  theme:
+    - smart_store_admin
+id: smart_store_admin_customformblock
+theme: smart_store_admin
+region: header
+weight: 0
+provider: null
+plugin: custom_form_block
+settings:
+  id: custom_form_block
+  label: 'Custom Form Block'
+  label_display: '0'
+  provider: toolbar_always_vertical
+visibility: {  }

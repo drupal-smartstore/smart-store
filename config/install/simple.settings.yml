@@ -1,0 +1,4 @@
+login_route: login
+pass_route: password
+regi_route: register
+logout_route: ''

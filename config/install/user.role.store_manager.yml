@@ -1,0 +1,9 @@
+uuid: 5aa2cbf5-acfe-4d60-9fa1-aaf1cd0b0325
+langcode: en
+status: true
+dependencies: {  }
+id: store_manager
+label: 'Store Manager'
+weight: 6
+is_admin: null
+permissions: {  }

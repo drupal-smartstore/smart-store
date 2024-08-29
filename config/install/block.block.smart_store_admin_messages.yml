@@ -1,0 +1,20 @@
+uuid: f6eeeeee-f733-472a-b2c5-579ddafe76aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - smart_store_admin
+id: smart_store_admin_messages
+theme: smart_store_admin
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

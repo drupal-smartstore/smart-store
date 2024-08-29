@@ -1,0 +1,25 @@
+uuid: f0491318-ac4b-40db-83db-892731a83c22
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b1ca3791-56ce-4249-a6f7-636423147ab7'
+  module:
+    - block_content
+  theme:
+    - smart_store_admin
+id: smart_store_admin_settings
+theme: smart_store_admin
+region: top_nav
+weight: -2
+provider: null
+plugin: 'block_content:b1ca3791-56ce-4249-a6f7-636423147ab7'
+settings:
+  id: 'block_content:b1ca3791-56ce-4249-a6f7-636423147ab7'
+  label: settings
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

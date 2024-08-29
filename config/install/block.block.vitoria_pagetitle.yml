@@ -1,0 +1,24 @@
+uuid: 533cdf61-a3af-46eb-95d9-dfb190edb50d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vitoria
+id: vitoria_pagetitle
+theme: vitoria
+region: content_above
+weight: -12
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

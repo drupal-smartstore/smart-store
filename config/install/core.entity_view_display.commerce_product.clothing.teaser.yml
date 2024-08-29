@@ -15,6 +15,7 @@ dependencies:
   module:
     - commerce_ajax_atc
     - commerce_product
+    - commerce_wishlist
     - field_group
     - fivestar
     - image
@@ -159,6 +160,10 @@ content:
     third_party_settings:
       commerce_ajax_atc:
         enable_ajax: true
+      commerce_wishlist:
+        show_wishlist: true
+        weight_wishlist: 99
+        label_wishlist: Wishlist
     weight: 8
     region: content
 hidden:

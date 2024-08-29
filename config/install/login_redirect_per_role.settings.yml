@@ -1,0 +1,42 @@
+login:
+  administrator:
+    redirect_url: /admin/content
+    allow_destination: false
+    weight: -10
+  customer_support:
+    redirect_url: ''
+    allow_destination: false
+    weight: -9
+  content_manager:
+    redirect_url: /admin/content
+    allow_destination: false
+    weight: -8
+  store_manager:
+    redirect_url: ''
+    allow_destination: false
+    weight: -7
+  authenticated:
+    redirect_url: ''
+    allow_destination: false
+    weight: -6
+logout:
+  administrator:
+    redirect_url: /login
+    allow_destination: false
+    weight: -10
+  customer_support:
+    redirect_url: /login
+    allow_destination: false
+    weight: -9
+  content_manager:
+    redirect_url: /login
+    allow_destination: false
+    weight: -8
+  store_manager:
+    redirect_url: /login
+    allow_destination: false
+    weight: -7
+  authenticated:
+    redirect_url: /
+    allow_destination: false
+    weight: -6

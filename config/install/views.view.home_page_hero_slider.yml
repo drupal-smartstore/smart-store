@@ -1045,7 +1045,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"promotion-sec\">\r\n<div class=\"promotion-img\">{{ field_image }}</div>\r\n<div class=\"promotion-content\">\r\n<div class=\"promotion-content-wrapper\">\r\n<div class=\"promotion-title\">Women Accessories</div>\r\n<div>{{ body }}</div>\r\n<div class=\"button\">{{ field_link }}</div>\r\n</div>\r\n</div>\r\n</div>"
+            text: "<div class=\"promotion-sec\">\r\n<div class=\"promotion-img\">{{ field_image }}</div>\r\n<div class=\"promotion-content\">\r\n<div class=\"promotion-content-wrapper\">\r\n<div class=\"promotion-title\">{{ info }}</div>\r\n<div>{{ body }}</div>\r\n<div class=\"button\">{{ field_link }}</div>\r\n</div>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -1453,7 +1453,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"promotion-sec\">\r\n<div class=\"promotion-img\">{{ field_image }}</div>\r\n<div class=\"promotion-content\">\r\n<div class=\"promotion-content-wrapper\">\r\n<div class=\"promotion-title\">Women Accessories</div>\r\n<div>{{ body }}</div>\r\n<div class=\"button\">{{ field_link }}</div>\r\n</div>\r\n</div>\r\n</div>"
+            text: "<div class=\"promotion-sec\">\r\n<div class=\"promotion-img\">{{ field_image }}</div>\r\n<div class=\"promotion-content\">\r\n<div class=\"promotion-content-wrapper\">\r\n<div class=\"promotion-title\">{{ info }}</div>\r\n<div>{{ body }}</div>\r\n<div class=\"button\">{{ field_link }}</div>\r\n</div>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

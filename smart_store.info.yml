@@ -90,6 +90,17 @@ install:
   - block_class
   - easy_breadcrumb
   - commerce_combine_carts
+  - login_redirect_per_role
+  - password_policy
+  - menu_per_role
+  - change_user_route
+  - commerce_payment_example
+  - facets_pretty_paths
+  - pathauto
+
+  # Custom
+  - toolbar_always_vertical
+  - ss_modify
 
 themes:
   - vitoria

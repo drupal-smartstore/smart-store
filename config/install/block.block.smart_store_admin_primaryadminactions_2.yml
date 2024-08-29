@@ -1,0 +1,18 @@
+uuid: 253dfeaf-7483-49e6-a446-e0299e86fea7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - smart_store_admin
+id: smart_store_admin_primaryadminactions_2
+theme: smart_store_admin
+region: content
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

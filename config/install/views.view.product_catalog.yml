@@ -5,7 +5,10 @@ dependencies:
   config:
     - field.storage.commerce_product.body
     - search_api.index.products
+    - taxonomy.vocabulary.product_brands
     - taxonomy.vocabulary.product_categories
+  content:
+    - 'block_content:basic:5593b2a9-938a-433f-b9f7-58ffb9c6dec8'
   module:
     - better_exposed_filters
     - search_api
@@ -24,7 +27,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Product Catalog'
+      title: Products
       fields:
         body:
           id: body
@@ -119,7 +122,7 @@ display:
       exposed_form:
         type: bef
         options:
-          submit_button: Apply
+          submit_button: 
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -154,6 +157,16 @@ display:
                 plugin_id: default
                 advanced:
                   placeholder_text: 'Search products'
+                  rewrite:
+                    filter_rewrite_values: ''
+                    filter_rewrite_values_key: false
+                  collapsible: false
+                  collapsible_disable_automatic_open: false
+                  is_secondary: false
+              field_product_brand:
+                plugin_id: bef_hidden
+                advanced:
+                  sort_options: false
                   rewrite:
                     filter_rewrite_values: ''
                     filter_rewrite_values_key: false
@@ -266,12 +279,67 @@ display:
           parse_mode: terms
           min_length: 3
           fields: {  }
+        field_product_brand:
+          id: field_product_brand
+          table: search_api_index_products
+          field: field_product_brand
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: search_api_term
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_product_brand_op
+            label: ''
+            description: ''
+            use_operator: false
+            operator: field_product_brand_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_product_brand
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: product_brands
+          type: select
+          hierarchy: true
+          limit: true
+          error_message: true
       filter_groups:
         operator: AND
         groups:
           1: AND
       style:
-        type: default
+        type: html_list
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
+          type: ul
+          wrapper_class: item-list
+          class: slider-box-sec
       row:
         type: search_api
         options:
@@ -288,8 +356,27 @@ display:
           preserve_facet_query_args: false
           query_tags: {  }
       relationships: {  }
+      css_class: 'product-outer wrapper product-catlog'
       header: {  }
       footer: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+      tags:
+        - 'config:field.storage.commerce_product.body'
+        - 'config:search_api.index.products'
+        - 'search_api_list:products'
+  block_1:
+    id: block_1
+    display_title: Block
+    display_plugin: block
+    position: 2
+    display_options:
       display_extenders: {  }
     cache_metadata:
       max-age: -1
@@ -308,6 +395,45 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      pager:
+        type: full
+        options:
+          offset: 0
+          pagination_heading_level: h4
+          items_per_page: 10
+          total_pages: null
+          id: 0
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      empty:
+        entity_block_content:
+          id: entity_block_content
+          table: views
+          field: entity_block_content
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: entity
+          empty: true
+          target: 5593b2a9-938a-433f-b9f7-58ffb9c6dec8
+          view_mode: default
+          tokenize: true
+          bypass_access: false
+      defaults:
+        empty: false
+        pager: false
       exposed_block: true
       display_extenders: {  }
       path: products

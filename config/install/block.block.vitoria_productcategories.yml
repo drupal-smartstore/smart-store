@@ -11,8 +11,8 @@ dependencies:
     - vitoria
 id: vitoria_productcategories
 theme: vitoria
-region: content_above
-weight: -8
+region: sidebar
+weight: -11
 provider: null
 plugin: 'facet_block:product_categories'
 settings:

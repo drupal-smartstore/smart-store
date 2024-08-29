@@ -1,0 +1,25 @@
+uuid: df360c53-b96d-43d9-a979-7d979abfbcd5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fd1dcc7e-1ecf-4c32-92e5-9b366b217ae2'
+  module:
+    - block_content
+  theme:
+    - smart_store_admin
+id: smart_store_admin_admintopicons
+theme: smart_store_admin
+region: top_nav
+weight: -5
+provider: null
+plugin: 'block_content:fd1dcc7e-1ecf-4c32-92e5-9b366b217ae2'
+settings:
+  id: 'block_content:fd1dcc7e-1ecf-4c32-92e5-9b366b217ae2'
+  label: 'Admin Top icons'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

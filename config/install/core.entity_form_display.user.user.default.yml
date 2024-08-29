@@ -4,10 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_last_password_reset
+    - field.field.user.user.field_password_expiration
+    - field.field.user.user.field_pending_expire_sent
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
+    - path
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -17,20 +21,39 @@ bundle: user
 mode: default
 content:
   account:
-    weight: -10
-    region: content
-  contact:
-    weight: 5
-    region: content
-  language:
     weight: 0
     region: content
-  timezone:
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  language:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
     weight: 6
     region: content
+    settings: {  }
+    third_party_settings: {  }
+  simplenews:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image_image
-    weight: -1
+    weight: 1
     region: content
     settings:
       progress_indicator: throbber
@@ -39,3 +62,6 @@ content:
 hidden:
   commerce_remote_id: true
   customer_profiles: true
+  field_last_password_reset: true
+  field_password_expiration: true
+  field_pending_expire_sent: true
