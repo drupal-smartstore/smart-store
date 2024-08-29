@@ -4,4 +4,4 @@ ss_modify.user_edit:
     _controller: '\Drupal\ss_modify\Controller\CustomUserEditController::editUser'
     _title: 'Edit My Profile'
   requirements:
-    _permission: 'authenticated'
+    _role: 'authenticated'
