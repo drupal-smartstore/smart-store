@@ -48,6 +48,7 @@
         "drupal/menu_per_role": "^1.7",
         "drupal/phone_international": "^3.3",
         "drupal/toolbar_visibility": "^2.1",
+        "drupal/insert_view_adv": "^2.0@alpha",
         "drupal-gitlab/change_user_route": "dev-8.x-2.x@dev",
         "npm-asset/intl-tel-input": "^17.0"
         
