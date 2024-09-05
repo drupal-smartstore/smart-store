@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Implements hook_form_alter().
+ */
+function ss_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+   if ($form_id == 'user_login_form') {
+    $form['#submit'][] = 'ss_modify_user_login_redirect';
+  }
+}
+
+/**
+ * Custom submit handler for the login form.
+ */
+function ss_modify_user_login_redirect(&$form, \Drupal\Core\Form\FormStateInterface $form_state) {
+  // Customer user redirect to front page
+  $account = \Drupal::currentUser();
+  if ($account->isAuthenticated()) {
+    $form_state->setRedirect('<front>');
+  }
+}
