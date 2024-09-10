@@ -4,8 +4,59 @@
  * Implements hook_form_alter().
  */
 function ss_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-   if ($form_id == 'user_login_form') {
+  if ($form_id == 'user_login_form') {
     $form['#submit'][] = 'ss_modify_user_login_redirect';
+  }
+  elseif ($form_id == 'views_form_content_page_1') {
+
+    // Remove action elements for Content Managers
+    $current_user = \Drupal::currentUser();
+    // Check if the actions element exists.
+    if (!in_array('administrator', $current_user->getRoles())) {
+      if (isset($form['header']['node_bulk_form']['action'])) {
+
+        // Remove the 'make sticky' action.
+        if (isset($form['header']['node_bulk_form']['action']['#options']['node_make_sticky_action'])) {
+          unset($form['header']['node_bulk_form']['action']['#options']['node_make_sticky_action']);
+        }
+
+        // Remove the 'promote' action.
+        if (isset($form['header']['node_bulk_form']['action']['#options']['node_promote_action'])) {
+          unset($form['header']['node_bulk_form']['action']['#options']['node_promote_action']);
+        }
+
+         // Remove the 'save' action.
+        if (isset($form['header']['node_bulk_form']['action']['#options']['node_save_action'])) {
+          unset($form['header']['node_bulk_form']['action']['#options']['node_save_action']);
+        }
+
+         // Remove the 'unpromote' action.
+        if (isset($form['header']['node_bulk_form']['action']['#options']['node_unpromote_action'])) {
+          unset($form['header']['node_bulk_form']['action']['#options']['node_unpromote_action']);
+        }
+
+        // Remove the 'alias' action.
+        if (isset($form['header']['node_bulk_form']['action']['#options']['pathauto_update_alias_node'])) {
+          unset($form['header']['node_bulk_form']['action']['#options']['pathauto_update_alias_node']);
+        }
+
+        // Remove the 'simplenews send' action.
+        if (isset($form['header']['node_bulk_form']['action']['#options']['simplenews_send_action'])) {
+          unset($form['header']['node_bulk_form']['action']['#options']['simplenews_send_action']);
+        }
+
+        // Remove the 'simplenews stop' action.
+        if (isset($form['header']['node_bulk_form']['action']['#options']['simplenews_stop_action'])) {
+          unset($form['header']['node_bulk_form']['action']['#options']['simplenews_stop_action']);
+        }
+
+        // Remove the 'make unsticky' action.
+        if (isset($form['header']['node_bulk_form']['action']['#options']['node_make_unsticky_action'])) {
+          unset($form['header']['node_bulk_form']['action']['#options']['node_make_unsticky_action']);
+        }
+   
+      }
+    }
   }
 }
 
