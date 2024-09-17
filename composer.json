@@ -51,6 +51,7 @@
         "drupal/insert_view_adv": "^2.0@alpha",
         "drupal/dropzonejs": "^2.11",
         "drupal/entity_browser": "^2.11",
+        "drupal/imagezoom": "^2.0@beta",
         "drupal-gitlab/change_user_route": "dev-8.x-2.x@dev",
         "enyo/dropzone": "^6.0@beta",
         "npm-asset/intl-tel-input": "^17.0"
