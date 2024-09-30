@@ -34,6 +34,7 @@ settings:
       - codeBlock
       - '|'
       - sourceEditing
+      - insertViewAdv
   plugins:
     ckeditor5_codeBlock:
       languages:

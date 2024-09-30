@@ -2,6 +2,9 @@ uuid: 253dfeaf-7483-49e6-a446-e0299e86fea7
 langcode: en
 status: true
 dependencies:
+  module:
+    - block_class
+    - system
   theme:
     - smart_store_admin
 id: smart_store_admin_primaryadminactions_2
@@ -15,4 +18,8 @@ settings:
   label: 'Primary admin actions'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/admin/commerce/products\r\n/admin/content\r\n"

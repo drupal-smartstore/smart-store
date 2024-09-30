@@ -1,9 +1,33 @@
 uuid: 5aa2cbf5-acfe-4d60-9fa1-aaf1cd0b0325
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - node.type.simplenews_issue
+  module:
+    - commerce_product
+    - node
 id: store_manager
 label: 'Store Manager'
 weight: 6
 is_admin: null
-permissions: {  }
+permissions:
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any clothing commerce_product'
+  - 'delete any default commerce_product'
+  - 'delete any electronics commerce_product'
+  - 'delete any page content'
+  - 'delete any simplenews_issue content'
+  - 'delete article revisions'
+  - 'delete commerce_product_attribute'
+  - 'delete own article content'
+  - 'delete own clothing commerce_product'
+  - 'delete own default commerce_product'
+  - 'delete own electronics commerce_product'
+  - 'delete own page content'
+  - 'delete own simplenews_issue content'
+  - 'delete page revisions'
+  - 'delete simplenews_issue revisions'

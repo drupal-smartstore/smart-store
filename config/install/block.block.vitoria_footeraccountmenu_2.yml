@@ -5,7 +5,6 @@ dependencies:
   config:
     - system.menu.footer-account-menu
   module:
-    - block_class
     - system
   theme:
     - vitoria
@@ -27,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/wishlist\r\n/my-account\r\n/orders"
+    pages: "/wishlist\r\n/my-account\r\n/orders\r\n/my-profile\r\n/account/rewards"

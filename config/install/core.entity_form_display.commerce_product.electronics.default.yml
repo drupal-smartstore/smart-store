@@ -4,16 +4,16 @@ status: true
 dependencies:
   config:
     - commerce_product.commerce_product_type.electronics
+    - entity_browser.browser.image_dropzone
     - field.field.commerce_product.electronics.body
     - field.field.commerce_product.electronics.field_featured
     - field.field.commerce_product.electronics.field_image
     - field.field.commerce_product.electronics.field_product_brand
     - field.field.commerce_product.electronics.field_product_categories
     - field.field.commerce_product.electronics.field_rating
-    - image.style.thumbnail
   module:
     - commerce
-    - image
+    - entity_browser
     - inline_entity_form
     - path
     - text
@@ -46,11 +46,17 @@ content:
       display_label: true
     third_party_settings: {  }
   field_image:
-    type: image_image
+    type: entity_browser_file
     weight: 7
     region: content
     settings:
-      progress_indicator: throbber
+      entity_browser: image_dropzone
+      field_widget_edit: true
+      field_widget_remove: true
+      field_widget_replace: false
+      open: false
+      selection_mode: selection_append
+      view_mode: default
       preview_image_style: thumbnail
     third_party_settings: {  }
   field_product_brand:

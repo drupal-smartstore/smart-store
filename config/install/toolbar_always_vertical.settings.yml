@@ -1,5 +1,5 @@
-mode: light
-width_style: null
-menu_style: menu-click
-menu_position: null
-bg_image: option3
+mode: dark
+width_style: boxed
+menu_style: icon-hover
+menu_position: scrollable
+bg_image: option1

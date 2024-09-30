@@ -1,0 +1,30 @@
+uuid: c6355f10-3445-4a7a-8519-9733b4e5f5bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.duplicate_of_user_orders
+  module:
+    - system
+    - views
+  theme:
+    - vitoria
+id: vitoria_views_block__duplicate_of_user_orders_block_1
+theme: vitoria
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:duplicate_of_user_orders-block_1'
+settings:
+  id: 'views_block:duplicate_of_user_orders-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /checkout/58/complete

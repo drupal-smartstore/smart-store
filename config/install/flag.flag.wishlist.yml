@@ -1,0 +1,31 @@
+uuid: 89af46a8-fd49-4cd2-b4b9-84fbb2943e2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: wishlist
+label: Wishlist
+bundles:
+  - clothing
+  - electronics
+entity_type: commerce_product
+global: false
+flag_short: 'Add to Wishlist'
+flag_long: ''
+flag_message: ''
+unflag_short: 'Remove from Wishlist'
+unflag_long: ''
+unflag_message: ''
+unflag_denied_text: ''
+weight: 0
+flag_type: 'entity:commerce_product'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

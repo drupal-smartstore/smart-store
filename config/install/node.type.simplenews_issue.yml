@@ -1,7 +1,14 @@
 uuid: 6a2237c0-e494-412a-8f74-11c7d694db40
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: T0xVUPLXklJ1liu4ukvaguMb-aMY1oMxO2PsCRB8-qg
 name: 'Newsletter Issue'
@@ -9,5 +16,5 @@ type: simplenews_issue
 description: 'Use <em>Newsletter Issue</em> for newsletters.'
 help: null
 new_revision: false
-preview_mode: 1
+preview_mode: 0
 display_submitted: false

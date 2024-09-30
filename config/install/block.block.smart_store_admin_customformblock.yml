@@ -9,7 +9,7 @@ dependencies:
 id: smart_store_admin_customformblock
 theme: smart_store_admin
 region: header
-weight: 0
+weight: -4
 provider: null
 plugin: custom_form_block
 settings:

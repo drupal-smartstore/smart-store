@@ -1,0 +1,23 @@
+uuid: 37afd1c9-e5c9-4bca-aace-d26e07deded2
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: products
+label: Products
+type: 'canonical_entities:commerce_product'
+pattern: 'product/[commerce_product:title]'
+selection_criteria:
+  5b660fef-77cc-4306-95a1-04d0e1080be9:
+    id: 'entity_bundle:commerce_product'
+    negate: false
+    uuid: 5b660fef-77cc-4306-95a1-04d0e1080be9
+    context_mapping:
+      commerce_product: commerce_product
+    bundles:
+      clothing: clothing
+      electronics: electronics
+selection_logic: and
+weight: -5
+relationships: {  }

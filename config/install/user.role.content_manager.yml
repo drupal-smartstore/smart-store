@@ -8,6 +8,7 @@ dependencies:
     - node.type.simplenews_issue
   module:
     - comment
+    - commerce_product
     - node
     - path
     - system
@@ -20,10 +21,28 @@ permissions:
   - 'access comments'
   - 'access content overview'
   - 'access toolbar'
+  - 'administer nodes'
   - 'create article content'
   - 'create page content'
   - 'create simplenews_issue content'
   - 'create url aliases'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any clothing commerce_product'
+  - 'delete any default commerce_product'
+  - 'delete any electronics commerce_product'
+  - 'delete any page content'
+  - 'delete any simplenews_issue content'
+  - 'delete article revisions'
+  - 'delete commerce_product_attribute'
+  - 'delete own article content'
+  - 'delete own clothing commerce_product'
+  - 'delete own default commerce_product'
+  - 'delete own electronics commerce_product'
+  - 'delete own page content'
+  - 'delete own simplenews_issue content'
+  - 'delete page revisions'
+  - 'delete simplenews_issue revisions'
   - 'edit any article content'
   - 'edit any page content'
   - 'edit any simplenews_issue content'

@@ -11,7 +11,7 @@ dependencies:
 id: smart_store_admin_settings
 theme: smart_store_admin
 region: top_nav
-weight: -2
+weight: -3
 provider: null
 plugin: 'block_content:b1ca3791-56ce-4249-a6f7-636423147ab7'
 settings:

@@ -7,7 +7,7 @@ dependencies:
 id: smart_store_admin_pagetitle
 theme: smart_store_admin
 region: header
-weight: 0
+weight: -3
 provider: null
 plugin: page_title_block
 settings:

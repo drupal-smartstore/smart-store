@@ -2,12 +2,15 @@ uuid: 3826c1f8-ddd8-4c3a-9734-e30a99a0070c
 langcode: en
 status: true
 dependencies:
+  module:
+    - block_class
+    - system
   theme:
     - smart_store_admin
 id: smart_store_admin_tabs_2
 theme: smart_store_admin
-region: header
-weight: 0
+region: pre_content
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:
@@ -17,4 +20,8 @@ settings:
   provider: core
   primary: true
   secondary: false
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: ''

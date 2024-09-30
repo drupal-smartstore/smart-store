@@ -10,12 +10,12 @@ dependencies:
     - field.field.commerce_product.clothing.field_product_brand
     - field.field.commerce_product.clothing.field_product_categories
     - field.field.commerce_product.clothing.field_rating
+    - field.field.commerce_product.clothing.field_short_description
   module:
     - commerce_ajax_atc
     - commerce_product
-    - commerce_wishlist
     - fivestar
-    - image
+    - imagezoom
     - text
 id: commerce_product.clothing.default
 targetEntityType: commerce_product
@@ -27,54 +27,58 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
-    region: content
-  field_featured:
-    type: boolean
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 7
+    weight: 3
     region: content
   field_image:
-    type: image
-    label: above
+    type: imagezoom
+    label: hidden
     settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
+      imagezoom_zoom_type: window
+      imagezoom_display_style: ''
+      imagezoom_zoom_style: ''
+      imagezoom_disable: false
+      imagezoom_disable_width: null
+      imagezoom_additional: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
   field_product_brand:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
   field_product_categories:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
-    weight: 5
+    weight: 3
     region: content
   field_rating:
     type: fivestar_stars
     label: hidden
     settings:
-      text_format: average
+      text_format: none
       display_format: average
       fivestar_widget: basic
     third_party_settings: {  }
-    weight: 6
+    weight: 1
+    region: content
+  field_short_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  flag_wishlist:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
     region: content
   title:
     type: string
@@ -86,20 +90,17 @@ content:
     region: content
   variations:
     type: commerce_add_to_cart
-    label: above
+    label: hidden
     settings:
       combine: true
     third_party_settings:
       commerce_ajax_atc:
         enable_ajax: true
-      commerce_wishlist:
-        show_wishlist: true
-        weight_wishlist: 99
-        label_wishlist: 'Add to Wishlist'
     weight: 3
     region: content
 hidden:
   created: true
+  field_featured: true
   search_api_excerpt: true
   stores: true
   uid: true

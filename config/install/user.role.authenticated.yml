@@ -9,11 +9,12 @@ dependencies:
     - commerce_checkout
     - commerce_order
     - commerce_product
-    - commerce_wishlist
+    - commerce_promotion
     - contact
     - file
     - filter
     - fivestar
+    - flag
     - search
     - shortcut
     - simplenews
@@ -30,14 +31,15 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
-  - 'access wishlist'
   - 'delete own files'
+  - 'flag wishlist'
   - 'post comments'
   - 'rate content'
   - 'search content'
   - 'skip comment approval'
   - 'subscribe to newsletters'
+  - 'unflag wishlist'
   - 'use text format basic_html'
   - 'view commerce_product'
+  - 'view commerce_promotion'
   - 'view own commerce_order'
-  - 'view own commerce_wishlist'

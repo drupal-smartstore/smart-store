@@ -1,0 +1,15 @@
+uuid: d6cada4f-6f04-4883-a18a-12f03169c2fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.wishlist
+  module:
+    - flag
+id: flag_action.wishlist_flag
+label: 'Add to Wishlist'
+type: commerce_product
+plugin: 'flag_action:wishlist_flag'
+configuration:
+  flag_id: wishlist
+  flag_action: flag

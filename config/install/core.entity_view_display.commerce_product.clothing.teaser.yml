@@ -11,11 +11,11 @@ dependencies:
     - field.field.commerce_product.clothing.field_product_brand
     - field.field.commerce_product.clothing.field_product_categories
     - field.field.commerce_product.clothing.field_rating
+    - field.field.commerce_product.clothing.field_short_description
     - image.style.new_product
   module:
     - commerce_ajax_atc
     - commerce_product
-    - commerce_wishlist
     - field_group
     - fivestar
     - image
@@ -42,13 +42,11 @@ third_party_settings:
         speed: fast
     group_product_content:
       children:
-        - group_product_rating
-        - group_product_title
         - group_product_variations
       label: 'Product Content'
       parent_name: ''
       region: content
-      weight: 2
+      weight: 3
       format_type: html_element
       format_settings:
         classes: product-content
@@ -65,9 +63,9 @@ third_party_settings:
       children:
         - field_rating
       label: 'Product Rating'
-      parent_name: group_product_content
+      parent_name: ''
       region: content
-      weight: 3
+      weight: 1
       format_type: html_element
       format_settings:
         classes: product-rating
@@ -84,9 +82,9 @@ third_party_settings:
       children:
         - title
       label: 'Product Title'
-      parent_name: group_product_content
+      parent_name: ''
       region: content
-      weight: 4
+      weight: 2
       format_type: html_element
       format_settings:
         classes: product-title
@@ -105,7 +103,7 @@ third_party_settings:
       label: 'Product Variations'
       parent_name: group_product_content
       region: content
-      weight: 5
+      weight: 3
       format_type: html_element
       format_settings:
         classes: product-variations
@@ -144,6 +142,11 @@ content:
     third_party_settings: {  }
     weight: 4
     region: content
+  flag_wishlist:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -1
+    region: content
   title:
     type: string
     label: hidden
@@ -160,10 +163,6 @@ content:
     third_party_settings:
       commerce_ajax_atc:
         enable_ajax: true
-      commerce_wishlist:
-        show_wishlist: true
-        weight_wishlist: 99
-        label_wishlist: Wishlist
     weight: 8
     region: content
 hidden:
@@ -172,6 +171,7 @@ hidden:
   field_featured: true
   field_product_brand: true
   field_product_categories: true
+  field_short_description: true
   search_api_excerpt: true
   stores: true
   uid: true

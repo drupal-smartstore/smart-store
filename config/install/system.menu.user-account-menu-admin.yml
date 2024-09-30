@@ -1,0 +1,8 @@
+uuid: 613a9b1c-67ba-49f4-a994-a2d3b948db6b
+langcode: en
+status: true
+dependencies: {  }
+id: user-account-menu-admin
+label: 'User account menu admin'
+description: 'Links related to the admin users'
+locked: false

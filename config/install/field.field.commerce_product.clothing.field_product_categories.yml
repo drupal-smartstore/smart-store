@@ -10,7 +10,7 @@ id: commerce_product.clothing.field_product_categories
 field_name: field_product_categories
 entity_type: commerce_product
 bundle: clothing
-label: 'Product Categories'
+label: Categories
 description: ''
 required: false
 translatable: false

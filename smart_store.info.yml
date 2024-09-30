@@ -83,7 +83,6 @@ install:
   - commerce_ajax_atc
   - field_group
   - core_views_facets
-  - commerce_wishlist
   - commerce_shipping
   - simplenews
   - better_exposed_filters

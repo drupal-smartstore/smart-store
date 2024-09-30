@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_contact_number
     - field.field.user.user.field_last_password_reset
     - field.field.user.user.field_password_expiration
     - field.field.user.user.field_pending_expire_sent
@@ -12,6 +13,7 @@ dependencies:
   module:
     - image
     - path
+    - phone_international
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -25,19 +27,26 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  contact:
-    weight: 3
+  field_contact_number:
+    type: phone_international_widget
+    weight: 1
     region: content
-    settings: {  }
+    settings:
+      geolocation: false
+      initial_country: IN
+      exclude_countries: {  }
+      preferred_countries:
+        - PT
+      countries: exclude
     third_party_settings: {  }
   language:
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   path:
     type: path
-    weight: 6
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -46,14 +55,9 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  timezone:
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   user_picture:
     type: image_image
-    weight: 1
+    weight: 2
     region: content
     settings:
       progress_indicator: throbber
@@ -61,7 +65,9 @@ content:
     third_party_settings: {  }
 hidden:
   commerce_remote_id: true
+  contact: true
   customer_profiles: true
   field_last_password_reset: true
   field_password_expiration: true
   field_pending_expire_sent: true
+  timezone: true

@@ -14,7 +14,7 @@ definitions:
     expanded: false
     weight: -50
   user__logout:
-    weight: -47
+    weight: -46
     menu_name: account
     parent: ''
     expanded: false
