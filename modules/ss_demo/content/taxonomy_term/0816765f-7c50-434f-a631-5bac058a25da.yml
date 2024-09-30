@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 0816765f-7c50-434f-a631-5bac058a25da
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    1af2d62c-b153-432d-ace1-b53c4a73167e: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Wildcraft
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_brand_logo:
+    -
+      entity: 1af2d62c-b153-432d-ace1-b53c4a73167e
+      alt: Wildcraft
+      title: ''
+      width: 300
+      height: 161

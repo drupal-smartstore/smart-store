@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 779ce680-703c-4fe9-8b6e-7fe7faaab482
+  bundle: electronics
+  default_langcode: en
+  depends:
+    3d6ea88a-70fc-4d38-8af9-eabc25199559: commerce_product
+    74f02caf-f1f5-432f-a723-23c935f167c8: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 3d6ea88a-70fc-4d38-8af9-eabc25199559
+  sku:
+    -
+      value: Electronics_27
+  title:
+    -
+      value: 'Nokia 105 SS - Blue'
+  price:
+    -
+      number: '4500.000000'
+      currency_code: INR
+      formatted: '₹4,500.00'
+  created:
+    -
+      value: 1720689853
+  attribute_color:
+    -
+      entity: 74f02caf-f1f5-432f-a723-23c935f167c8

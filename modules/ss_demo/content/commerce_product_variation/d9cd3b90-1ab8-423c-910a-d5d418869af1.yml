@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: d9cd3b90-1ab8-423c-910a-d5d418869af1
+  bundle: clothing
+  default_langcode: en
+  depends:
+    98e0bbb4-7ec8-4a49-9e83-46a910df780e: commerce_product
+    55e7ecf5-7eb0-4c5a-8616-5ff0807a7520: commerce_product_attribute_value
+    30e50eed-4473-4d35-8710-452fc013fb15: commerce_product_attribute_value
+    5aeab35d-e78e-4fc3-acd2-e71a31eefbb6: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 98e0bbb4-7ec8-4a49-9e83-46a910df780e
+  sku:
+    -
+      value: Clothing_38
+  title:
+    -
+      value: 'Tunics Pleated - Navy, M'
+  price:
+    -
+      number: '200.000000'
+      currency_code: INR
+      formatted: ₹200.00
+  created:
+    -
+      value: 1726830265
+  attribute_color:
+    -
+      entity: 55e7ecf5-7eb0-4c5a-8616-5ff0807a7520
+  attribute_size:
+    -
+      entity: 30e50eed-4473-4d35-8710-452fc013fb15
+  field_image:
+    -
+      entity: 5aeab35d-e78e-4fc3-acd2-e71a31eefbb6
+      alt: dress
+      title: ''
+      width: 1500
+      height: 1500

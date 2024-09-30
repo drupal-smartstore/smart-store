@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 15ba3420-6b81-4d0a-ad3c-d069921c9f5d
+  bundle: electronics
+  default_langcode: en
+  depends:
+    76c2bbf7-aa0d-441a-b04f-14c0fd617598: commerce_product
+    62789cbe-659e-4dc1-b6cf-51502162788f: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 76c2bbf7-aa0d-441a-b04f-14c0fd617598
+  sku:
+    -
+      value: Electronics_8
+  title:
+    -
+      value: 'Apple MacBook Air Core i5 8th Gen - (8 GB/256 GB SSD/Mac OS Mojave) A1932'
+  price:
+    -
+      number: '73000.000000'
+      currency_code: INR
+      formatted: '₹73,000.00'
+  created:
+    -
+      value: 1720603190
+  attribute_color:
+    -
+      entity: 62789cbe-659e-4dc1-b6cf-51502162788f

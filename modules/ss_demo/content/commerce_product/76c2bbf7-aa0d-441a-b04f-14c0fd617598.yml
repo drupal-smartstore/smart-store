@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 76c2bbf7-aa0d-441a-b04f-14c0fd617598
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    15ba3420-6b81-4d0a-ad3c-d069921c9f5d: commerce_product_variation
+    9e01e7a9-8f1f-48ae-84e2-a42701f0ee45: file
+    87d8bb16-b12e-49c3-8caa-746c421e7df3: taxonomy_term
+    4b93feae-fbbc-4be3-b264-a6c135babac9: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Apple MacBook Air Core i5 8th Gen - (8 GB/256 GB SSD/Mac OS Mojave) A1932'
+  variations:
+    -
+      entity: 15ba3420-6b81-4d0a-ad3c-d069921c9f5d
+  default_variation:
+    -
+      entity: 15ba3420-6b81-4d0a-ad3c-d069921c9f5d
+  path:
+    -
+      alias: /product/apple-macbook-air-core-i5-8th-gen-8-gb256-gb-ssdmac-os-mojave-a1932
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720421146
+  body:
+    -
+      value: '<p>Apple MacBook Air Core i5 8th Gen - (8 GB/256 GB SSD/Mac OS Mojave) A1932</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: 9e01e7a9-8f1f-48ae-84e2-a42701f0ee45
+      alt: 'test image'
+      title: ''
+      width: 750
+      height: 476
+  field_product_brand:
+    -
+      entity: 87d8bb16-b12e-49c3-8caa-746c421e7df3
+  field_product_categories:
+    -
+      entity: 4b93feae-fbbc-4be3-b264-a6c135babac9

@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_shipping_method
+  uuid: e8013183-e81e-4cc9-9e50-8838e5ead63c
+  default_langcode: en
+default:
+  plugin:
+    -
+      target_plugin_id: flat_rate
+      target_plugin_configuration:
+        rate_label: 'Standard Delivery'
+        rate_description: ''
+        rate_amount:
+          number: '0'
+          currency_code: INR
+        services:
+          - default
+        default_package_type: custom_box
+        workflow: shipment_default
+  name:
+    -
+      value: 'INDIA Free Standard Delivery'
+  conditions:
+    -
+      target_plugin_id: shipment_address
+      target_plugin_configuration:
+        zone:
+          territories:
+            -
+              country_code: IN
+              administrative_area: ''
+        negate: 0
+    -
+      target_plugin_id: order_total_price
+      target_plugin_configuration:
+        operator: '>='
+        amount:
+          number: '100'
+          currency_code: INR
+        type: total
+    -
+      target_plugin_id: shipment_weight
+      target_plugin_configuration:
+        operator: '<'
+        weight:
+          number: '10'
+          unit: kg
+        max_weight: null
+  condition_operator:
+    -
+      value: AND
+  weight:
+    -
+      value: 0
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722332467

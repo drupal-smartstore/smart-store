@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e20b0021-db87-4454-8db2-0fed6948fe3b
+  bundle: simplenews_issue
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Unpublished press releases'
+  created:
+    -
+      value: 1722410809
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Unpublished press releases body'
+      format: basic_html
+      summary: ''

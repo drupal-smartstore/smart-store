@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 1885d4a2-ddfb-43ff-8daa-da1f1d55565a
+  bundle: electronics
+  default_langcode: en
+  depends:
+    a632e34d-7e87-4837-85b9-c6753c6bf5e3: commerce_product
+    a71a69af-68a1-47d0-b5b3-cd8497c69cc5: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: a632e34d-7e87-4837-85b9-c6753c6bf5e3
+  sku:
+    -
+      value: Electronics_29
+  title:
+    -
+      value: 'Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage) - Black'
+  price:
+    -
+      number: '90000.000000'
+      currency_code: INR
+      formatted: '₹90,000.00'
+  created:
+    -
+      value: 1720689944
+  attribute_color:
+    -
+      entity: a71a69af-68a1-47d0-b5b3-cd8497c69cc5

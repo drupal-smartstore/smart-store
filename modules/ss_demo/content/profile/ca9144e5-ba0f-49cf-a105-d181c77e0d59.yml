@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: profile
+  uuid: ca9144e5-ba0f-49cf-a105-d181c77e0d59
+  bundle: customer
+  depends:
+    245cf330-9417-4b05-b81a-76d3fac45f02: user
+default:
+  revision_user:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 245cf330-9417-4b05-b81a-76d3fac45f02
+  is_default:
+    -
+      value: true
+  created:
+    -
+      value: 1724838855
+  address:
+    -
+      langcode: ''
+      country_code: IN
+      administrative_area: AR
+      locality: noida
+      dependent_locality: ''
+      postal_code: '110096'
+      sorting_code: ''
+      address_line1: Noida
+      address_line2: ''
+      organization: TTN
+      given_name: asheesh
+      additional_name: ''
+      family_name: Pal

@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0a7254ca-bb50-4326-bbcd-007a3e28334c
+  bundle: simplenews_issue
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Pending special offers'
+  created:
+    -
+      value: 1722410809
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: 'Grab them while you can, limited availability! These offers can often only be available for a short time, so take advantage of these special prices while you can.'
+      format: basic_html
+      summary: ''

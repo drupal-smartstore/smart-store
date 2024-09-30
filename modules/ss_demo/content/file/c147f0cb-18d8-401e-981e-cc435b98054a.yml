@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c147f0cb-18d8-401e-981e-cc435b98054a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: faq_featuredimage-3.webp
+  uri:
+    -
+      value: 'public://2024-07/faq_featuredimage-3.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 347364
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720689461

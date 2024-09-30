@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 110ba44f-8cb5-49ab-a9b0-c5e9ecb11b57
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'My Orders'
+  menu_name:
+    -
+      value: footer-account-menu
+  link:
+    -
+      uri: 'internal:/orders'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  menu_per_role__show_role:
+    -
+      target_id: authenticated

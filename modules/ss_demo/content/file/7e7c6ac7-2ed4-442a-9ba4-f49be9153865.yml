@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7e7c6ac7-2ed4-442a-9ba4-f49be9153865
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: profile.png
+  uri:
+    -
+      value: 'public://default_images/profile.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 5354
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724748345

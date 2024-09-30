@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cd0ced6c-70c1-4fb7-b028-e8bfa7066c50
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    d73391e4-e60f-4306-9e9c-f179f30e3918: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: T-shirts
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: d73391e4-e60f-4306-9e9c-f179f30e3918
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

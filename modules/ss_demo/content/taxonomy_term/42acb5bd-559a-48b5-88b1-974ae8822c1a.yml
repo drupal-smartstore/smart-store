@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 42acb5bd-559a-48b5-88b1-974ae8822c1a
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    ad2eac93-6d50-4f6f-8b1e-6a5c08c63367: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Earbuds
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: ad2eac93-6d50-4f6f-8b1e-6a5c08c63367
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

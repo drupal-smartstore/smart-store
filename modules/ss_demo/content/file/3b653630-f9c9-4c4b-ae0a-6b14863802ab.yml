@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3b653630-f9c9-4c4b-ae0a-6b14863802ab
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: m-pl503826-pepe-jeans-original-imafmxzh3pf7rjy5.webp
+  uri:
+    -
+      value: 'public://2024-07/m-pl503826-pepe-jeans-original-imafmxzh3pf7rjy5.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 4508
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720178174

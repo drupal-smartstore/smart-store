@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: f926bc7c-9d20-49be-a171-233feca0b2d0
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    ec05f31c-17e5-44ea-a1ac-6b062366d69c: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Mobile Devices'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_categories_logo:
+    -
+      entity: ec05f31c-17e5-44ea-a1ac-6b062366d69c
+      alt: test
+      title: ''
+      width: 788
+      height: 1000
+  field_popular:
+    -
+      value: true

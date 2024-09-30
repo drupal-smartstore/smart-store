@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ad2eac93-6d50-4f6f-8b1e-6a5c08c63367
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    dbd6f85e-3458-4b6a-8dcf-406cbd864578: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Audio Devices'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_categories_logo:
+    -
+      entity: dbd6f85e-3458-4b6a-8dcf-406cbd864578
+      alt: test
+      title: ''
+      width: 600
+      height: 600
+  field_popular:
+    -
+      value: true

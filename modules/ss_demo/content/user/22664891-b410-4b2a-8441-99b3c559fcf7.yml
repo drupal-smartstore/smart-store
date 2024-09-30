@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 22664891-b410-4b2a-8441-99b3c559fcf7
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: kritika21
+  pass:
+    -
+      value: $2y$10$AsWkPJnOn9moWxLd/z5vTebFcn/mw4WlLEbvRUKt89GJoZBL4H/1C
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: kritika21@gmail.com
+  timezone:
+    -
+      value: Asia/Kolkata
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725258317
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: kritika21@gmail.com
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_last_password_reset:
+    -
+      value: '2024-09-02T06:25:17'
+  field_password_expiration:
+    -
+      value: false
+  field_pending_expire_sent:
+    -
+      value: 0

@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 83cb25eb-97ee-452a-ac73-8a330a012f09
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    28014309-e57c-4481-a682-16a3c554d37e: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Women Clothing'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_categories_logo:
+    -
+      entity: 28014309-e57c-4481-a682-16a3c554d37e
+      alt: test
+      title: ''
+      width: 225
+      height: 225
+  field_popular:
+    -
+      value: true

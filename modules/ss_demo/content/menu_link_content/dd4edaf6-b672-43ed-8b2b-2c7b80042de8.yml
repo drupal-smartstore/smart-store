@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: dd4edaf6-b672-43ed-8b2b-2c7b80042de8
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    aed24d77-516f-4c80-9cf4-eaf05f2d7c14: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Computing
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:aed24d77-516f-4c80-9cf4-eaf05f2d7c14'
+  revision_translation_affected:
+    -
+      value: true

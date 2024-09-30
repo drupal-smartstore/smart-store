@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 4b740538-925c-4ce7-846c-c4433156a484
+  bundle: electronics
+  default_langcode: en
+  depends:
+    3d6ea88a-70fc-4d38-8af9-eabc25199559: commerce_product
+    42ecc076-e4dd-4df3-9e83-014a6d569d1a: commerce_product_attribute_value
+    8104ee06-212b-4a26-9a33-5f1e6b10b6d0: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 3d6ea88a-70fc-4d38-8af9-eabc25199559
+  sku:
+    -
+      value: Electronics_7
+  title:
+    -
+      value: 'Nokia 105 SS - Red'
+  price:
+    -
+      number: '4500.000000'
+      currency_code: INR
+      formatted: '₹4,500.00'
+  created:
+    -
+      value: 1720603131
+  attribute_color:
+    -
+      entity: 42ecc076-e4dd-4df3-9e83-014a6d569d1a
+  field_image:
+    -
+      entity: 8104ee06-212b-4a26-9a33-5f1e6b10b6d0
+      alt: test
+      title: ''
+      width: 171
+      height: 400

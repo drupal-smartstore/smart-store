@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 79847253-ce8a-4627-8aba-8f0197fb9336
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nokia-105-ss-105-ss-original-imafjw6xnttqqhyf_0.webp
+  uri:
+    -
+      value: 'public://2024-07/nokia-105-ss-105-ss-original-imafjw6xnttqqhyf_0.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 51706
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720690356

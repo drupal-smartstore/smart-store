@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5c811a20-3274-4c85-9296-da3f63401959
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: payment-method.png
+  uri:
+    -
+      value: 'public://inline-images/payment-method.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2862
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724317681

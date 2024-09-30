@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 003b2bc4-f6e4-4c5f-9da9-d5e8e45153bb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: tunics-pleated-blouse.jpg
+  uri:
+    -
+      value: 'public://2024-09/tunics-pleated-blouse_3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1855294
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1726830407

@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d80d6fd0-f38d-4c96-a227-1a6ba9d8a05c
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    1baf52da-1619-4d2a-83c6-ebade19a2b5d: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Home Appliances'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_categories_logo:
+    -
+      entity: 1baf52da-1619-4d2a-83c6-ebade19a2b5d
+      alt: test
+      title: ''
+      width: 720
+      height: 540
+  field_popular:
+    -
+      value: true

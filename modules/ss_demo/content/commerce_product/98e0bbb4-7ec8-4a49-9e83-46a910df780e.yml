@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 98e0bbb4-7ec8-4a49-9e83-46a910df780e
+  bundle: clothing
+  default_langcode: en
+  depends:
+    ad68fcb9-ee52-4fe1-b664-edafdfefff8c: commerce_store
+    d9cd3b90-1ab8-423c-910a-d5d418869af1: commerce_product_variation
+    27e0fb8c-9097-4f6e-9746-f01193030b33: commerce_product_variation
+    6109ae32-f36e-4494-9e15-ae248c2adf04: file
+    83cb25eb-97ee-452a-ac73-8a330a012f09: taxonomy_term
+    5ec0032e-079b-4308-ad7a-125ac9de369d: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: ad68fcb9-ee52-4fe1-b664-edafdfefff8c
+  title:
+    -
+      value: 'Tunics Pleated'
+  variations:
+    -
+      entity: d9cd3b90-1ab8-423c-910a-d5d418869af1
+    -
+      entity: 27e0fb8c-9097-4f6e-9746-f01193030b33
+  default_variation:
+    -
+      entity: d9cd3b90-1ab8-423c-910a-d5d418869af1
+  path:
+    -
+      alias: /product/tunics-pleated
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1726830195
+  body:
+    -
+      value: '<ul><li>Fabric: 35% Rayon 60% Polyester 5% Spandex</li><li>Lightweight Pullover/Tunic Thin Hoodie/Flowy Tunic Shirts/Athleisure Tunic</li><li>Practical Adjustable Drawstring Design gives nice extra protection in winter</li><li>Stylish Pleated Front Design gives you enough room for flattering style</li><li>Long Sleeve Tunics Suitable for Casual Daily Wear or Office Work</li></ul>'
+      format: full_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: 6109ae32-f36e-4494-9e15-ae248c2adf04
+      alt: dress
+      title: ''
+      width: 1500
+      height: 1500
+  field_product_categories:
+    -
+      entity: 83cb25eb-97ee-452a-ac73-8a330a012f09
+    -
+      entity: 5ec0032e-079b-4308-ad7a-125ac9de369d
+  field_short_description:
+    -
+      value: "Women's Casual Lightweight Tunics Pleated Long Sleeve Blouse Shirts Tops Stylish Pleated Front Design gives you enough room for flattering style."
+      format: plain_text

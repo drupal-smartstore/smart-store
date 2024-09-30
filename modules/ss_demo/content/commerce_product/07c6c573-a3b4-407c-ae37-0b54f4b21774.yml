@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 07c6c573-a3b4-407c-ae37-0b54f4b21774
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    edaa65e8-b520-4df3-8701-988476b2c589: commerce_product_variation
+    5ba1cbff-353a-4e4e-a775-0d3a25363925: file
+    87d8bb16-b12e-49c3-8caa-746c421e7df3: taxonomy_term
+    f926bc7c-9d20-49be-a171-233feca0b2d0: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Apple iPhone 15 Plus'
+  variations:
+    -
+      entity: edaa65e8-b520-4df3-8701-988476b2c589
+  default_variation:
+    -
+      entity: edaa65e8-b520-4df3-8701-988476b2c589
+  path:
+    -
+      alias: /product/apple-iphone-15-plus
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720421501
+  body:
+    -
+      value: '<p>Apple iPhone 15 Plus</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: 5ba1cbff-353a-4e4e-a775-0d3a25363925
+      alt: 'test image'
+      title: ''
+      width: 1500
+      height: 999
+  field_product_brand:
+    -
+      entity: 87d8bb16-b12e-49c3-8caa-746c421e7df3
+  field_product_categories:
+    -
+      entity: f926bc7c-9d20-49be-a171-233feca0b2d0

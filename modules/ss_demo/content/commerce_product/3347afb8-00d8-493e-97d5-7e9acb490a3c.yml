@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 3347afb8-00d8-493e-97d5-7e9acb490a3c
+  bundle: clothing
+  default_langcode: en
+  depends:
+    ad68fcb9-ee52-4fe1-b664-edafdfefff8c: commerce_store
+    76d0aea6-cdd0-4f35-8022-4f96fa3d55a0: commerce_product_variation
+    018781b4-a201-495f-9d5b-803af2aad237: commerce_product_variation
+    ff4ae8d7-4fe1-43dd-b0cb-c43e031f0553: file
+    9719bc27-2db2-422d-926f-060e5b33beb1: taxonomy_term
+    83cb25eb-97ee-452a-ac73-8a330a012f09: taxonomy_term
+    e58dc852-d534-48de-9fa7-da1e28ef2402: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: ad68fcb9-ee52-4fe1-b664-edafdfefff8c
+  title:
+    -
+      value: 'Skinny Women Grey Jeans'
+  variations:
+    -
+      entity: 76d0aea6-cdd0-4f35-8022-4f96fa3d55a0
+    -
+      entity: 018781b4-a201-495f-9d5b-803af2aad237
+  default_variation:
+    -
+      entity: 76d0aea6-cdd0-4f35-8022-4f96fa3d55a0
+  path:
+    -
+      alias: /product/skinny-women-grey-jeans
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720178357
+  body:
+    -
+      value: '<p>Skinny Women Grey Jeans</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: true
+  field_image:
+    -
+      entity: ff4ae8d7-4fe1-43dd-b0cb-c43e031f0553
+      alt: 'test image'
+      title: ''
+      width: 1000
+      height: 1000
+  field_product_brand:
+    -
+      entity: 9719bc27-2db2-422d-926f-060e5b33beb1
+  field_product_categories:
+    -
+      entity: 83cb25eb-97ee-452a-ac73-8a330a012f09
+    -
+      entity: e58dc852-d534-48de-9fa7-da1e28ef2402
+  field_rating:
+    -
+      rating: 80
+      target: 0

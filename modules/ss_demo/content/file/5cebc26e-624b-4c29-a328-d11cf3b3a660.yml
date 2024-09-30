@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5cebc26e-624b-4c29-a328-d11cf3b3a660
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 40-lysfassp055347-louis-philippe-original-imagmy4w8r4wmzg4.webp
+  uri:
+    -
+      value: 'public://2024-07/40-lysfassp055347-louis-philippe-original-imagmy4w8r4wmzg4.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 46694
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720613512

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 789c9435-9213-494f-a486-4576e77b3440
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: gzz12818_grey_xl.webp
+  uri:
+    -
+      value: 'public://2024-07/gzz12818_grey_xl.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 10956
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722262998

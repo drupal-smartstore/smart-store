@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ff4ae8d7-4fe1-43dd-b0cb-c43e031f0553
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ladies-skinny-fit-denim-jeans-1000x1000.webp
+  uri:
+    -
+      value: 'public://2024-07/ladies-skinny-fit-denim-jeans-1000x1000.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 30180
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722257613

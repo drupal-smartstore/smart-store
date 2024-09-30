@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 4b250c02-c89f-4961-8c08-5edb66b96fff
+  default_langcode: en
+  depends:
+    5d0ff946-dc22-41a6-87bc-820dd6ad59dd: profile
+    278d5a6e-d19e-471d-9325-68589250e56d: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: cm
+  pass:
+    -
+      value: $2y$10$25hJBhmCytWJ/O6WurCdCOZPs9xjwInbdPRzlPFnT5As7bTkLoGSC
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: cm@abcabc.coj
+  timezone:
+    -
+      value: Asia/Kolkata
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724472006
+  access:
+    -
+      value: 1727255998
+  login:
+    -
+      value: 1727255798
+  init:
+    -
+      value: cm@abcabc.coj
+  roles:
+    -
+      target_id: content_manager
+  customer_profiles:
+    -
+      entity: 5d0ff946-dc22-41a6-87bc-820dd6ad59dd
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_last_password_reset:
+    -
+      value: '2024-08-24T04:01:04'
+  field_password_expiration:
+    -
+      value: true
+  field_pending_expire_sent:
+    -
+      value: 0
+  user_picture:
+    -
+      entity: 278d5a6e-d19e-471d-9325-68589250e56d
+      alt: ''
+      title: ''
+      width: 736
+      height: 740

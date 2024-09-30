@@ -1,0 +1,71 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 2855faee-ee56-4602-8fcd-23dd9e3f50db
+  bundle: clothing
+  default_langcode: en
+  depends:
+    ad68fcb9-ee52-4fe1-b664-edafdfefff8c: commerce_store
+    0caa5678-546e-49f3-bb58-16e0a8880ae9: commerce_product_variation
+    db4b9a00-fc38-47e9-8b49-7e8d49121739: file
+    c293d1a3-5d6d-491f-b4e4-75019f4fe5b7: taxonomy_term
+    d73391e4-e60f-4306-9e9c-f179f30e3918: taxonomy_term
+    4dd73cf1-1dc4-4029-88bb-7e31bd1b60e2: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: ad68fcb9-ee52-4fe1-b664-edafdfefff8c
+  title:
+    -
+      value: 'Plaid Flannel Shirt '
+  variations:
+    -
+      entity: 0caa5678-546e-49f3-bb58-16e0a8880ae9
+  default_variation:
+    -
+      entity: 0caa5678-546e-49f3-bb58-16e0a8880ae9
+  path:
+    -
+      alias: /product/plaid-flannel-shirt
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1726830465
+  body:
+    -
+      value: '<ul><li>100% Cotton</li><li>Imported</li><li>Machine Wash</li><li>This weekend-perfect casual button-front shirt in a plaid flannel fabric features a soft feel and maximum comfort</li><li>Rounded hem, single-button barrel cuffs, single chest pocket</li><li>Slim fit: closer-fitting in the chest, slightly tapered through the waist for a tailored look</li></ul>'
+      format: full_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: db4b9a00-fc38-47e9-8b49-7e8d49121739
+      alt: shirt
+      title: ''
+      width: 1500
+      height: 1500
+  field_product_brand:
+    -
+      entity: c293d1a3-5d6d-491f-b4e4-75019f4fe5b7
+  field_product_categories:
+    -
+      entity: d73391e4-e60f-4306-9e9c-f179f30e3918
+    -
+      entity: 4dd73cf1-1dc4-4029-88bb-7e31bd1b60e2
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_short_description:
+    -
+      value: 'Slim-Fit Long-Sleeve Plaid Flannel Shirt with closer-fitting in the chest, slightly tapered through the waist for a tailored look.'
+      format: plain_text

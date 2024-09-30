@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 24955d31-9dc8-48fa-8ec0-f8989cb691dd
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    aed24d77-516f-4c80-9cf4-eaf05f2d7c14: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Home & Office'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -44
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:aed24d77-516f-4c80-9cf4-eaf05f2d7c14'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 915cbd38-5f0e-4b78-9d83-6269a43fb225
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Footer About'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<div class="margin-bottom-20"><img src="https://media.licdn.com/dms/image/C560BAQGjUZbDAenjbw/company-logo_200_200/0/1631349057695?e=2147483647&amp;v=beta&amp;t=iVTekywaRIPYBx-p8PXqUFBoiOZCmwaPftLgMUuTxDI" alt="logo" width="110" height="110"></div><div><p>To be a recognized world leader and authority in the industry for design and creativity.</p><p>Fax: +098 000 0000<br>E-mail: info@website.com</p></div>'
+      format: full_html
+      summary: ''

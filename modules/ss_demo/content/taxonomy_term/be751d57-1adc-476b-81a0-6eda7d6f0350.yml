@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: be751d57-1adc-476b-81a0-6eda7d6f0350
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    f926bc7c-9d20-49be-a171-233feca0b2d0: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Accessories (cases, chargers, screen protectors)'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: f926bc7c-9d20-49be-a171-233feca0b2d0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

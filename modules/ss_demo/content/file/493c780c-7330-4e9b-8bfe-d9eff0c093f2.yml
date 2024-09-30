@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 493c780c-7330-4e9b-8bfe-d9eff0c093f2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: stretch-chino-pants-3.jpg
+  uri:
+    -
+      value: 'public://2024-09/stretch-chino-pants-3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1185678
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1726830848

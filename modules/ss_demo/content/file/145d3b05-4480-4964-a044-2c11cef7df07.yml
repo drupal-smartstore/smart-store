@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 145d3b05-4480-4964-a044-2c11cef7df07
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: ladies-grey-jeans.jpg
+  uri:
+    -
+      value: 'public://2024-09/ladies-grey-jeans.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 80050
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1727331944

@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: a1747e63-7305-41f8-8478-de6dc9734572
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    5ccc740a-0d5a-4714-ba43-55c3d13e6d9f: commerce_product_variation
+    a52b4beb-bbe3-4d75-a219-d6af0a471cdf: commerce_product_variation
+    b332fcde-80ef-4d8c-b2ad-f7b64561d66d: commerce_product_variation
+    c8656b5d-df0b-4d47-ab9a-68e55c40843b: file
+    b8f715cd-6e26-4ca4-b0e0-dd0a379e95dc: taxonomy_term
+    4b93feae-fbbc-4be3-b264-a6c135babac9: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Dell 14 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) inspiron3481 Laptop'
+  variations:
+    -
+      entity: 5ccc740a-0d5a-4714-ba43-55c3d13e6d9f
+    -
+      entity: a52b4beb-bbe3-4d75-a219-d6af0a471cdf
+    -
+      entity: b332fcde-80ef-4d8c-b2ad-f7b64561d66d
+  default_variation:
+    -
+      entity: 5ccc740a-0d5a-4714-ba43-55c3d13e6d9f
+  path:
+    -
+      alias: /product/dell-14-3000-core-i3-7th-gen-4-gb1-tb-hddwindows-10-home-inspiron3481-laptop
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720420973
+  body:
+    -
+      value: '<p>Dell 14 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) inspiron3481 Laptop</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: c8656b5d-df0b-4d47-ab9a-68e55c40843b
+      alt: 'test image'
+      title: ''
+      width: 1000
+      height: 695
+  field_product_brand:
+    -
+      entity: b8f715cd-6e26-4ca4-b0e0-dd0a379e95dc
+  field_product_categories:
+    -
+      entity: 4b93feae-fbbc-4be3-b264-a6c135babac9
+  field_rating:
+    -
+      rating: 80
+      target: 0

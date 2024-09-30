@@ -1,0 +1,20 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_attribute_value
+  uuid: 5e1440cd-bfec-4a96-a8b6-81e78582c6d3
+  bundle: color
+  default_langcode: en
+default:
+  name:
+    -
+      value: Pink
+  weight:
+    -
+      value: 6
+  created:
+    -
+      value: 1719473193
+  field_color_code:
+    -
+      color: '#913083'
+      opacity: 0.0

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 635d615d-0eb8-4262-ba8d-ec561396e64c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 41W0WJNa9EL._SX300_SY300_QL70_FMwebp_.webp
+  uri:
+    -
+      value: 'public://2024-07/41W0WJNa9EL._SX300_SY300_QL70_FMwebp_.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 4732
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722248082

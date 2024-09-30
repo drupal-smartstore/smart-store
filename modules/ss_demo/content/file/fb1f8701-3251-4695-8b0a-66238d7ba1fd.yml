@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fb1f8701-3251-4695-8b0a-66238d7ba1fd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: download.png
+  uri:
+    -
+      value: 'public://2024-08/download.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 4197
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724392963

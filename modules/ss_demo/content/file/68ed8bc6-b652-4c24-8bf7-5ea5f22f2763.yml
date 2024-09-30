@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 68ed8bc6-b652-4c24-8bf7-5ea5f22f2763
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Apple_logo_black.svg_.png
+  uri:
+    -
+      value: 'public://2024-07/Apple_logo_black.svg_.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 12377
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720437553

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1fca4dc4-483c-4682-ad27-2c3379b67008
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Samsung-Galaxy-F55.webp
+  uri:
+    -
+      value: 'public://2024-07/Samsung-Galaxy-F55.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 80760
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720421722

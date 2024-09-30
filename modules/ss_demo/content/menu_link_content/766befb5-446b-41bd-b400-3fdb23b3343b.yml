@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 766befb5-446b-41bd-b400-3fdb23b3343b
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Wishlist
+  menu_name:
+    -
+      value: account
+  link:
+    -
+      uri: 'internal:/wishlist'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  menu_per_role__show_role:
+    -
+      target_id: authenticated
+  menu_per_role__hide_role:
+    -
+      target_id: anonymous

@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 953799bc-f254-440e-8c3c-bba42d56a21c
+  bundle: promotion_block
+  default_langcode: en
+  depends:
+    f4f0bacc-0293-46af-a1fe-91ebb64f7be0: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Women Clothing'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>Classic collections from $10</p>'
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: f4f0bacc-0293-46af-a1fe-91ebb64f7be0
+      alt: 'Women Clothing'
+      title: ''
+      width: 1080
+      height: 680
+  field_link:
+    -
+      uri: 'internal:/products/category/women-clothing'
+      title: 'Shop Now'
+      options: {  }

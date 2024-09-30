@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6a3ce5b0-0047-4de0-b981-d43059b43f79
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nokia-all-new-105-keypad-phone-with-built-in-upi-payments-long-lasting-battery-wireless-fm-radio-cyan-product-images-orvki51w9md-p602584519-0-202306232312.webp
+  uri:
+    -
+      value: 'public://2024-08/nokia-all-new-105-keypad-phone-with-built-in-upi-payments-long-lasting-battery-wireless-fm-radio-cyan-product-images-orvki51w9md-p602584519-0-202306232312.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 32178
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724321972

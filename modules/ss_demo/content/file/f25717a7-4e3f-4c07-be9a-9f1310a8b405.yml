@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f25717a7-4e3f-4c07-be9a-9f1310a8b405
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Carrier-Company-Womens-Dungarees-4f6106d.webp
+  uri:
+    -
+      value: 'public://2024-07/Carrier-Company-Womens-Dungarees-4f6106d.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 21256
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722248976

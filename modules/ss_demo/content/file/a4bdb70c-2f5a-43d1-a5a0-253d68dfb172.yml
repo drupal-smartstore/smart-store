@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a4bdb70c-2f5a-43d1-a5a0-253d68dfb172
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: plaid-flannel-shirt.jpg
+  uri:
+    -
+      value: 'public://2024-09/plaid-flannel-shirt_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2003631
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1726830571

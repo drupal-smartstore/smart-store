@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e3ea0e47-f9fd-48e8-b829-3a844ffbba63
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'hooded-chest-stripe (1).jpg'
+  uri:
+    -
+      value: 'public://2024-09/hooded-chest-stripe (1).jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 301884
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725880333

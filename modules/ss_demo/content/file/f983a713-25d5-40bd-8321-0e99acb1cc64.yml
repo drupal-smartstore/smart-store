@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f983a713-25d5-40bd-8321-0e99acb1cc64
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 81vxWpPpgNL._SX569_.jpg
+  uri:
+    -
+      value: 'public://2024-07/81vxWpPpgNL._SX569_.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 32321
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720421619

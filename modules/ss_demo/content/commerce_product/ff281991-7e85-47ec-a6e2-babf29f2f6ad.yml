@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: ff281991-7e85-47ec-a6e2-babf29f2f6ad
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    0423548e-7e94-4709-9a48-113fd65568a4: commerce_product_variation
+    88989cf8-cf6f-4819-8099-af63e65b41fd: file
+    2891752b-ee9c-4849-8b52-378231f7f372: taxonomy_term
+    4b93feae-fbbc-4be3-b264-a6c135babac9: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Lenovo Ideapad 130 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) 130-15IKB Laptop'
+  variations:
+    -
+      entity: 0423548e-7e94-4709-9a48-113fd65568a4
+  default_variation:
+    -
+      entity: 0423548e-7e94-4709-9a48-113fd65568a4
+  path:
+    -
+      alias: /product/lenovo-ideapad-130-core-i3-7th-gen-4-gb1-tb-hddwindows-10-home-130-15ikb-laptop
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720420913
+  body:
+    -
+      value: '<p>Lenovo Ideapad 130 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) 130-15IKB Laptop</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: 88989cf8-cf6f-4819-8099-af63e65b41fd
+      alt: 'test image'
+      title: ''
+      width: 679
+      height: 382
+  field_product_brand:
+    -
+      entity: 2891752b-ee9c-4849-8b52-378231f7f372
+  field_product_categories:
+    -
+      entity: 4b93feae-fbbc-4be3-b264-a6c135babac9

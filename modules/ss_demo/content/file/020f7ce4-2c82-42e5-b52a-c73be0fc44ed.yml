@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 020f7ce4-2c82-42e5-b52a-c73be0fc44ed
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: free-f-asst-1-jockey-original-imafm7ajuavkdsbq_0.webp
+  uri:
+    -
+      value: 'public://2024-07/free-f-asst-1-jockey-original-imafm7ajuavkdsbq_0.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 5582
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720690976

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 03229e64-17e7-4379-94c4-231b2d529362
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: scratch-resistant-lightweight-long-lasting-battery-backup-blue-nokia-keypad-mobile-phones-564.webp
+  uri:
+    -
+      value: 'public://2024-08/scratch-resistant-lightweight-long-lasting-battery-backup-blue-nokia-keypad-mobile-phones-564.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 7034
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724322093

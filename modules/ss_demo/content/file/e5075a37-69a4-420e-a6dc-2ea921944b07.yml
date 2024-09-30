@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e5075a37-69a4-420e-a6dc-2ea921944b07
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: m-41864black-wildcraft-original-imafj3h4zh8rgjzt_0.webp
+  uri:
+    -
+      value: 'public://2024-07/m-41864black-wildcraft-original-imafj3h4zh8rgjzt_0.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 2894
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720690834

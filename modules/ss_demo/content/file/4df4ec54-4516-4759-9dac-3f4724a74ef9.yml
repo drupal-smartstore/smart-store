@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4df4ec54-4516-4759-9dac-3f4724a74ef9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 6432d8ef7a0ecf0c50654bc3-sim-free-nokia-9-pureview-5-99-inch_0.jpg
+  uri:
+    -
+      value: 'public://2024-07/6432d8ef7a0ecf0c50654bc3-sim-free-nokia-9-pureview-5-99-inch_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 31635
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720690326

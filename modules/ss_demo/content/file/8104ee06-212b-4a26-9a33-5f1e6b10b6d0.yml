@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8104ee06-212b-4a26-9a33-5f1e6b10b6d0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: '61fcbBJ36GL._AC_UF1000,1000_QL80_ (1).jpg'
+  uri:
+    -
+      value: 'public://2024-07/61fcbBJ36GL._AC_UF1000,1000_QL80_ (1).jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 19953
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722249632

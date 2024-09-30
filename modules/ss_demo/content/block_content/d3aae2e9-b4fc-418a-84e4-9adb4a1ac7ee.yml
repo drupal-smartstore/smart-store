@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: d3aae2e9-b4fc-418a-84e4-9adb4a1ac7ee
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Copyright Text'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>Copyright ©&nbsp;2024&nbsp;<a href="https://www.tothenew.com/">To The New</a>. All rights reserved.</p>'
+      format: full_html
+      summary: ''

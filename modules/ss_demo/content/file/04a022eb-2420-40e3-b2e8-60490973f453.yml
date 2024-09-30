@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 04a022eb-2420-40e3-b2e8-60490973f453
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lenovo-na-laptop-original-imafz9vnhzgj32y4.webp
+  uri:
+    -
+      value: 'public://2024-07/lenovo-na-laptop-original-imafz9vnhzgj32y4.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 9826
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722247892

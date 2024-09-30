@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 8a5e8360-e9d1-474b-9493-dc8dbb0a9c7a
+  bundle: hero_slider
+  default_langcode: en
+  depends:
+    26dee571-1ba8-431f-83e7-bfe477efe323: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Upgraded styles'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<h4>Accesories collection</h4><h2>Upgrade your style be trendy &amp; classy</h2>'
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 26dee571-1ba8-431f-83e7-bfe477efe323
+      alt: test
+      title: ''
+      width: 1600
+      height: 642
+  field_link:
+    -
+      uri: 'internal:/front'
+      title: 'Shop Now'
+      options: {  }

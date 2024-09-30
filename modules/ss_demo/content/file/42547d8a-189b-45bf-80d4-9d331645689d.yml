@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 42547d8a-189b-45bf-80d4-9d331645689d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: women-s-white-property-of-bugs-daffy-graphic-printed-oversized-crop-t-shirt-635566-1720783506-1.webp
+  uri:
+    -
+      value: 'public://2024-07/women-s-white-property-of-bugs-daffy-graphic-printed-oversized-crop-t-shirt-635566-1720783506-1.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 101214
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722262939

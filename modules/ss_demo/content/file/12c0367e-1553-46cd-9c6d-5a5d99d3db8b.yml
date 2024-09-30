@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 12c0367e-1553-46cd-9c6d-5a5d99d3db8b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: s-2055b-buynewtrend-original-imafzqdbafazxmqg.webp
+  uri:
+    -
+      value: 'public://2024-07/s-2055b-buynewtrend-original-imafzqdbafazxmqg.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 3430
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720178513

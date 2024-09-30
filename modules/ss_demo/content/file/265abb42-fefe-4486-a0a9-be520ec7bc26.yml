@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 265abb42-fefe-4486-a0a9-be520ec7bc26
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mens-plain-black-track-pant.jpg
+  uri:
+    -
+      value: 'public://2024-07/mens-plain-black-track-pant.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 12917
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722262719

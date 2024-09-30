@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 840445b1-3774-4cc1-9b0e-69005016ff11
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    b7786b8f-61a7-4d0c-ad0f-b1be73fac4ca: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Nokia
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_brand_logo:
+    -
+      entity: b7786b8f-61a7-4d0c-ad0f-b1be73fac4ca
+      alt: nokia
+      title: ''
+      width: 1205
+      height: 980

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 96ab1818-8038-4490-828d-ac46599d824f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: '61vofasv3RL._AC_UF350,350_QL50_.jpg'
+  uri:
+    -
+      value: 'public://2024-07/61vofasv3RL._AC_UF350,350_QL50_.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 8292
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720421003

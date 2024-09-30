@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 245cf330-9417-4b05-b81a-76d3fac45f02
+  default_langcode: en
+  depends:
+    ca9144e5-ba0f-49cf-a105-d181c77e0d59: profile
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: asheesh
+  pass:
+    -
+      value: $2y$10$8RLsqoBHeX.w1tHeUkaahuHXLxd/dql42FnDZtpz1lZcVKKLvCid2
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: asheesh@tothenew.com
+  timezone:
+    -
+      value: Asia/Kolkata
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724838682
+  access:
+    -
+      value: 1724839056
+  login:
+    -
+      value: 1724838682
+  customer_profiles:
+    -
+      entity: ca9144e5-ba0f-49cf-a105-d181c77e0d59
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_last_password_reset:
+    -
+      value: '2024-08-28T09:51:22'
+  field_password_expiration:
+    -
+      value: true
+  field_pending_expire_sent:
+    -
+      value: 0

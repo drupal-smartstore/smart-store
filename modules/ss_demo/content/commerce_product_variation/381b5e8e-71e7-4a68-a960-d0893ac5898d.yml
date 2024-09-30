@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 381b5e8e-71e7-4a68-a960-d0893ac5898d
+  bundle: electronics
+  default_langcode: en
+  depends:
+    d9accff5-f8b6-4401-9842-3e0562043f79: commerce_product
+    a71a69af-68a1-47d0-b5b3-cd8497c69cc5: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: d9accff5-f8b6-4401-9842-3e0562043f79
+  sku:
+    -
+      value: Electronics_6
+  title:
+    -
+      value: 'Nokia X30 5G 8/256 GB - Black'
+  price:
+    -
+      number: '29999.000000'
+      currency_code: INR
+      formatted: '₹29,999.00'
+  created:
+    -
+      value: 1720603108
+  attribute_color:
+    -
+      entity: a71a69af-68a1-47d0-b5b3-cd8497c69cc5

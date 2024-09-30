@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_store
+  uuid: ad68fcb9-ee52-4fe1-b664-edafdfefff8c
+  bundle: online
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Store1
+  mail:
+    -
+      value: jitendra.verma@tothenew.com
+  default_currency:
+    -
+      target_id: INR
+  timezone:
+    -
+      value: UTC
+  address:
+    -
+      langcode: ''
+      country_code: IN
+      administrative_area: DL
+      locality: 'New Delhi'
+      dependent_locality: ''
+      postal_code: '110096'
+      sorting_code: ''
+      address_line1: CP
+      address_line2: ''
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  is_default:
+    -
+      value: true
+  created:
+    -
+      value: 1719472748
+  prices_include_tax:
+    -
+      value: false

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dbd6f85e-3458-4b6a-8dcf-406cbd864578
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: RAPOO119_result.webp
+  uri:
+    -
+      value: 'public://2024-08/RAPOO119_result.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 11852
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722497011

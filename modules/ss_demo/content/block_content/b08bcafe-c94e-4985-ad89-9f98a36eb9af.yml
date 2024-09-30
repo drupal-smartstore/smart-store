@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: b08bcafe-c94e-4985-ad89-9f98a36eb9af
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Call to order'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>CALL TO ORDER</p><h4>+123 4567 890</h4>'
+      format: full_html
+      summary: ''

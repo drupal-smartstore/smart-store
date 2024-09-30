@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5f047164-2cbf-42e5-9d1d-cf0c583a5fef
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: d7diwv7yogoitt51pa8xy_8909006331847_1.jpg
+  uri:
+    -
+      value: 'public://2024-09/d7diwv7yogoitt51pa8xy_8909006331847_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 67949
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1727331964

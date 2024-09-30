@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9c463ef2-d99a-4375-a781-6cbaf49a85a1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: pwerwweek-730x300.png
+  uri:
+    -
+      value: 'public://2024-07/pwerwweek-730x300.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 217865
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720689136

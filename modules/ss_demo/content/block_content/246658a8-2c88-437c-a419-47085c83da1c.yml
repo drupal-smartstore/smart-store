@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 246658a8-2c88-437c-a419-47085c83da1c
+  bundle: hero_slider
+  default_langcode: en
+  depends:
+    29b3723a-3d16-48dd-a199-9c946758d8d5: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Sale Today'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<h4>Recreate your style</h4><h2>Get 50% discount off on summer wears</h2><p>Don't delay. Sale is today.</p>"
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 29b3723a-3d16-48dd-a199-9c946758d8d5
+      alt: 'test image'
+      title: ''
+      width: 1280
+      height: 580
+  field_link:
+    -
+      uri: 'internal:/'
+      title: 'Click Here'
+      options: {  }

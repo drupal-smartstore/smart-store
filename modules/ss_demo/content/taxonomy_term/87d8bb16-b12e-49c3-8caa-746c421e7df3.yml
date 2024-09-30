@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 87d8bb16-b12e-49c3-8caa-746c421e7df3
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    fb1f8701-3251-4695-8b0a-66238d7ba1fd: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Apple
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_brand_logo:
+    -
+      entity: fb1f8701-3251-4695-8b0a-66238d7ba1fd
+      alt: test
+      title: ''
+      width: 301
+      height: 167

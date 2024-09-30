@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: d3ad0ba4-e996-4261-9bd3-e897b220602e
+  bundle: clothing
+  default_langcode: en
+  depends:
+    2224f231-263d-47dc-9285-e66ec2cbbd51: commerce_product
+    a71a69af-68a1-47d0-b5b3-cd8497c69cc5: commerce_product_attribute_value
+    30e50eed-4473-4d35-8710-452fc013fb15: commerce_product_attribute_value
+    b3fa49b0-0ac7-486a-be0d-5f5159ea0271: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 2224f231-263d-47dc-9285-e66ec2cbbd51
+  sku:
+    -
+      value: Clothing_14
+  title:
+    -
+      value: 'Women Black Dungaree - Black, M'
+  price:
+    -
+      number: '1500.000000'
+      currency_code: INR
+      formatted: '₹1,500.00'
+  created:
+    -
+      value: 1720603732
+  attribute_color:
+    -
+      entity: a71a69af-68a1-47d0-b5b3-cd8497c69cc5
+  attribute_size:
+    -
+      entity: 30e50eed-4473-4d35-8710-452fc013fb15
+  field_image:
+    -
+      entity: b3fa49b0-0ac7-486a-be0d-5f5159ea0271
+      alt: 'Black M'
+      title: ''
+      width: 296
+      height: 395

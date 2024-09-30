@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 9f0c0dd9-891d-4c3a-a37e-a4b1f5476998
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: 'demo user 1'
+  mail:
+    -
+      value: demouser1@example.com
+  timezone:
+    -
+      value: Asia/Kolkata
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722410809
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_password_expiration:
+    -
+      value: true
+  field_pending_expire_sent:
+    -
+      value: 0

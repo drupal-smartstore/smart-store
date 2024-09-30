@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 0d79ac56-a63a-4d1c-92ef-c0369d966441
+  bundle: electronics
+  default_langcode: en
+  depends:
+    6e9a600b-65be-4b4e-9a42-b0abee33da55: commerce_product
+    36c3c2bd-6df2-4e5d-9c61-b80022c2e789: commerce_product_attribute_value
+    1124e7da-d45f-42cf-bbd7-0045d061b838: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 6e9a600b-65be-4b4e-9a42-b0abee33da55
+  sku:
+    -
+      value: Electronics_34
+  title:
+    -
+      value: 'Galaxy F55 5G (8GB Memory) Orange'
+  price:
+    -
+      number: '24999.000000'
+      currency_code: INR
+      formatted: '₹24,999.00'
+  created:
+    -
+      value: 1722246350
+  attribute_color:
+    -
+      entity: 36c3c2bd-6df2-4e5d-9c61-b80022c2e789
+  field_image:
+    -
+      entity: 1124e7da-d45f-42cf-bbd7-0045d061b838
+      alt: orange
+      title: ''
+      width: 330
+      height: 330

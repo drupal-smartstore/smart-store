@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 71d903ce-af92-4242-b64e-c936941688e6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 1.png
+  uri:
+    -
+      value: 'public://inline-images/1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1370
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1723623606

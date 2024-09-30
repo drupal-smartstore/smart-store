@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c8656b5d-df0b-4d47-ab9a-68e55c40843b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: '61vofasv3RL._AC_UF1000,1000_QL80__0.jpg'
+  uri:
+    -
+      value: 'public://2024-07/61vofasv3RL._AC_UF1000,1000_QL80__0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 54579
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720690425

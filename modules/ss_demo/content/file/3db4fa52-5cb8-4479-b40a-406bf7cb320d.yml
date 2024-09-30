@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3db4fa52-5cb8-4479-b40a-406bf7cb320d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 28-x-mom-fit-grey-colour-dev-f-original-imagnggwxxehafga.jpeg
+  uri:
+    -
+      value: 'public://2024-09/28-x-mom-fit-grey-colour-dev-f-original-imagnggwxxehafga.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 106385
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1727331824

@@ -1,0 +1,20 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_attribute_value
+  uuid: 36c3c2bd-6df2-4e5d-9c61-b80022c2e789
+  bundle: color
+  default_langcode: en
+default:
+  name:
+    -
+      value: Orange
+  weight:
+    -
+      value: 8
+  created:
+    -
+      value: 1722238628
+  field_color_code:
+    -
+      color: '#0C3264'
+      opacity: 0.0

@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 8b809661-6c82-4316-8279-ee64d4acdbc3
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: kritika@123
+  pass:
+    -
+      value: $2y$10$laE.Hytn8d.zxQ80IirhfeMzbOnW1upcCKra6PPs.53vd9WSGr7uy
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: kritika@tothenew.com
+  timezone:
+    -
+      value: Asia/Kolkata
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725258184
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: kritika@tothenew.com
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_last_password_reset:
+    -
+      value: '2024-09-02T06:23:04'
+  field_password_expiration:
+    -
+      value: false
+  field_pending_expire_sent:
+    -
+      value: 0

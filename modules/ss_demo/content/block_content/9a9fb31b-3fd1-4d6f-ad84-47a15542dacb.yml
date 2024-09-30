@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 9a9fb31b-3fd1-4d6f-ad84-47a15542dacb
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Brand Logo'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<a class="site-branding-logo" href="/"><img src="/sites/default/files/inline-images/TTN-logo.svg_.jpg" data-entity-uuid="d9c1cd04-dfca-4e69-b9c3-f8e5fed397a5" data-entity-type="file" width="101" height="54"></a>'
+      format: full_html
+      summary: ''

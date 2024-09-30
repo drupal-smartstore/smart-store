@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: a41c3cd3-745e-4054-9537-da1898f953da
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    fbfb5a20-8d3e-48e3-84b6-af6507dbac47: commerce_product_variation
+    a93cd962-3261-4652-8cbc-a22f542d7d08: file
+    87d8bb16-b12e-49c3-8caa-746c421e7df3: taxonomy_term
+    f926bc7c-9d20-49be-a171-233feca0b2d0: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'iPhone 15 Pro Max'
+  variations:
+    -
+      entity: fbfb5a20-8d3e-48e3-84b6-af6507dbac47
+  default_variation:
+    -
+      entity: fbfb5a20-8d3e-48e3-84b6-af6507dbac47
+  path:
+    -
+      alias: /product/iphone-15-pro-max
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720421431
+  body:
+    -
+      value: '<p><strong>iPhone 15 Pro Max</strong></p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: true
+  field_image:
+    -
+      entity: a93cd962-3261-4652-8cbc-a22f542d7d08
+      alt: 'test image'
+      title: ''
+      width: 720
+      height: 720
+  field_product_brand:
+    -
+      entity: 87d8bb16-b12e-49c3-8caa-746c421e7df3
+  field_product_categories:
+    -
+      entity: f926bc7c-9d20-49be-a171-233feca0b2d0
+  field_rating:
+    -
+      rating: 80
+      target: 0

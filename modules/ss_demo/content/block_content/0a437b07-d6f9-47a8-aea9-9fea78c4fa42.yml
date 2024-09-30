@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 0a437b07-d6f9-47a8-aea9-9fea78c4fa42
+  bundle: promotion_block
+  default_langcode: en
+  depends:
+    eb670d7f-d69f-49a2-8067-a2fadad09b7d: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Men Clothing'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>Upgrade your style with unique outfits</p>'
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: eb670d7f-d69f-49a2-8067-a2fadad09b7d
+      alt: 'Men Clothing'
+      title: ''
+      width: 1080
+      height: 680
+  field_link:
+    -
+      uri: 'internal:/products/category/men-clothing'
+      title: 'Shop Now'
+      options: {  }

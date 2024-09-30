@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 6e9a600b-65be-4b4e-9a42-b0abee33da55
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    6f62b2d3-20e7-4ef2-888e-00cd91d72fb1: commerce_product_variation
+    0d79ac56-a63a-4d1c-92ef-c0369d966441: commerce_product_variation
+    4cd99864-c8b8-418e-9ce0-0d7ebfcaa258: file
+    18746860-3445-4c78-a13f-3ae1bbe97093: taxonomy_term
+    f926bc7c-9d20-49be-a171-233feca0b2d0: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Galaxy F55 5G (8GB Memory)'
+  variations:
+    -
+      entity: 6f62b2d3-20e7-4ef2-888e-00cd91d72fb1
+    -
+      entity: 0d79ac56-a63a-4d1c-92ef-c0369d966441
+  default_variation:
+    -
+      entity: 6f62b2d3-20e7-4ef2-888e-00cd91d72fb1
+  path:
+    -
+      alias: /product/galaxy-f55-5g-8gb-memory
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720421668
+  body:
+    -
+      value: '<ul><li>8 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li><li>17.02 cm (6.7 inch) Full HD+ Display</li><li>50MP + 8MP + 2MP | 50MP Front Camera</li><li>5000 mAh Battery</li><li>7 Gen 1 Processor</li></ul>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: 4cd99864-c8b8-418e-9ce0-0d7ebfcaa258
+      alt: 'test image'
+      title: ''
+      width: 1200
+      height: 675
+  field_product_brand:
+    -
+      entity: 18746860-3445-4c78-a13f-3ae1bbe97093
+  field_product_categories:
+    -
+      entity: f926bc7c-9d20-49be-a171-233feca0b2d0
+  field_rating:
+    -
+      rating: 60
+      target: 0

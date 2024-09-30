@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1124e7da-d45f-42cf-bbd7-0045d061b838
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: in-galaxy-f55-5g-12gb-memory-sm-e556bzodins-thumb-541632018_0.webp
+  uri:
+    -
+      value: 'public://2024-07/in-galaxy-f55-5g-12gb-memory-sm-e556bzodins-thumb-541632018_0.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 37544
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722246341

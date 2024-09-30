@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 4a346415-3ca7-4d37-a789-5756ec710b0d
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Admin Dashboard'
+  menu_name:
+    -
+      value: account
+  link:
+    -
+      uri: 'internal:/admin/content'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  menu_per_role__show_role:
+    -
+      target_id: administrator
+    -
+      target_id: content_manager
+    -
+      target_id: customer_support
+    -
+      target_id: store_manager

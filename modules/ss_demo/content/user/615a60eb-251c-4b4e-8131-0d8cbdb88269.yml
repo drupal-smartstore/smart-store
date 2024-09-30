@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 615a60eb-251c-4b4e-8131-0d8cbdb88269
+  default_langcode: en
+  depends:
+    9e0da41e-a9f0-452d-943a-f62399970fb7: profile
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: pankaj.bhojwani
+  pass:
+    -
+      value: $2y$10$HXEYFRNJh52z4OQPXW.flOGP71ljEowo4AmfHhaNk.oKIt7mGg8Fe
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: pankaj.bhojwani@tothenew.com
+  timezone:
+    -
+      value: Asia/Kolkata
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1723457602
+  access:
+    -
+      value: 1727340076
+  login:
+    -
+      value: 1727331027
+  init:
+    -
+      value: pankaj.bhojwani@tothenew.com
+  customer_profiles:
+    -
+      entity: 9e0da41e-a9f0-452d-943a-f62399970fb7
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_contact_number:
+    -
+      value: '+918769172093'
+  field_password_expiration:
+    -
+      value: false

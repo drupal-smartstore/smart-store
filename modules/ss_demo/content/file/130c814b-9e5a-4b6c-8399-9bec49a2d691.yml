@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 130c814b-9e5a-4b6c-8399-9bec49a2d691
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Puma-logo.png
+  uri:
+    -
+      value: 'public://2024-07/Puma-logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 43204
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720438252

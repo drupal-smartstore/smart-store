@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b4a80aae-d4f2-4454-b2b3-7ae2c60bd74f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: branded-ankle-socks.jpg
+  uri:
+    -
+      value: 'public://2024-09/branded-ankle-socks_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 82615
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1726756908

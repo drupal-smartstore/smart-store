@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 88989cf8-cf6f-4819-8099-af63e65b41fd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 714w1U6HrmL._SX679__0.jpg
+  uri:
+    -
+      value: 'public://2024-07/714w1U6HrmL._SX679__0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 21957
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722247752

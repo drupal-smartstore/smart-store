@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d9c1cd04-dfca-4e69-b9c3-f8e5fed397a5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: TTN-logo.svg_.jpg
+  uri:
+    -
+      value: 'public://inline-images/TTN-logo.svg_.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3054
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720588269

@@ -97,6 +97,14 @@ install:
   - facets_pretty_paths
   - pathauto
   - toolbar_visibility
+  - entity_browser
+  - phone_international
+  - imagezoom
+  - imagezoom_gallery
+  - flag
+  - insert_view_adv
+  - dropzonejs
+  - dropzonejs_eb_widget
 
   # Custom
   - toolbar_always_vertical

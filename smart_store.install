@@ -8,5 +8,13 @@ function smart_store_install() {
     ->set('default', 'vitoria')
     ->set('admin', 'smart_store_admin')
     ->save();
-}
 
+  // Enable ss_demo module to import all demo content
+  $module = 'ss_demo';
+
+  // Check if the module is already enabled.
+  if (!\Drupal::moduleHandler()->moduleExists($module)) {
+    // Enable the module.
+    \Drupal::service('module_installer')->install([$module], TRUE);
+  }
+}

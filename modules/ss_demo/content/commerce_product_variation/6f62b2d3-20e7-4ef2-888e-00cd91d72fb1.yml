@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 6f62b2d3-20e7-4ef2-888e-00cd91d72fb1
+  bundle: electronics
+  default_langcode: en
+  depends:
+    6e9a600b-65be-4b4e-9a42-b0abee33da55: commerce_product
+    a71a69af-68a1-47d0-b5b3-cd8497c69cc5: commerce_product_attribute_value
+    f11db977-46c5-49c8-8af3-6d292ce91882: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 6e9a600b-65be-4b4e-9a42-b0abee33da55
+  sku:
+    -
+      value: Electronics_3
+  title:
+    -
+      value: 'Galaxy F55 5G (8GB Memory) Black'
+  price:
+    -
+      number: '24999.000000'
+      currency_code: INR
+      formatted: '₹24,999.00'
+  created:
+    -
+      value: 1720603013
+  attribute_color:
+    -
+      entity: a71a69af-68a1-47d0-b5b3-cd8497c69cc5
+  field_image:
+    -
+      entity: f11db977-46c5-49c8-8af3-6d292ce91882
+      alt: black
+      title: ''
+      width: 792
+      height: 1000

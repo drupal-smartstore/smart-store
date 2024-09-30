@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 3d6ea88a-70fc-4d38-8af9-eabc25199559
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    4b740538-925c-4ce7-846c-c4433156a484: commerce_product_variation
+    779ce680-703c-4fe9-8b6e-7fe7faaab482: commerce_product_variation
+    bef273e5-f939-4893-b1ad-21e1677a1f85: file
+    840445b1-3774-4cc1-9b0e-69005016ff11: taxonomy_term
+    f926bc7c-9d20-49be-a171-233feca0b2d0: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Nokia 105 SS'
+  variations:
+    -
+      entity: 4b740538-925c-4ce7-846c-c4433156a484
+    -
+      entity: 779ce680-703c-4fe9-8b6e-7fe7faaab482
+  default_variation:
+    -
+      entity: 4b740538-925c-4ce7-846c-c4433156a484
+  path:
+    -
+      alias: /product/nokia-105-ss
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720421205
+  body:
+    -
+      value: '<p>Nokia 105 SS</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: true
+  field_image:
+    -
+      entity: bef273e5-f939-4893-b1ad-21e1677a1f85
+      alt: test
+      title: ''
+      width: 600
+      height: 600
+  field_product_brand:
+    -
+      entity: 840445b1-3774-4cc1-9b0e-69005016ff11
+  field_product_categories:
+    -
+      entity: f926bc7c-9d20-49be-a171-233feca0b2d0

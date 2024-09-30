@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 549db79a-0080-46ec-b997-0948415ec20d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: no-search-results.png
+  uri:
+    -
+      value: 'public://inline-images/no-search-results.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 3640
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724416570

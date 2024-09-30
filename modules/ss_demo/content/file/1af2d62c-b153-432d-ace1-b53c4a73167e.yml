@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1af2d62c-b153-432d-ace1-b53c4a73167e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: the-wildcraft-logo-221AFC99F7-seeklogo.com_.png
+  uri:
+    -
+      value: 'public://2024-07/the-wildcraft-logo-221AFC99F7-seeklogo.com_.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 7201
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720438010

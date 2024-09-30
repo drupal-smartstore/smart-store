@@ -1,0 +1,20 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_attribute_value
+  uuid: 74f02caf-f1f5-432f-a723-23c935f167c8
+  bundle: color
+  default_langcode: en
+default:
+  name:
+    -
+      value: Blue
+  weight:
+    -
+      value: 2
+  created:
+    -
+      value: 1719473193
+  field_color_code:
+    -
+      color: '#21409C'
+      opacity: 0.0

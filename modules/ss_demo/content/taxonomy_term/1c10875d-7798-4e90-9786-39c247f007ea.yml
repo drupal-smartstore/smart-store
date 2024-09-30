@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 1c10875d-7798-4e90-9786-39c247f007ea
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    83cb25eb-97ee-452a-ac73-8a330a012f09: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Shirts
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 83cb25eb-97ee-452a-ac73-8a330a012f09
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

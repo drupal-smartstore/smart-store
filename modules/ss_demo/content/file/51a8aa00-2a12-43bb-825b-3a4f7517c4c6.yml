@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 51a8aa00-2a12-43bb-825b-3a4f7517c4c6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 30-6000-trendylooks-original-imagsrq8dkdnysq6.jpeg
+  uri:
+    -
+      value: 'public://2024-09/30-6000-trendylooks-original-imagsrq8dkdnysq6.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 110002
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1726586798

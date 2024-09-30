@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 018781b4-a201-495f-9d5b-803af2aad237
+  bundle: clothing
+  default_langcode: en
+  depends:
+    3347afb8-00d8-493e-97d5-7e9acb490a3c: commerce_product
+    a71a69af-68a1-47d0-b5b3-cd8497c69cc5: commerce_product_attribute_value
+    2f13e81c-6c60-415a-8040-6a614a5570ab: commerce_product_attribute_value
+    1a73e897-d4d6-4a9c-b83d-d30aba68a927: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 3347afb8-00d8-493e-97d5-7e9acb490a3c
+  sku:
+    -
+      value: Clothing_25
+  title:
+    -
+      value: 'Skinny Women Grey Jeans - Black, S'
+  price:
+    -
+      number: '800.000000'
+      currency_code: INR
+      formatted: ₹800.00
+  created:
+    -
+      value: 1720689715
+  attribute_color:
+    -
+      entity: a71a69af-68a1-47d0-b5b3-cd8497c69cc5
+  attribute_size:
+    -
+      entity: 2f13e81c-6c60-415a-8040-6a614a5570ab
+  field_image:
+    -
+      entity: 1a73e897-d4d6-4a9c-b83d-d30aba68a927
+      alt: test
+      title: ''
+      width: 750
+      height: 1000

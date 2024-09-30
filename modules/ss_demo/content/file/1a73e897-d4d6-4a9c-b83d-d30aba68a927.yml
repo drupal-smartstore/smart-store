@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1a73e897-d4d6-4a9c-b83d-d30aba68a927
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 32-ladiesjeans-1-perfect-outlet-original-imafpy4syp6hez6p.webp
+  uri:
+    -
+      value: 'public://2024-07/32-ladiesjeans-1-perfect-outlet-original-imafpy4syp6hez6p.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 21812
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722258853

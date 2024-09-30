@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: def8190f-e64e-4f6e-9b17-d022b2ee6816
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'About Us'
+  created:
+    -
+      value: 1726754870
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /about-us
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Welcome to Smart Store, where convenience meets quality. We are an online destination dedicated to offering a carefully curated selection of products that cater to your everyday needs. Whether you're shopping for the latest tech gadgets, stylish fashion, home essentials, or unique gifts, we have something for everyone.</p><p>At Smart Store, we believe that shopping should be seamless and enjoyable. That's why we focus on providing a user-friendly experience with a wide range of high-quality products at competitive prices. Our mission is to make online shopping more accessible and rewarding, offering fast shipping, secure transactions, and top-notch customer service.</p><p>We work with trusted suppliers and constantly update our collections to bring you the latest trends and innovations. Your satisfaction is our top priority, and we strive to exceed your expectations in every purchase.</p><p>Thank you for choosing Smart Store. We're excited to serve you and be part of your shopping journey!</p>"
+      format: full_html
+      summary: ''

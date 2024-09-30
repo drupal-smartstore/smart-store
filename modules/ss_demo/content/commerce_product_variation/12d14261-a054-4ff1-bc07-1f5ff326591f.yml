@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 12d14261-a054-4ff1-bc07-1f5ff326591f
+  bundle: electronics
+  default_langcode: en
+  depends:
+    2c96e169-2ff0-4ea1-ae06-f2388678ee7a: commerce_product
+    55e7ecf5-7eb0-4c5a-8616-5ff0807a7520: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  product_id:
+    -
+      entity: 2c96e169-2ff0-4ea1-ae06-f2388678ee7a
+  sku:
+    -
+      value: Electronics_13
+  title:
+    -
+      value: 'Dell 14 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Linux) inspiron 3481 Laptop'
+  price:
+    -
+      number: '25200.000000'
+      currency_code: INR
+      formatted: '₹25,200.00'
+  created:
+    -
+      value: 1720603427
+  attribute_color:
+    -
+      entity: 55e7ecf5-7eb0-4c5a-8616-5ff0807a7520

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 5593b2a9-938a-433f-b9f7-58ffb9c6dec8
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'No Search Results'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<style>\r\n.no-search-results {\r\n    background: #fff;\r\n    padding: 50px;\r\n    text-align: center;\r\n}\r\n.no-search-results .inner-text1 {\r\n    font-size: 26px;\r\n    font-weight: bold;\r\n    margin: 20px 0 10px;\r\n}\r\n.no-search-results .inner-text2 {\r\n    color: #878787;\r\n    font-size: 20px;\r\n    margin-bottom: 8px;\r\n}\r\n</style><div class=\"no-search-results\"><img src=\"/sites/default/files/inline-images/no-search-results.png\" data-entity-uuid=\"549db79a-0080-46ec-b997-0948415ec20d\" data-entity-type=\"file\" width=\"286\" height=\"184\"><div class=\"inner-text1\">Sorry, no results found!</div><div class=\"inner-text2\">Please check the spelling or try searching for something else</div></div>"
+      format: full_html
+      summary: ''

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0979953d-4d8b-4b27-885c-c2e7ecacc5cd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Louis_Philippe_Logo_Latest.jpg
+  uri:
+    -
+      value: 'public://2024-07/Louis_Philippe_Logo_Latest.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 12743
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720437823

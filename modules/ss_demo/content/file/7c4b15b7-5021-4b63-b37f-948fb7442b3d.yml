@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7c4b15b7-5021-4b63-b37f-948fb7442b3d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: aut-pm910-puma-m-original-imaejhavbdgwb2kg.webp
+  uri:
+    -
+      value: 'public://2024-07/aut-pm910-puma-m-original-imaejhavbdgwb2kg.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 3384
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720178068

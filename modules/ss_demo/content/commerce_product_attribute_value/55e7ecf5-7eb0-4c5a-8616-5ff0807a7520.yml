@@ -1,0 +1,20 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_attribute_value
+  uuid: 55e7ecf5-7eb0-4c5a-8616-5ff0807a7520
+  bundle: color
+  default_langcode: en
+default:
+  name:
+    -
+      value: Navy
+  weight:
+    -
+      value: 5
+  created:
+    -
+      value: 1719473193
+  field_color_code:
+    -
+      color: '#19308A'
+      opacity: 0.0

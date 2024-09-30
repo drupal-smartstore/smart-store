@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 280b2a4f-b4f1-4e10-bc60-9b4f4ec7b8be
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: apple-macbook-pro-13-retina-touch-bar-i5-2-3ghz-4-core-8gb-512gb-silver-sk-galeria-2-jpg-big_ies2572484.jpg
+  uri:
+    -
+      value: 'public://2024-08/apple-macbook-pro-13-retina-touch-bar-i5-2-3ghz-4-core-8gb-512gb-silver-sk-galeria-2-jpg-big_ies2572484.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 21279
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722497844

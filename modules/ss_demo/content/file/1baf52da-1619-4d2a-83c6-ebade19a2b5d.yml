@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1baf52da-1619-4d2a-83c6-ebade19a2b5d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: home-appliances-min.webp
+  uri:
+    -
+      value: 'public://2024-08/home-appliances-min.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 33068
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722497975

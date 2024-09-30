@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 70686268-0c65-41f6-86d8-55c6ca2a36a5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 61ZjlBOp+rL.jpg
+  uri:
+    -
+      value: 'public://2024-08/61ZjlBOp+rL.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 70522
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724828879

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a2850d2f-07b7-45b4-8f4f-b1e944363c84
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    080b6ef5-86bf-445b-94c2-f4f926cfd25e: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'OLED TVs'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 080b6ef5-86bf-445b-94c2-f4f926cfd25e
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

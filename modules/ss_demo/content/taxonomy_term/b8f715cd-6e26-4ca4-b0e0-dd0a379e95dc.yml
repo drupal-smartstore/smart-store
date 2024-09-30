@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b8f715cd-6e26-4ca4-b0e0-dd0a379e95dc
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    8023c820-ee65-4907-a492-13386e036b01: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Dell
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_brand_logo:
+    -
+      entity: 8023c820-ee65-4907-a492-13386e036b01
+      alt: Dell
+      title: ''
+      width: 1200
+      height: 364

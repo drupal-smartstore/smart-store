@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4fab5b51-4fc0-47af-811e-2bcb25b0d0e3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: "Levi's_logo.svg_.png"
+  uri:
+    -
+      value: "public://2024-07/Levi's_logo.svg_.png"
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 90757
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720437753

@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 76d0aea6-cdd0-4f35-8022-4f96fa3d55a0
+  bundle: clothing
+  default_langcode: en
+  depends:
+    3347afb8-00d8-493e-97d5-7e9acb490a3c: commerce_product
+    62789cbe-659e-4dc1-b6cf-51502162788f: commerce_product_attribute_value
+    2f13e81c-6c60-415a-8040-6a614a5570ab: commerce_product_attribute_value
+    a3d9bdc9-6ebc-4988-9cbd-35702b1dbd7c: file
+    51a8aa00-2a12-43bb-825b-3a4f7517c4c6: file
+    9fafffa0-059f-4132-bcf3-e2efe411872f: file
+    3db4fa52-5cb8-4479-b40a-406bf7cb320d: file
+    d9dbbf8e-8d13-4c97-88c1-0d1fcb826dd8: file
+    2125d181-d5d7-4848-9019-2f20552ee3d4: file
+    145d3b05-4480-4964-a044-2c11cef7df07: file
+    5f047164-2cbf-42e5-9d1d-cf0c583a5fef: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 3347afb8-00d8-493e-97d5-7e9acb490a3c
+  sku:
+    -
+      value: Clothing_15
+  title:
+    -
+      value: 'Skinny Women Grey Jeans - Gray, S'
+  price:
+    -
+      number: '1800.000000'
+      currency_code: INR
+      formatted: '₹1,800.00'
+  created:
+    -
+      value: 1720603754
+  attribute_color:
+    -
+      entity: 62789cbe-659e-4dc1-b6cf-51502162788f
+  attribute_size:
+    -
+      entity: 2f13e81c-6c60-415a-8040-6a614a5570ab
+  field_image:
+    -
+      entity: a3d9bdc9-6ebc-4988-9cbd-35702b1dbd7c
+      alt: Jeans
+      title: ''
+      width: 1000
+      height: 1000
+    -
+      entity: 51a8aa00-2a12-43bb-825b-3a4f7517c4c6
+      alt: Jeans
+      title: ''
+      width: 666
+      height: 1000
+    -
+      entity: 9fafffa0-059f-4132-bcf3-e2efe411872f
+      alt: Jeans
+      title: ''
+      width: 750
+      height: 1000
+    -
+      entity: 3db4fa52-5cb8-4479-b40a-406bf7cb320d
+      alt: Jeans
+      title: ''
+      width: 750
+      height: 1000
+    -
+      entity: d9dbbf8e-8d13-4c97-88c1-0d1fcb826dd8
+      alt: Jeans
+      title: ''
+      width: 469
+      height: 1100
+    -
+      entity: 2125d181-d5d7-4848-9019-2f20552ee3d4
+      alt: Jeans
+      title: ''
+      width: 1080
+      height: 1440
+    -
+      entity: 145d3b05-4480-4964-a044-2c11cef7df07
+      alt: Jeans
+      title: ''
+      width: 500
+      height: 500
+    -
+      entity: 5f047164-2cbf-42e5-9d1d-cf0c583a5fef
+      alt: Jeans
+      title: ''
+      width: 675
+      height: 900

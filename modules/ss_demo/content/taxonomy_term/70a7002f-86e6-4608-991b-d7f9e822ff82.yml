@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 70a7002f-86e6-4608-991b-d7f9e822ff82
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    0b49ebdb-8a34-43fc-b6d5-ad6d555f8795: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Realme
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_brand_logo:
+    -
+      entity: 0b49ebdb-8a34-43fc-b6d5-ad6d555f8795
+      alt: realme
+      title: ''
+      width: 2560
+      height: 800

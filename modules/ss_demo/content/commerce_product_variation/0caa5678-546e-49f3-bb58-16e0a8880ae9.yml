@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 0caa5678-546e-49f3-bb58-16e0a8880ae9
+  bundle: clothing
+  default_langcode: en
+  depends:
+    2855faee-ee56-4602-8fcd-23dd9e3f50db: commerce_product
+    42ecc076-e4dd-4df3-9e83-014a6d569d1a: commerce_product_attribute_value
+    4c35cb58-fc30-4675-b837-6fd2f7b2edab: commerce_product_attribute_value
+    a4bdb70c-2f5a-43d1-a5a0-253d68dfb172: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 2855faee-ee56-4602-8fcd-23dd9e3f50db
+  sku:
+    -
+      value: Clothing_40
+  title:
+    -
+      value: 'Plaid Flannel Shirt  - Red, XL'
+  price:
+    -
+      number: '500.000000'
+      currency_code: INR
+      formatted: ₹500.00
+  created:
+    -
+      value: 1726830578
+  attribute_color:
+    -
+      entity: 42ecc076-e4dd-4df3-9e83-014a6d569d1a
+  attribute_size:
+    -
+      entity: 4c35cb58-fc30-4675-b837-6fd2f7b2edab
+  field_image:
+    -
+      entity: a4bdb70c-2f5a-43d1-a5a0-253d68dfb172
+      alt: shirt
+      title: ''
+      width: 1500
+      height: 1500

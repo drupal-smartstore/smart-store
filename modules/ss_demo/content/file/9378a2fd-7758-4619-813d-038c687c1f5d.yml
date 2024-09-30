@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9378a2fd-7758-4619-813d-038c687c1f5d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 9bb64efd-0a8b-4e2d-b69f-83c84e35533c1715072294823-Wildcraft-Men-Track-Pants-6201715072294184-1.jpg
+  uri:
+    -
+      value: 'public://2024-07/9bb64efd-0a8b-4e2d-b69f-83c84e35533c1715072294823-Wildcraft-Men-Track-Pants-6201715072294184-1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 33165
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720690899

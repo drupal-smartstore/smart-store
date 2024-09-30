@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9fafffa0-059f-4132-bcf3-e2efe411872f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 32-straight-grey-jeans-dstn-fashion-original-imagk98dabgfz8r8.jpeg
+  uri:
+    -
+      value: 'public://2024-09/32-straight-grey-jeans-dstn-fashion-original-imagk98dabgfz8r8.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 111614
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1727331783

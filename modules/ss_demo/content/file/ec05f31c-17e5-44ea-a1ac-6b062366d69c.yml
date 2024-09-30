@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ec05f31c-17e5-44ea-a1ac-6b062366d69c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: moto-e13-m-logo-printed-back-skin-yes-fcs-original-imagmkymmffgytwh.webp
+  uri:
+    -
+      value: 'public://2024-08/moto-e13-m-logo-printed-back-skin-yes-fcs-original-imagmkymmffgytwh.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 124244
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722498875

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: a58399aa-9c09-410e-9705-626bde9c4685
+  bundle: electronics
+  default_langcode: en
+  depends:
+    96d3ea1f-5a77-458e-acf7-52805cfbb99a: commerce_product
+    a71a69af-68a1-47d0-b5b3-cd8497c69cc5: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  product_id:
+    -
+      entity: 96d3ea1f-5a77-458e-acf7-52805cfbb99a
+  sku:
+    -
+      value: Electronics_12
+  title:
+    -
+      value: 'Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Thin and Light Lapto...'
+  price:
+    -
+      number: '27190.000000'
+      currency_code: INR
+      formatted: '₹27,190.00'
+  created:
+    -
+      value: 1720603396
+  attribute_color:
+    -
+      entity: a71a69af-68a1-47d0-b5b3-cd8497c69cc5

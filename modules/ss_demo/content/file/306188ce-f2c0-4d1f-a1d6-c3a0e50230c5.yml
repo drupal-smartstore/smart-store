@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 306188ce-f2c0-4d1f-a1d6-c3a0e50230c5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: h1_banner1_3.webp
+  uri:
+    -
+      value: 'public://2024-08/h1_banner1_3.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 29212
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722505917

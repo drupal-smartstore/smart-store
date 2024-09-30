@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 830f39e1-2104-4b90-9a76-c3f6ff65c460
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: shopping.webp
+  uri:
+    -
+      value: 'public://2024-07/shopping.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 13226
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720421323

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 27474fac-0a85-43df-8514-6bbbec9e50ee
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    080b6ef5-86bf-445b-94c2-f4f926cfd25e: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'LED TVs'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 080b6ef5-86bf-445b-94c2-f4f926cfd25e
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

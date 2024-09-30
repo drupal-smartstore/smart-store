@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e8611526-e6eb-40f5-a14e-ae3a5d85e0e8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Lenovo_Corporate_Logo.png
+  uri:
+    -
+      value: 'public://2024-07/Lenovo_Corporate_Logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 59931
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720437723

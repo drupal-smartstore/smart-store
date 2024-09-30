@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 36c653e8-25f5-4a31-b76d-169be73be44d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 1_ed08f39e-abff-42b5-a819-b271c9ae3518.webp
+  uri:
+    -
+      value: 'public://2024-07/1_ed08f39e-abff-42b5-a819-b271c9ae3518.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 325114
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722262449

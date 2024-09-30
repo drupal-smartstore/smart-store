@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a174c122-3aba-4afc-a057-0c2a4f407349
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 28-fwjnfl32-flying-machine-original-imafhpjfa2bs45hw.webp
+  uri:
+    -
+      value: 'public://2024-07/28-fwjnfl32-flying-machine-original-imafhpjfa2bs45hw.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 3118
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720178400

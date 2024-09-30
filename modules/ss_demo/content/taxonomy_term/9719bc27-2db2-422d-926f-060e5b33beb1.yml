@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9719bc27-2db2-422d-926f-060e5b33beb1
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    4fab5b51-4fc0-47af-811e-2bcb25b0d0e3: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Levis
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_brand_logo:
+    -
+      entity: 4fab5b51-4fc0-47af-811e-2bcb25b0d0e3
+      alt: Levis
+      title: ''
+      width: 2560
+      height: 1064

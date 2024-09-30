@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5b4130c0-9ac2-483f-9518-6f1b2cc5e41c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 71YohDTuONL._AC_UY1100_.jpg
+  uri:
+    -
+      value: 'public://2024-07/71YohDTuONL._AC_UY1100_.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 67355
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722248815

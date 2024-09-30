@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f11db977-46c5-49c8-8af3-6d292ce91882
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: '-original-imahfmaxbzqxgzsh_0.webp'
+  uri:
+    -
+      value: 'public://2024-07/-original-imahfmaxbzqxgzsh_0.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 207572
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722238713

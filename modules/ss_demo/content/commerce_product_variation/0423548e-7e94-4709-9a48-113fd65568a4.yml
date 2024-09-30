@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 0423548e-7e94-4709-9a48-113fd65568a4
+  bundle: electronics
+  default_langcode: en
+  depends:
+    ff281991-7e85-47ec-a6e2-babf29f2f6ad: commerce_product
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: ff281991-7e85-47ec-a6e2-babf29f2f6ad
+  sku:
+    -
+      value: Electronics_11
+  title:
+    -
+      value: 'Lenovo Ideapad 130 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) 130-15IKB Laptop'
+  price:
+    -
+      number: '24800.000000'
+      currency_code: INR
+      formatted: '₹24,800.00'
+  created:
+    -
+      value: 1720603288

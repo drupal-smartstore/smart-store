@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: ab66440b-324b-4ebb-a473-80db5b830c19
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    aed24d77-516f-4c80-9cf4-eaf05f2d7c14: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Camera & Photo'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -46
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:aed24d77-516f-4c80-9cf4-eaf05f2d7c14'
+  revision_translation_affected:
+    -
+      value: true

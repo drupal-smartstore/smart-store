@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: e666bdcb-854a-4574-91ef-14ed7b66bd1b
+  bundle: clothing
+  default_langcode: en
+  depends:
+    47c11886-5ca9-4bfc-8ae8-7853b69e41ab: commerce_product
+    a71a69af-68a1-47d0-b5b3-cd8497c69cc5: commerce_product_attribute_value
+    064db462-17b9-45d4-bf14-c33f83963195: commerce_product_attribute_value
+    048a3a54-dbe3-4953-8785-e6229dcb700d: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 47c11886-5ca9-4bfc-8ae8-7853b69e41ab
+  sku:
+    -
+      value: Clothing_35
+  title:
+    -
+      value: 'Printed Women Round Neck White T-Shirt - Black, L'
+  price:
+    -
+      number: '800.000000'
+      currency_code: INR
+      formatted: ₹800.00
+  created:
+    -
+      value: 1724843698
+  attribute_color:
+    -
+      entity: a71a69af-68a1-47d0-b5b3-cd8497c69cc5
+  attribute_size:
+    -
+      entity: 064db462-17b9-45d4-bf14-c33f83963195
+  field_image:
+    -
+      entity: 048a3a54-dbe3-4953-8785-e6229dcb700d
+      alt: Test
+      title: ''
+      width: 280
+      height: 420

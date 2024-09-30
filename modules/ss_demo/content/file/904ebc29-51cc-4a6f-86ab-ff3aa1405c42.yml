@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 904ebc29-51cc-4a6f-86ab-ff3aa1405c42
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: apple-macbook-air-mvfh-2hna-gold-5.jpg.webp
+  uri:
+    -
+      value: 'public://2024-07/apple-macbook-air-mvfh-2hna-gold-5.jpg.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 19692
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720421054

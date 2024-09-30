@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: e85b8cc7-c03d-401f-bdcf-06a9e80e926c
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Payment Method'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<img data-entity-uuid="5c811a20-3274-4c85-9296-da3f63401959" data-entity-type="file" src="/sites/default/files/inline-images/payment-method.png" width="356" height="33">'
+      format: full_html
+      summary: ''

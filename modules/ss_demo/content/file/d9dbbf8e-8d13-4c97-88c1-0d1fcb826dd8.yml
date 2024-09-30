@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d9dbbf8e-8d13-4c97-88c1-0d1fcb826dd8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 31toYJvIZ1L._AC_UY1100_.jpg
+  uri:
+    -
+      value: 'public://2024-09/31toYJvIZ1L._AC_UY1100_.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 35603
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1727331861

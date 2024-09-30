@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: a52b4beb-bbe3-4d75-a219-d6af0a471cdf
+  bundle: electronics
+  default_langcode: en
+  depends:
+    a1747e63-7305-41f8-8478-de6dc9734572: commerce_product
+    74f02caf-f1f5-432f-a723-23c935f167c8: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: a1747e63-7305-41f8-8478-de6dc9734572
+  sku:
+    -
+      value: Electronics_21
+  title:
+    -
+      value: 'Dell 14 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Windows 10 Home) inspiron3481 Laptop - Blue'
+  price:
+    -
+      number: '22000.000000'
+      currency_code: INR
+      formatted: '₹22,000.00'
+  created:
+    -
+      value: 1720612736
+  attribute_color:
+    -
+      entity: 74f02caf-f1f5-432f-a723-23c935f167c8

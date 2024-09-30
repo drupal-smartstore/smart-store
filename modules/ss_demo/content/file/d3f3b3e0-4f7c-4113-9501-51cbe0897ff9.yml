@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d3f3b3e0-4f7c-4113-9501-51cbe0897ff9
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: vIpIbVHgrH3FcehYy8Tudv9QJHCW8UMpwrlLSbSI.jpg
+  uri:
+    -
+      value: 'public://2024-07/vIpIbVHgrH3FcehYy8Tudv9QJHCW8UMpwrlLSbSI.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 39664
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722261007

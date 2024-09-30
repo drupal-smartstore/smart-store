@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cddec699-6118-4365-920f-d28e920099a8
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    d80d6fd0-f38d-4c96-a227-1a6ba9d8a05c: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Microwaves
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: d80d6fd0-f38d-4c96-a227-1a6ba9d8a05c
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

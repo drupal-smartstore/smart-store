@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: a632e34d-7e87-4837-85b9-c6753c6bf5e3
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    71679196-2160-44b2-b547-dd999129a631: commerce_product_variation
+    1885d4a2-ddfb-43ff-8daa-da1f1d55565a: commerce_product_variation
+    27c3fe21-0ca6-4318-8f9d-89300627ee9e: file
+    18746860-3445-4c78-a13f-3ae1bbe97093: taxonomy_term
+    f926bc7c-9d20-49be-a171-233feca0b2d0: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)'
+  variations:
+    -
+      entity: 71679196-2160-44b2-b547-dd999129a631
+    -
+      entity: 1885d4a2-ddfb-43ff-8daa-da1f1d55565a
+  default_variation:
+    -
+      entity: 71679196-2160-44b2-b547-dd999129a631
+  path:
+    -
+      alias: /product/samsung-galaxy-s24-ultra-5g-ai-smartphone-titanium-gray-12gb-512gb-storage
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720421559
+  body:
+    -
+      value: '<p>Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: true
+  field_image:
+    -
+      entity: 27c3fe21-0ca6-4318-8f9d-89300627ee9e
+      alt: 'test image'
+      title: ''
+      width: 569
+      height: 569
+  field_product_brand:
+    -
+      entity: 18746860-3445-4c78-a13f-3ae1bbe97093
+  field_product_categories:
+    -
+      entity: f926bc7c-9d20-49be-a171-233feca0b2d0
+  field_rating:
+    -
+      rating: 60
+      target: 0

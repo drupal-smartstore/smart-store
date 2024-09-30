@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 2c96e169-2ff0-4ea1-ae06-f2388678ee7a
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    12d14261-a054-4ff1-bc07-1f5ff326591f: commerce_product_variation
+    635d615d-0eb8-4262-ba8d-ec561396e64c: file
+    b8f715cd-6e26-4ca4-b0e0-dd0a379e95dc: taxonomy_term
+    4b93feae-fbbc-4be3-b264-a6c135babac9: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Dell 14 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Linux) inspiron 3481 Laptop'
+  variations:
+    -
+      entity: 12d14261-a054-4ff1-bc07-1f5ff326591f
+  path:
+    -
+      alias: /product/dell-14-3000-core-i3-7th-gen-4-gb1-tb-hddlinux-inspiron-3481-laptop
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720181906
+  body:
+    -
+      value: '<p>Dell 14 3000 Core i3 7th Gen - (4 GB/1 TB HDD/Linux) inspiron 3481 Laptop</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: true
+  field_image:
+    -
+      entity: 635d615d-0eb8-4262-ba8d-ec561396e64c
+      alt: 'test image'
+      title: ''
+      width: 300
+      height: 300
+  field_product_brand:
+    -
+      entity: b8f715cd-6e26-4ca4-b0e0-dd0a379e95dc
+  field_product_categories:
+    -
+      entity: 4b93feae-fbbc-4be3-b264-a6c135babac9
+  field_rating:
+    -
+      rating: 100
+      target: 0

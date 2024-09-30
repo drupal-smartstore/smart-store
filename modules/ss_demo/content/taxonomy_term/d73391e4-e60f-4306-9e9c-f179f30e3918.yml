@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: d73391e4-e60f-4306-9e9c-f179f30e3918
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    d13490de-05f5-4bc5-90dc-b932136478db: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Men Clothing'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_categories_logo:
+    -
+      entity: d13490de-05f5-4bc5-90dc-b932136478db
+      alt: test
+      title: ''
+      width: 600
+      height: 923
+  field_popular:
+    -
+      value: true

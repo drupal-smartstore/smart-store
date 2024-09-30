@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d13490de-05f5-4bc5-90dc-b932136478db
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 2850256_15060_01_MODEL.webp
+  uri:
+    -
+      value: 'public://2024-08/2850256_15060_01_MODEL.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 26816
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722498607

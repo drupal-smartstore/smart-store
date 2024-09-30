@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 06bc26f7-e914-4728-b123-498278ea068c
+  bundle: clothing
+  default_langcode: en
+  depends:
+    2224f231-263d-47dc-9285-e66ec2cbbd51: commerce_product
+    74f02caf-f1f5-432f-a723-23c935f167c8: commerce_product_attribute_value
+    30e50eed-4473-4d35-8710-452fc013fb15: commerce_product_attribute_value
+    211a033f-7c54-4dcf-9f27-0c3237fb571b: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 2224f231-263d-47dc-9285-e66ec2cbbd51
+  sku:
+    -
+      value: Clothing_24
+  title:
+    -
+      value: 'Women Black Dungaree - Blue, M'
+  price:
+    -
+      number: '1500.000000'
+      currency_code: INR
+      formatted: '₹1,500.00'
+  created:
+    -
+      value: 1720613841
+  attribute_color:
+    -
+      entity: 74f02caf-f1f5-432f-a723-23c935f167c8
+  attribute_size:
+    -
+      entity: 30e50eed-4473-4d35-8710-452fc013fb15
+  field_image:
+    -
+      entity: 211a033f-7c54-4dcf-9f27-0c3237fb571b
+      alt: 'Blue M'
+      title: ''
+      width: 413
+      height: 1100

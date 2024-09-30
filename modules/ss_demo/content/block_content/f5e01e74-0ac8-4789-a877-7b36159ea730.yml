@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: f5e01e74-0ac8-4789-a877-7b36159ea730
+  bundle: promotion_block
+  default_langcode: en
+  depends:
+    306188ce-f2c0-4d1f-a1d6-c3a0e50230c5: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Electronic Accessories'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>Distinct sound with ultra filtering and clarity</p>'
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 306188ce-f2c0-4d1f-a1d6-c3a0e50230c5
+      alt: 'Electronic Accessories'
+      title: ''
+      width: 1080
+      height: 680
+  field_link:
+    -
+      uri: 'internal:/products/category/computers'
+      title: 'Shop Now'
+      options: {  }

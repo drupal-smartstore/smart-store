@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9e01e7a9-8f1f-48ae-84e2-a42701f0ee45
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: apple-na-thin-and-light-laptop-original-imafgwevstseefc9_0.webp
+  uri:
+    -
+      value: 'public://2024-07/apple-na-thin-and-light-laptop-original-imafgwevstseefc9_0.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 6352
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720690581

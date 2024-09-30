@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 51e5915b-ab7d-4012-acdb-17443dd3d37a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: '40-lrsfcslf143317-louis-philippe-jeans-original-imafm7gjzjaahtxc (1).webp'
+  uri:
+    -
+      value: 'public://2024-07/40-lrsfcslf143317-louis-philippe-jeans-original-imafm7gjzjaahtxc (1).webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 4372
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720613419

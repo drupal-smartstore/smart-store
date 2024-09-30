@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: e3951305-a592-4ae4-bd55-70f7bd7638d0
+  bundle: electronics
+  default_langcode: en
+  depends:
+    761cbbb4-3362-4f8d-ae09-aca549a13099: commerce_product
+    62789cbe-659e-4dc1-b6cf-51502162788f: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: 761cbbb4-3362-4f8d-ae09-aca549a13099
+  sku:
+    -
+      value: Electronics_26
+  title:
+    -
+      value: 'Apple MacBook Air Core i5 8th Gen - (8 GB/256 GB SSD/Mac OS Mojave) MVFN2HN/A - Gray'
+  price:
+    -
+      number: '39999.000000'
+      currency_code: INR
+      formatted: '₹39,999.00'
+  created:
+    -
+      value: 1720689794
+  attribute_color:
+    -
+      entity: 62789cbe-659e-4dc1-b6cf-51502162788f

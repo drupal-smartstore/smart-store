@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3d27d8db-77a1-4bf1-a978-67005b3c3524
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: watch.jpg
+  uri:
+    -
+      value: 'public://2024-09/watch.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 70522
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725442377

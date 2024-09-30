@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 278d5a6e-d19e-471d-9325-68589250e56d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Screenshot 2024-07-15 at 2.16.47 PM.png'
+  uri:
+    -
+      value: 'public://pictures/2024-08/Screenshot 2024-07-15 at 2.16.47 PM.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 209423
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724748555

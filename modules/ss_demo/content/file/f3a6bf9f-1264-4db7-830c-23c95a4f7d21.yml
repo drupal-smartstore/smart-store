@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f3a6bf9f-1264-4db7-830c-23c95a4f7d21
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: h2_slide_2.webp
+  uri:
+    -
+      value: 'public://2024-08/h2_slide_2.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 28830
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722506445

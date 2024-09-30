@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 406d1db0-96fb-4be3-b099-8b9268b085ef
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x-a6d9996e39824ffd99060b4183a1edf5.jpg
+  uri:
+    -
+      value: 'public://2024-07/Apple-iPhone-15-lineup-color-lineup-230912_big.jpg.large_2x-a6d9996e39824ffd99060b4183a1edf5.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 91018
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720421515

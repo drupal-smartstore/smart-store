@@ -1,0 +1,20 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_attribute_value
+  uuid: 62789cbe-659e-4dc1-b6cf-51502162788f
+  bundle: color
+  default_langcode: en
+default:
+  name:
+    -
+      value: Gray
+  weight:
+    -
+      value: 4
+  created:
+    -
+      value: 1719473193
+  field_color_code:
+    -
+      color: '#8A95A8'
+      opacity: 0.0

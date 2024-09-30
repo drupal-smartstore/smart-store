@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9a2649fc-2328-479c-805d-dab6b0f07349
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    4b93feae-fbbc-4be3-b264-a6c135babac9: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Accessories (laptop bags, cooling pads)'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 4b93feae-fbbc-4be3-b264-a6c135babac9
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

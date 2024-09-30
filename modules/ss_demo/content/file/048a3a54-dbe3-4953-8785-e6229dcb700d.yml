@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 048a3a54-dbe3-4953-8785-e6229dcb700d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'gzz12818_grey_xl (1).jpg'
+  uri:
+    -
+      value: 'public://2024-09/gzz12818_grey_xl (1).jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 26456
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1726033904

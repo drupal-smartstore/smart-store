@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: bef273e5-f939-4893-b1ad-21e1677a1f85
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 610005753nokiablue2.gif
+  uri:
+    -
+      value: 'public://2024-08/610005753nokiablue2.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 76318
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1724322473

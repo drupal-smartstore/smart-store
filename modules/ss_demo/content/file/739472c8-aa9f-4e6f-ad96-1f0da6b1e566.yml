@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 739472c8-aa9f-4e6f-ad96-1f0da6b1e566
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: png-transparent-nokia-lumia-920-nokia-3-nokia-ozo-smartphone-pepsi-logo-blue-electronics-text-thumbnail.png
+  uri:
+    -
+      value: 'public://2024-07/png-transparent-nokia-lumia-920-nokia-3-nokia-ozo-smartphone-pepsi-logo-blue-electronics-text-thumbnail.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1967
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720437865

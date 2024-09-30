@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: fbfb5a20-8d3e-48e3-84b6-af6507dbac47
+  bundle: electronics
+  default_langcode: en
+  depends:
+    a41c3cd3-745e-4054-9537-da1898f953da: commerce_product
+    a71a69af-68a1-47d0-b5b3-cd8497c69cc5: commerce_product_attribute_value
+    d3f3b3e0-4f7c-4113-9501-51cbe0897ff9: file
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: a41c3cd3-745e-4054-9537-da1898f953da
+  sku:
+    -
+      value: Electronics_2
+  title:
+    -
+      value: 'iPhone 15 Pro Max'
+  price:
+    -
+      number: '127000.000000'
+      currency_code: INR
+      formatted: '₹1,27,000.00'
+  created:
+    -
+      value: 1720438166
+  attribute_color:
+    -
+      entity: a71a69af-68a1-47d0-b5b3-cd8497c69cc5
+  field_image:
+    -
+      entity: d3f3b3e0-4f7c-4113-9501-51cbe0897ff9
+      alt: test
+      title: ''
+      width: 600
+      height: 600

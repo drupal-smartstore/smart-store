@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 44a9f5ff-87b9-49e0-9784-fa3efc7b2d70
+  bundle: hero_slider
+  default_langcode: en
+  depends:
+    6996ab93-6dce-44cc-95be-f329556505b5: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Experience Today '
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<h2>Don't miss out in the limited offer!</h2><p>Live the grand experience.</p>"
+      format: basic_html
+      summary: ''
+  field_image:
+    -
+      entity: 6996ab93-6dce-44cc-95be-f329556505b5
+      alt: test
+      title: ''
+      width: 1280
+      height: 580
+  field_link:
+    -
+      uri: 'internal:/'
+      title: 'Read More'
+      options: {  }

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product_variation
+  uuid: 8e7661d9-5a50-4ffc-ac2b-f76256e93aba
+  bundle: electronics
+  default_langcode: en
+  depends:
+    d9accff5-f8b6-4401-9842-3e0562043f79: commerce_product
+    74f02caf-f1f5-432f-a723-23c935f167c8: commerce_product_attribute_value
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  product_id:
+    -
+      entity: d9accff5-f8b6-4401-9842-3e0562043f79
+  sku:
+    -
+      value: Electronics_28
+  title:
+    -
+      value: 'Nokia X30 5G 8/256 GB - Blue'
+  price:
+    -
+      number: '29999.000000'
+      currency_code: INR
+      formatted: '₹29,999.00'
+  created:
+    -
+      value: 1720689894
+  attribute_color:
+    -
+      entity: 74f02caf-f1f5-432f-a723-23c935f167c8

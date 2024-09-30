@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 45bc5d38-bae7-48f7-848a-bff5a43a0bcc
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    296549d5-c022-46fa-9112-133c832b1467: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Jockey
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_brand_logo:
+    -
+      entity: 296549d5-c022-46fa-9112-133c832b1467
+      alt: Jockey
+      title: ''
+      width: 1280
+      height: 720

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 18746860-3445-4c78-a13f-3ae1bbe97093
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    ecedc9fe-1daa-4b44-b1b8-8c26ae83836f: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Samsung
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_brand_logo:
+    -
+      entity: ecedc9fe-1daa-4b44-b1b8-8c26ae83836f
+      alt: samsung
+      title: ''
+      width: 2272
+      height: 966

@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: d9accff5-f8b6-4401-9842-3e0562043f79
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    381b5e8e-71e7-4a68-a960-d0893ac5898d: commerce_product_variation
+    8e7661d9-5a50-4ffc-ac2b-f76256e93aba: commerce_product_variation
+    4df4ec54-4516-4759-9dac-3f4724a74ef9: file
+    840445b1-3774-4cc1-9b0e-69005016ff11: taxonomy_term
+    f926bc7c-9d20-49be-a171-233feca0b2d0: taxonomy_term
+    27945a2d-d0cc-4d20-9379-e5a584295dea: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Nokia X30 5G 8/256 GB'
+  variations:
+    -
+      entity: 381b5e8e-71e7-4a68-a960-d0893ac5898d
+    -
+      entity: 8e7661d9-5a50-4ffc-ac2b-f76256e93aba
+  default_variation:
+    -
+      entity: 381b5e8e-71e7-4a68-a960-d0893ac5898d
+  path:
+    -
+      alias: /product/nokia-x30-5g-8256-gb
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720421311
+  body:
+    -
+      value: '<h2>Nokia X30 5G 8/256 GB</h2>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: 4df4ec54-4516-4759-9dac-3f4724a74ef9
+      alt: 'test image'
+      title: ''
+      width: 392
+      height: 500
+  field_product_brand:
+    -
+      entity: 840445b1-3774-4cc1-9b0e-69005016ff11
+  field_product_categories:
+    -
+      entity: f926bc7c-9d20-49be-a171-233feca0b2d0
+    -
+      entity: 27945a2d-d0cc-4d20-9379-e5a584295dea
+  field_rating:
+    -
+      rating: 100
+      target: 0

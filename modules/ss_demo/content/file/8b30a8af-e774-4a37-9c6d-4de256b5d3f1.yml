@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8b30a8af-e774-4a37-9c6d-4de256b5d3f1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium_0.webp
+  uri:
+    -
+      value: 'public://2024-07/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium_0.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 331884
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720690777

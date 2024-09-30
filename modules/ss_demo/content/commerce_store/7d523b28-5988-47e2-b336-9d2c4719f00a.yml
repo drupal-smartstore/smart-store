@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_store
+  uuid: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  bundle: online
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Store2
+  mail:
+    -
+      value: pankaj.bhojwani@tothenew.com
+  default_currency:
+    -
+      target_id: INR
+  timezone:
+    -
+      value: Asia/Kolkata
+  address:
+    -
+      langcode: ''
+      country_code: IN
+      administrative_area: UP
+      locality: Noida
+      dependent_locality: ''
+      postal_code: '201306'
+      sorting_code: ''
+      address_line1: 'sector 143'
+      address_line2: ''
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  is_default:
+    -
+      value: false
+  created:
+    -
+      value: 1719472817
+  prices_include_tax:
+    -
+      value: false

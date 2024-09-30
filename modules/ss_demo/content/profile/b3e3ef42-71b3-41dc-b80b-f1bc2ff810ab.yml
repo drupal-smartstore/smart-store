@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: profile
+  uuid: b3e3ef42-71b3-41dc-b80b-f1bc2ff810ab
+  bundle: customer
+default:
+  revision_user:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  is_default:
+    -
+      value: false
+  created:
+    -
+      value: 1725012635
+  address:
+    -
+      langcode: ''
+      country_code: IN
+      administrative_area: UP
+      locality: NOIDA
+      dependent_locality: ''
+      postal_code: '302018'
+      sorting_code: ''
+      address_line1: NOIDA
+      address_line2: ''
+      organization: ''
+      given_name: Test
+      additional_name: ''
+      family_name: Test

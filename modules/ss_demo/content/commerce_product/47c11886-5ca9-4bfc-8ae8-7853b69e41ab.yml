@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 47c11886-5ca9-4bfc-8ae8-7853b69e41ab
+  bundle: clothing
+  default_langcode: en
+  depends:
+    ad68fcb9-ee52-4fe1-b664-edafdfefff8c: commerce_store
+    158cffcd-16c7-4681-a4a1-fa1a48e5d359: commerce_product_variation
+    e666bdcb-854a-4574-91ef-14ed7b66bd1b: commerce_product_variation
+    42547d8a-189b-45bf-80d4-9d331645689d: file
+    c293d1a3-5d6d-491f-b4e4-75019f4fe5b7: taxonomy_term
+    83cb25eb-97ee-452a-ac73-8a330a012f09: taxonomy_term
+    8a21b26b-4875-45e6-9995-f695d5be50b7: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: ad68fcb9-ee52-4fe1-b664-edafdfefff8c
+  title:
+    -
+      value: 'Printed Women Round Neck White T-Shirt'
+  variations:
+    -
+      entity: 158cffcd-16c7-4681-a4a1-fa1a48e5d359
+    -
+      entity: e666bdcb-854a-4574-91ef-14ed7b66bd1b
+  default_variation:
+    -
+      entity: 158cffcd-16c7-4681-a4a1-fa1a48e5d359
+  path:
+    -
+      alias: /product/printed-women-round-neck-white-t-shirt
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720178129
+  body:
+    -
+      value: '<p>Affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of women’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.</p><ul><li>56% Cotton, 44% Polyester</li><li>Imported</li><li>Machine Wash</li><li>This soft terry cotton hooded sweatshirt is a go-to layer for workouts and lounging</li><li>Stripe on front chest, kangaroo pocket</li><li>Everyday made better: we listen to customer feedback and fine-tune every detail to ensure quality, fit, and comfort</li></ul>'
+      format: full_html
+      summary: ''
+  field_featured:
+    -
+      value: true
+  field_image:
+    -
+      entity: 42547d8a-189b-45bf-80d4-9d331645689d
+      alt: test
+      title: ''
+      width: 640
+      height: 800
+  field_product_brand:
+    -
+      entity: c293d1a3-5d6d-491f-b4e4-75019f4fe5b7
+  field_product_categories:
+    -
+      entity: 83cb25eb-97ee-452a-ac73-8a330a012f09
+    -
+      entity: 8a21b26b-4875-45e6-9995-f695d5be50b7
+  field_rating:
+    -
+      rating: 80
+      target: 0
+  field_short_description:
+    -
+      value: "Troadlop Men's Running Sneakers Fashion Breathable Sneakers Lightweight Casual Walking Shoes"
+      format: plain_text

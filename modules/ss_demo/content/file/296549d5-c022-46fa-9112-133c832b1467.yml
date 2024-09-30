@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 296549d5-c022-46fa-9112-133c832b1467
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Jockey-Logo.png
+  uri:
+    -
+      value: 'public://2024-07/Jockey-Logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 4681
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720437657

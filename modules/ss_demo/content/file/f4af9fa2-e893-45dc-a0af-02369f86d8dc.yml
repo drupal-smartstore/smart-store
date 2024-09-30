@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f4af9fa2-e893-45dc-a0af-02369f86d8dc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 7-8-years-cuff-pant-4p-winsoon-original-imagqkkxf8uyfubt.webp
+  uri:
+    -
+      value: 'public://2024-07/7-8-years-cuff-pant-4p-winsoon-original-imagqkkxf8uyfubt.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 36178
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722262785

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0b49ebdb-8a34-43fc-b6d5-ad6d555f8795
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Realme_logo.svg_.png
+  uri:
+    -
+      value: 'public://2024-07/Realme_logo.svg_.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 51112
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720437933

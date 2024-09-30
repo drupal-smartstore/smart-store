@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 89f37a0f-205b-4b34-b421-ebdd9aaed359
+  bundle: clothing
+  default_langcode: en
+  depends:
+    ad68fcb9-ee52-4fe1-b664-edafdfefff8c: commerce_store
+    99233013-f4c4-4ff2-8986-5a73c0c8370c: commerce_product_variation
+    ba04f17c-a2bd-4e48-9477-90420414a5d6: commerce_product_variation
+    670a7cad-1e78-4fbb-8651-c22b882b0de2: file
+    c293d1a3-5d6d-491f-b4e4-75019f4fe5b7: taxonomy_term
+    d73391e4-e60f-4306-9e9c-f179f30e3918: taxonomy_term
+    0208f5ec-fd5f-4e2d-9303-71e603c31e15: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: ad68fcb9-ee52-4fe1-b664-edafdfefff8c
+  title:
+    -
+      value: 'Stretch Chino Pants'
+  variations:
+    -
+      entity: 99233013-f4c4-4ff2-8986-5a73c0c8370c
+    -
+      entity: ba04f17c-a2bd-4e48-9477-90420414a5d6
+  default_variation:
+    -
+      entity: 99233013-f4c4-4ff2-8986-5a73c0c8370c
+  path:
+    -
+      alias: /product/stretch-chino-pants
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1726830669
+  body:
+    -
+      value: '<p>Goodthreads’ collection of men’s clothing crafted with care takes wear-everywhere apparel to the next level. Create can’t-miss pairings with long- and short-sleeve button-down shirts in standard and slim fits, plus chino pants and shorts made from wrinkle-free non-iron fabric. With these classics and T-shirts, polo shirts, and outerwear to round out your look—Goodthreads is your go-to for wardrobe staples with the style you want.</p><ul><li>98% Cotton, 2% Elastane</li><li>Imported</li><li>Machine Wash</li><li>An updated version of the classic chino. Elevated fabrics with stretch in our best-selling Washed Chino Pant body. Half dress-pant, half chino- for a clean, casual look</li><li>Slim Fit features a tailored cut that''s slim through the thigh and tapered down to a 15" leg opening. Stretch Elastane for comfort.</li><li>Front slant pockets, back button welt pockets, blind hem at leg opening</li><li>Model is 6''2" and wearing a size Medium</li><li>If you like J.Crew or Banana Republic chinos, check out Goodthreads’ selection of Modern Stretch Chinos- available in a wide range of waist and inseam sizes, no tailor needed</li></ul>'
+      format: full_html
+      summary: ''
+  field_featured:
+    -
+      value: false
+  field_image:
+    -
+      entity: 670a7cad-1e78-4fbb-8651-c22b882b0de2
+      alt: chino
+      title: ''
+      width: 1500
+      height: 1500
+  field_product_brand:
+    -
+      entity: c293d1a3-5d6d-491f-b4e4-75019f4fe5b7
+  field_product_categories:
+    -
+      entity: d73391e4-e60f-4306-9e9c-f179f30e3918
+    -
+      entity: 0208f5ec-fd5f-4e2d-9303-71e603c31e15
+  field_short_description:
+    -
+      value: "Goodthreads Men's Slim-Fit Modern Stretch Chino Pants crafted with care takes wear-everywhere apparel to the next level."
+      format: plain_text

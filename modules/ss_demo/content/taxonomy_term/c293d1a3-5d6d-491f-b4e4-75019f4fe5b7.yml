@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c293d1a3-5d6d-491f-b4e4-75019f4fe5b7
+  bundle: product_brands
+  default_langcode: en
+  depends:
+    8ad9b74b-fc95-46e2-b7ae-c67b92d0917a: file
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Allen Solly'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_brand_logo:
+    -
+      entity: 8ad9b74b-fc95-46e2-b7ae-c67b92d0917a
+      alt: 'Allen solly'
+      title: ''
+      width: 640
+      height: 474

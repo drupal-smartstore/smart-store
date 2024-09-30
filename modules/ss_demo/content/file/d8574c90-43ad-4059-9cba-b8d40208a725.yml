@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d8574c90-43ad-4059-9cba-b8d40208a725
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: lealdealz-premium-quality-ankle-length-cotton-socks-for-men-and-women-pack-of-5-grey-coloured-product-images-rv659p4yjg-0-202211020804.jpg
+  uri:
+    -
+      value: 'public://2024-07/lealdealz-premium-quality-ankle-length-cotton-socks-for-men-and-women-pack-of-5-grey-coloured-product-images-rv659p4yjg-0-202211020804.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 46416
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1722261249

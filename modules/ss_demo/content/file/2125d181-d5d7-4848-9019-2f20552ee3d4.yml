@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2125d181-d5d7-4848-9019-2f20552ee3d4
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 3tjiZyR6OQ-ALI-02BB-08DK-BLUE-_281_29_c9cd5845-c50a-4d14-aa2e-a2c393302680.jpg
+  uri:
+    -
+      value: 'public://2024-09/3tjiZyR6OQ-ALI-02BB-08DK-BLUE-_281_29_c9cd5845-c50a-4d14-aa2e-a2c393302680.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 107999
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1727331898

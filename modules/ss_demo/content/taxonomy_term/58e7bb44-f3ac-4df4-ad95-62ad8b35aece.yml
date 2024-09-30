@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 58e7bb44-f3ac-4df4-ad95-62ad8b35aece
+  bundle: product_categories
+  default_langcode: en
+  depends:
+    080b6ef5-86bf-445b-94c2-f4f926cfd25e: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Streaming Devices'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      entity: 080b6ef5-86bf-445b-94c2-f4f926cfd25e
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

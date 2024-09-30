@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 960163fc-03c5-4086-8d86-233b99643eef
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: png-clipart-puma-logo-brand-clothing-others-miscellaneous-text.png
+  uri:
+    -
+      value: 'public://2024-07/png-clipart-puma-logo-brand-clothing-others-miscellaneous-text.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 7152
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720437901

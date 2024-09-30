@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3c574676-d4a3-411a-b70d-3f54817da2ed
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Screenshot from 2024-08-29 14-08-36.png'
+  uri:
+    -
+      value: 'public://2024-09/Screenshot from 2024-08-29 14-08-36.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 583461
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1725446765

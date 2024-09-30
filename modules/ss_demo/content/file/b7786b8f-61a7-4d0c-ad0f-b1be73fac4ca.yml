@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b7786b8f-61a7-4d0c-ad0f-b1be73fac4ca
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: nokia-logo-brand-phone-symbol-black-design-finland-mobile-illustration-free-vector.jpg
+  uri:
+    -
+      value: 'public://2024-07/nokia-logo-brand-phone-symbol-black-design-finland-mobile-illustration-free-vector.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 13578
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1720438296

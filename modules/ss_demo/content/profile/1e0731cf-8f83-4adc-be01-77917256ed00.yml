@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: profile
+  uuid: 1e0731cf-8f83-4adc-be01-77917256ed00
+  bundle: customer
+default:
+  revision_user:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  is_default:
+    -
+      value: false
+  created:
+    -
+      value: 1725852964
+  address:
+    -
+      langcode: ''
+      country_code: IN
+      administrative_area: UP
+      locality: noida
+      dependent_locality: ''
+      postal_code: '201306'
+      sorting_code: ''
+      address_line1: noida
+      address_line2: 'nirala aspire'
+      organization: ''
+      given_name: chriss
+      additional_name: ''
+      family_name: moris

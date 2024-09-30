@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_product
+  uuid: 96d3ea1f-5a77-458e-acf7-52805cfbb99a
+  bundle: electronics
+  default_langcode: en
+  depends:
+    7d523b28-5988-47e2-b336-9d2c4719f00a: commerce_store
+    a58399aa-9c09-410e-9705-626bde9c4685: commerce_product_variation
+    04a022eb-2420-40e3-b2e8-60490973f453: file
+    2891752b-ee9c-4849-8b52-378231f7f372: taxonomy_term
+    4b93feae-fbbc-4be3-b264-a6c135babac9: taxonomy_term
+default:
+  uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  stores:
+    -
+      entity: 7d523b28-5988-47e2-b336-9d2c4719f00a
+  title:
+    -
+      value: 'Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Thin and Light Lapto...'
+  variations:
+    -
+      entity: a58399aa-9c09-410e-9705-626bde9c4685
+  path:
+    -
+      alias: /product/lenovo-ideapad-s145-apu-dual-core-a6-4-gb1-tb-hddwindows-10-home-s145-15ast-thin-and-light
+      langcode: en
+      pathauto: 1
+  created:
+    -
+      value: 1720420851
+  body:
+    -
+      value: '<p>Lenovo Ideapad S145 APU Dual Core A6 - (4 GB/1 TB HDD/Windows 10 Home) S145-15AST Thin and Light Lapto...</p>'
+      format: basic_html
+      summary: ''
+  field_featured:
+    -
+      value: true
+  field_image:
+    -
+      entity: 04a022eb-2420-40e3-b2e8-60490973f453
+      alt: 'test image'
+      title: ''
+      width: 416
+      height: 341
+  field_product_brand:
+    -
+      entity: 2891752b-ee9c-4849-8b52-378231f7f372
+  field_product_categories:
+    -
+      entity: 4b93feae-fbbc-4be3-b264-a6c135babac9

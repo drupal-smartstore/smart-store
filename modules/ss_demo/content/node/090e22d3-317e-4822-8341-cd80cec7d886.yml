@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 090e22d3-317e-4822-8341-cd80cec7d886
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Services
+  created:
+    -
+      value: 1726754922
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /services
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>At Smart Store, we are more than just an online store. We aim to provide a comprehensive shopping experience, offering a range of services designed to make your life easier and your shopping more enjoyable. Explore what we offer below:</p><h3>1. <strong>Wide Product Selection</strong></h3><p>From the latest tech gadgets to home essentials, fashion, and accessories, our diverse product categories are carefully curated to meet all your needs. We work with top-quality suppliers to ensure that you have access to the best products available.</p><h3>2. <strong>Fast &amp; Reliable Shipping</strong></h3><p>We understand the excitement of receiving your purchase, which is why we offer fast, reliable shipping. With multiple delivery options, you can choose the one that fits your schedule, and track your order every step of the way.</p><h3>3. <strong>Customer Support</strong></h3><p>Our customer service team is here to help. Whether you have a question about your order, need product recommendations, or require assistance with returns and exchanges, we’re just a click away. We pride ourselves on delivering exceptional customer support to ensure your satisfaction.</p><h3>4. <strong>Secure Shopping</strong></h3><p>Shop with confidence on our platform. We prioritize the safety of your personal and financial information, utilizing top-level security systems and encryption for safe and secure transactions.</p><h3>5. <strong>Easy Returns &amp; Exchanges</strong></h3><p>We want you to love what you buy! If for any reason you're not satisfied with your purchase, we offer easy returns and exchanges within 5 days of delivery. Our hassle-free process ensures that you get exactly what you need.</p><h3>6. <strong>Exclusive Deals &amp; Promotions</strong></h3><p>Stay connected with us for special promotions, discounts, and seasonal sales. Subscribe to our newsletter or follow us on social media to be the first to know about exclusive deals and offers.</p><h3>7. <strong>Personalized Shopping Experience</strong></h3><p>Sign up for an account to enjoy personalized recommendations based on your preferences and previous purchases. Our goal is to make your shopping experience tailored to your unique tastes and needs.</p><hr><p>We are dedicated to providing you with the best online shopping experience possible. Thank you for choosing Smart Store, where shopping is convenient, secure, and personalized just for you!</p><hr><p>&nbsp;</p>"
+      format: full_html
+      summary: ''
