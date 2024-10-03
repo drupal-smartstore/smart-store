@@ -10,7 +10,7 @@ id: commerce_product.electronics.field_product_categories
 field_name: field_product_categories
 entity_type: commerce_product
 bundle: electronics
-label: 'Product Categories'
+label: Categories
 description: ''
 required: false
 translatable: false

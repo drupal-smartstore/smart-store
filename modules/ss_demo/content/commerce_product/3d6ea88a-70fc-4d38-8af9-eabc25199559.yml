@@ -61,3 +61,7 @@ default:
   field_product_categories:
     -
       entity: f926bc7c-9d20-49be-a171-233feca0b2d0
+  field_rating:
+    -
+      rating: 80
+      target: 0

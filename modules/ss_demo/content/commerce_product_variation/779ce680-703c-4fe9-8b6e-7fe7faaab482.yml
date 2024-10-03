@@ -7,6 +7,7 @@ _meta:
   depends:
     3d6ea88a-70fc-4d38-8af9-eabc25199559: commerce_product
     74f02caf-f1f5-432f-a723-23c935f167c8: commerce_product_attribute_value
+    ad6cf1c0-782b-4a30-8108-f191db003cdc: file
 default:
   uid:
     -
@@ -34,3 +35,10 @@ default:
   attribute_color:
     -
       entity: 74f02caf-f1f5-432f-a723-23c935f167c8
+  field_image:
+    -
+      entity: ad6cf1c0-782b-4a30-8108-f191db003cdc
+      alt: Nokia
+      title: ''
+      width: 434
+      height: 1000

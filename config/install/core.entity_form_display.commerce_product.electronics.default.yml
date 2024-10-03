@@ -11,6 +11,7 @@ dependencies:
     - field.field.commerce_product.electronics.field_product_brand
     - field.field.commerce_product.electronics.field_product_categories
     - field.field.commerce_product.electronics.field_rating
+    - field.field.commerce_product.electronics.field_short_description
   module:
     - commerce
     - entity_browser
@@ -70,6 +71,14 @@ content:
     weight: 9
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_short_description:
+    type: text_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

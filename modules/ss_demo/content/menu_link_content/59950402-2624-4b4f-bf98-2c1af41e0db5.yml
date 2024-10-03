@@ -16,7 +16,7 @@ default:
       value: main
   link:
     -
-      uri: 'internal:/about-us'
+      uri: 'internal:/node/8'
       title: ''
       options: {  }
   external:

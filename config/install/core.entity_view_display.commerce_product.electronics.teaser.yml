@@ -11,6 +11,7 @@ dependencies:
     - field.field.commerce_product.electronics.field_product_brand
     - field.field.commerce_product.electronics.field_product_categories
     - field.field.commerce_product.electronics.field_rating
+    - field.field.commerce_product.electronics.field_short_description
     - image.style.new_product
   module:
     - commerce_ajax_atc
@@ -170,6 +171,7 @@ hidden:
   field_featured: true
   field_product_brand: true
   field_product_categories: true
+  field_short_description: true
   search_api_excerpt: true
   stores: true
   uid: true

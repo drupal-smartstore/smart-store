@@ -10,6 +10,7 @@ dependencies:
     - field.field.commerce_product.electronics.field_product_brand
     - field.field.commerce_product.electronics.field_product_categories
     - field.field.commerce_product.electronics.field_rating
+    - field.field.commerce_product.electronics.field_short_description
   module:
     - commerce_ajax_atc
     - commerce_product
@@ -26,17 +27,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 11
-    region: content
-  field_featured:
-    type: boolean
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 7
+    weight: 3
     region: content
   field_image:
     type: imagezoom
@@ -49,33 +40,40 @@ content:
       imagezoom_disable_width: null
       imagezoom_additional: ''
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
   field_product_brand:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
-    weight: 13
+    weight: 3
     region: content
   field_product_categories:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
-    weight: 5
+    weight: 3
     region: content
   field_rating:
     type: fivestar_stars
     label: hidden
     settings:
-      text_format: average
+      text_format: none
       display_format: average
       fivestar_widget: basic
     third_party_settings: {  }
-    weight: 6
+    weight: 1
+    region: content
+  field_short_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
     region: content
   flag_wishlist:
     settings: {  }
@@ -88,20 +86,21 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: -5
+    weight: 0
     region: content
   variations:
     type: commerce_add_to_cart
-    label: above
+    label: hidden
     settings:
       combine: true
     third_party_settings:
       commerce_ajax_atc:
         enable_ajax: true
-    weight: 10
+    weight: 3
     region: content
 hidden:
   created: true
+  field_featured: true
   search_api_excerpt: true
   stores: true
   uid: true

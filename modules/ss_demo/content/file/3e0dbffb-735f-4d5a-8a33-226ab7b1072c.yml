@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3e0dbffb-735f-4d5a-8a33-226ab7b1072c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 632a1b5fbbbc78_54889779.jpg
+  uri:
+    -
+      value: 'public://inline-images/632a1b5fbbbc78_54889779.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 22596
+  status:
+    -
+      value: false
+  created:
+    -
+      value: 1727952815

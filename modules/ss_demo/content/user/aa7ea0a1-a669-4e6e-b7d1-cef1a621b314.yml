@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: aa7ea0a1-a669-4e6e-b7d1-cef1a621b314
+  default_langcode: en
+  depends:
+    3d760f33-64c8-4cd3-8ebc-a4b43433d9f0: profile
+default:
+  preferred_langcode:
+    -
+      value: en
+  name:
+    -
+      value: admin
+  pass:
+    -
+      value: $2y$10$Vp/VTDnUhZTz0Fc3HWl//ub/Q8Wchkfmzi2Egfv4SNX222mrOQZ/q
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: smart-store@drupal.com
+  timezone:
+    -
+      value: UTC
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1719417204
+  access:
+    -
+      value: 1727952735
+  login:
+    -
+      value: 1727515539
+  init:
+    -
+      value: smart-store@drupal.com
+  roles:
+    -
+      target_id: administrator
+  customer_profiles:
+    -
+      entity: 3d760f33-64c8-4cd3-8ebc-a4b43433d9f0
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_password_expiration:
+    -
+      value: false

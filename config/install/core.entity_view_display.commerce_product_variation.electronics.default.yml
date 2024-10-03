@@ -8,6 +8,7 @@ dependencies:
     - field.field.commerce_product_variation.electronics.field_image
   module:
     - commerce_price
+    - imagezoom_gallery
 id: commerce_product_variation.electronics.default
 targetEntityType: commerce_product_variation
 bundle: electronics
@@ -17,7 +18,21 @@ content:
     type: entity_reference_label
     label: hidden
     settings:
-      link: true
+      link: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_image:
+    type: imagezoom_gallery
+    label: hidden
+    settings:
+      imagezoom_zoom_type: window
+      imagezoom_display_style: ''
+      imagezoom_zoom_style: ''
+      imagezoom_disable: false
+      imagezoom_disable_width: null
+      imagezoom_additional: ''
+      imagezoom_thumb_style: ''
     third_party_settings: {  }
     weight: 0
     region: content
@@ -37,11 +52,17 @@ content:
       strip_trailing_zeroes: false
       currency_display: symbol
     third_party_settings: {  }
+    weight: 1
+    region: content
+  sku:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 2
     region: content
 hidden:
-  field_image: true
   product_id: true
   search_api_excerpt: true
-  sku: true
   title: true

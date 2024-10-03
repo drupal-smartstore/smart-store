@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ad6cf1c0-782b-4a30-8108-f191db003cdc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah35zf6aanfknc.jpg
+  uri:
+    -
+      value: 'public://2024-10/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah35zf6aanfknc.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 236907
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1727939210

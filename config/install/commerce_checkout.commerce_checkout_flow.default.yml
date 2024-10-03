@@ -35,15 +35,12 @@ configuration:
       step: review
       weight: 3
     payment_process:
-      step: payment
-      weight: 4
+      step: complete
+      weight: 5
       capture: true
     completion_message:
       step: complete
       weight: 5
-      message:
-        value: '<div class="order-confirmation"><div class="order-header"><div class="order-info"><img src="/sites/default/files/inline-images/632a1b5fbbbc78_54889779.jpg" data-entity-uuid="5acad843-ea3c-46a5-b1cd-bdeb810a159d" data-entity-type="file" alt="Order Placed" width="160" height="160"><div class="order-info-text"><h1>Congratulations!! Your order has been placed successfully.</h1><p>Your order id : <strong>[commerce_order:order_number]</strong></p></div></div><div class="order-actions"><a class="my-orders-btn" href="/orders">Go to My Orders</a></div></div><div class="order-details"><div class="delivery-address"><h2>Delivery Address</h2><p>[commerce_order:uid:entity:customer]</p><p>Email: [commerce_order:uid:entity:mail]</p><p><a href="https://dev-smart-store-ttn.pantheonsite.io/my-profile">Change or Add Number Email</a></p></div></div><drupal-view data-view-id="duplicate_of_user_orders" data-display-id="block_1" data-arguments="[commerce_order:order_id]">&nbsp;</drupal-view></div>'
-        format: full_html
       capture: true
     completion_register:
       step: complete
