@@ -105,6 +105,7 @@ install:
   - insert_view_adv
   - dropzonejs
   - dropzonejs_eb_widget
+  - smtp
 
   # Custom
   - toolbar_always_vertical

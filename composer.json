@@ -53,6 +53,7 @@
         "drupal/entity_browser": "^2.11",
         "drupal/imagezoom": "^2.0@beta",
         "drupal/flag": "^4.0@beta",
+        "drupal/smtp": "^1.4",
         "drupal-gitlab/change_user_route": "dev-8.x-2.x@dev",
         "enyo/dropzone": "^6.0@beta",
         "npm-asset/intl-tel-input": "^17.0"

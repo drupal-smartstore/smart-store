@@ -7,6 +7,9 @@ function ss_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form
   if ($form_id == 'user_login_form') {
     $form['#submit'][] = 'ss_modify_user_login_redirect';
   }
+  elseif ($form_id == 'user_register_form') {
+    $form['actions']['submit']['#submit'][] = 'ss_modify_user_register_redirect';
+  }
   elseif ($form_id == 'views_form_content_page_1') {
 
     // Remove action elements for Content Managers
@@ -69,4 +72,11 @@ function ss_modify_user_login_redirect(&$form, \Drupal\Core\Form\FormStateInterf
   if ($account->isAuthenticated()) {
     $form_state->setRedirect('<front>');
   }
+}
+
+/**
+ * Redirect to the login page after form submission.
+ */
+function ss_modify_user_register_redirect(&$form, \Drupal\Core\Form\FormStateInterface $form_state) {
+  $form_state->setRedirect('user.login');
 }
