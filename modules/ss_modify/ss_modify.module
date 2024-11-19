@@ -10,6 +10,12 @@ function ss_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form
   elseif ($form_id == 'user_register_form') {
     $form['actions']['submit']['#submit'][] = 'ss_modify_user_register_redirect';
   }
+  elseif (strpos($form_id, 'simplenews_subscriptions_block') === 0) {
+    // Add a placeholder to the email field.
+    if (isset($form['mail'])) {
+      $form['mail']['widget'][0]['value']['#placeholder'] = t('Enter your email address');
+    }
+  }
   elseif ($form_id == 'views_form_content_page_1') {
 
     // Remove action elements for Content Managers
