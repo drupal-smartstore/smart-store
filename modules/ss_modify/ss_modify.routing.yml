@@ -12,4 +12,4 @@ ss_modify.admin_dashboard:
     _controller: '\Drupal\ss_modify\Controller\AdminDashboardController::content'
     _title: ''
   requirements:
-    _permission: 'administer site configuration'
+    _permission: 'access content overview'
