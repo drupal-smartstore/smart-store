@@ -5,3 +5,11 @@ ss_modify.user_edit:
     _title: 'Edit My Profile'
   requirements:
     _role: 'authenticated'
+
+ss_modify.admin_dashboard:
+  path: '/admin/dashboard'
+  defaults:
+    _controller: '\Drupal\ss_modify\Controller\AdminDashboardController::content'
+    _title: ''
+  requirements:
+    _permission: 'administer site configuration'

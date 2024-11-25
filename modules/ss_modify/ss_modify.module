@@ -4,16 +4,16 @@
  * Implements hook_form_alter().
  */
 function ss_modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-  if ($form_id == 'user_login_form') {
-    $form['#submit'][] = 'ss_modify_user_login_redirect';
-  }
-  elseif ($form_id == 'user_register_form') {
-    $form['actions']['submit']['#submit'][] = 'ss_modify_user_register_redirect';
-  }
-  elseif (strpos($form_id, 'simplenews_subscriptions_block') === 0) {
-    // Add a placeholder to the email field.
-    if (isset($form['mail'])) {
-      $form['mail']['widget'][0]['value']['#placeholder'] = t('Enter your email address');
+ // Check for the specific form.
+  if (strpos($form_id, 'node_') === 0) {
+    foreach ($form as $key => &$element) {
+      if (is_array($element) && isset($element['#type']) && $element['#type'] === 'text_format') {
+        if (!empty($element['format']['#description'])) {
+          $guidelines = $element['format']['#description'];
+          $element['value']['#attributes']['title'] = $guidelines;
+          unset($element['format']['#description']);
+        }
+      }
     }
   }
   elseif ($form_id == 'views_form_content_page_1') {
@@ -85,4 +85,17 @@ function ss_modify_user_login_redirect(&$form, \Drupal\Core\Form\FormStateInterf
  */
 function ss_modify_user_register_redirect(&$form, \Drupal\Core\Form\FormStateInterface $form_state) {
   $form_state->setRedirect('user.login');
+}
+
+/**
+ * Implements hook_theme().
+ */
+function ss_modify_theme() {
+  return [
+    'admin_dashboard_page_template' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
 }
