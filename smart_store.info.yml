@@ -106,6 +106,7 @@ install:
   - dropzonejs
   - dropzonejs_eb_widget
   - smtp
+  - twig_tweak
 
   # Custom
   - toolbar_always_vertical
