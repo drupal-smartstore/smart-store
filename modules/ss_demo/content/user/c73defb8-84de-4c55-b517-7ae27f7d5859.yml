@@ -1,23 +1,26 @@
 _meta:
   version: '1.0'
   entity_type: user
-  uuid: 9f0c0dd9-891d-4c3a-a37e-a4b1f5476998
+  uuid: c73defb8-84de-4c55-b517-7ae27f7d5859
   default_langcode: en
 default:
   preferred_langcode:
     -
       value: en
+  preferred_admin_langcode:
+    -
+      value: en
   name:
     -
-      value: sm
+      value: suman
   pass:
     -
-      value: $2y$10$iloilCzbKTNuZLHOEwbMNOBrGVbk0MS3mYc394F7vf0tjF6UnzEiS
+      value: $2y$10$ptTG5p3C89tvqA39QKFvf.fgVWzUG2A7DHNdDX8U9wnLOhvGoQRtm
       existing: ''
       pre_hashed: false
   mail:
     -
-      value: sm@example.com
+      value: muskan1@tothenew.com
   timezone:
     -
       value: Asia/Kolkata
@@ -26,16 +29,16 @@ default:
       value: true
   created:
     -
-      value: 1722410809
+      value: 1732088356
   access:
     -
-      value: 1732633794
+      value: 0
   login:
     -
-      value: 1732633346
-  roles:
+      value: 0
+  init:
     -
-      target_id: store_manager
+      value: muskan1@tothenew.com
   path:
     -
       alias: ''
@@ -43,7 +46,7 @@ default:
       pathauto: 1
   field_last_password_reset:
     -
-      value: '2024-11-26T15:03:01'
+      value: '2024-11-20T07:39:16'
   field_password_expiration:
     -
       value: false

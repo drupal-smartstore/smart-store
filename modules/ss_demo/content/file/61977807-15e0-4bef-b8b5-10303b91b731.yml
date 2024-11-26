@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 61977807-15e0-4bef-b8b5-10303b91b731
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sales.png
+  uri:
+    -
+      value: 'public://inline-images/sales.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1625
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732598332

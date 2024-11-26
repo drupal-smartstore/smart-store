@@ -66,5 +66,5 @@ default:
       entity: e58dc852-d534-48de-9fa7-da1e28ef2402
   field_rating:
     -
-      rating: 80
+      rating: 20
       target: 0

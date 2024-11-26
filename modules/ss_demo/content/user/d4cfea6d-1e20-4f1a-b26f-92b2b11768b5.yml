@@ -1,23 +1,26 @@
 _meta:
   version: '1.0'
   entity_type: user
-  uuid: 9f0c0dd9-891d-4c3a-a37e-a4b1f5476998
+  uuid: d4cfea6d-1e20-4f1a-b26f-92b2b11768b5
   default_langcode: en
 default:
   preferred_langcode:
     -
       value: en
+  preferred_admin_langcode:
+    -
+      value: en
   name:
     -
-      value: sm
+      value: cm1
   pass:
     -
-      value: $2y$10$iloilCzbKTNuZLHOEwbMNOBrGVbk0MS3mYc394F7vf0tjF6UnzEiS
+      value: $2y$10$dzm/cPNoeov0pNs1kzeLPuOrsyxcbUSNNjlmBBkqmoaiPIjExd3ma
       existing: ''
       pre_hashed: false
   mail:
     -
-      value: sm@example.com
+      value: cm1@abcabc.coj
   timezone:
     -
       value: Asia/Kolkata
@@ -26,16 +29,19 @@ default:
       value: true
   created:
     -
-      value: 1722410809
+      value: 1732536018
   access:
     -
-      value: 1732633794
+      value: 1732536552
   login:
     -
-      value: 1732633346
+      value: 1732536665
+  init:
+    -
+      value: cm1@abcabc.coj
   roles:
     -
-      target_id: store_manager
+      target_id: content_manager
   path:
     -
       alias: ''
@@ -43,7 +49,7 @@ default:
       pathauto: 1
   field_last_password_reset:
     -
-      value: '2024-11-26T15:03:01'
+      value: '2024-11-25T12:00:33'
   field_password_expiration:
     -
       value: false

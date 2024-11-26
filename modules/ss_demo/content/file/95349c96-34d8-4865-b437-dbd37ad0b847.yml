@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 95349c96-34d8-4865-b437-dbd37ad0b847
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Screenshot 2024-11-19 at 11.48.53 AM.png'
+  uri:
+    -
+      value: 'public://2024-11/Screenshot 2024-11-19 at 11.48.53 AM_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 72953
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731999787

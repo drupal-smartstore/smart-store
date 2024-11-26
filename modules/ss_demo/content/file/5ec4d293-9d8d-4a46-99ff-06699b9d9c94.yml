@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5ec4d293-9d8d-4a46-99ff-06699b9d9c94
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Screenshot from 2024-11-25 14-53-41_0.png'
+  uri:
+    -
+      value: 'public://inline-images/Screenshot from 2024-11-25 14-53-41_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 72472
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732527924

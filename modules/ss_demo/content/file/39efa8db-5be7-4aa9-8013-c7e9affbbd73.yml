@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 39efa8db-5be7-4aa9-8013-c7e9affbbd73
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: order-paid.png
+  uri:
+    -
+      value: 'public://inline-images/order-paid.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1237
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732598240

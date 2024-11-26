@@ -16,7 +16,7 @@ default:
       value: account
   link:
     -
-      uri: 'internal:/admin/content'
+      uri: 'internal:/admin/dashboard'
       title: ''
       options: {  }
   external:

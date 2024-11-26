@@ -1,23 +1,26 @@
 _meta:
   version: '1.0'
   entity_type: user
-  uuid: 9f0c0dd9-891d-4c3a-a37e-a4b1f5476998
+  uuid: 169f788c-429a-4b95-8b96-4351603de5db
   default_langcode: en
 default:
   preferred_langcode:
     -
       value: en
+  preferred_admin_langcode:
+    -
+      value: en
   name:
     -
-      value: sm
+      value: suman1
   pass:
     -
-      value: $2y$10$iloilCzbKTNuZLHOEwbMNOBrGVbk0MS3mYc394F7vf0tjF6UnzEiS
+      value: $2y$10$YE2YyoZLFv68WWX0TmqSbeE30Ughr6d8a58n8AYRdjRkju5GghNrK
       existing: ''
       pre_hashed: false
   mail:
     -
-      value: sm@example.com
+      value: muskankumari060390@gmail.com
   timezone:
     -
       value: Asia/Kolkata
@@ -26,16 +29,16 @@ default:
       value: true
   created:
     -
-      value: 1722410809
+      value: 1732088413
   access:
     -
-      value: 1732633794
+      value: 1732088636
   login:
     -
-      value: 1732633346
-  roles:
+      value: 1732088771
+  init:
     -
-      target_id: store_manager
+      value: muskankumari060390@gmail.com
   path:
     -
       alias: ''
@@ -43,7 +46,7 @@ default:
       pathauto: 1
   field_last_password_reset:
     -
-      value: '2024-11-26T15:03:01'
+      value: '2024-11-20T07:44:57'
   field_password_expiration:
     -
       value: false

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 2b610703-12bb-4b3b-a583-c5f78b7c28b7
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: Earnings
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<img data-entity-uuid="0fe2209c-f3fb-4334-b2a9-4a2e6d0ebeeb" data-entity-type="file" src="/sites/default/files/inline-images/Screenshot%20from%202024-11-25%2014-56-36.png" width="483" height="393">'
+      format: basic_html
+      summary: ''

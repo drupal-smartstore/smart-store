@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: profile
+  uuid: ee6ec627-3787-4ac9-8722-6a4a288fbcbd
+  bundle: customer
+default:
+  revision_user:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  is_default:
+    -
+      value: false
+  created:
+    -
+      value: 1729756029
+  address:
+    -
+      langcode: ''
+      country_code: IN
+      administrative_area: DL
+      locality: Delhi
+      dependent_locality: ''
+      postal_code: '110096'
+      sorting_code: ''
+      address_line1: '9'
+      address_line2: ''
+      organization: ttn
+      given_name: muskan
+      additional_name: ''
+      family_name: k

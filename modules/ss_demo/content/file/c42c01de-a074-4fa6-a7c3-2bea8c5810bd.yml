@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c42c01de-a074-4fa6-a7c3-2bea8c5810bd
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: income.png
+  uri:
+    -
+      value: 'public://inline-images/income.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1587
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732598289
