@@ -1,6 +1,6 @@
 login:
   administrator:
-    redirect_url: /admin/content
+    redirect_url: /admin/dashboard
     allow_destination: false
     weight: -10
   customer_support:
@@ -8,7 +8,7 @@ login:
     allow_destination: false
     weight: -9
   content_manager:
-    redirect_url: /admin/content
+    redirect_url: /admin/dashboard
     allow_destination: false
     weight: -8
   store_manager:

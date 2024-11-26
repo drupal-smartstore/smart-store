@@ -6,23 +6,65 @@ dependencies:
     - node.type.article
     - node.type.page
     - node.type.simplenews_issue
+    - taxonomy.vocabulary.product_brands
+    - taxonomy.vocabulary.product_categories
   module:
+    - commerce
+    - commerce_autosku
+    - commerce_order
     - commerce_product
+    - commerce_promotion
+    - commerce_shipping
+    - commerce_store
+    - commerce_tax
     - node
+    - system
+    - taxonomy
+    - toolbar
 id: store_manager
 label: 'Store Manager'
 weight: 6
 is_admin: null
 permissions:
+  - 'access commerce administration pages'
+  - 'access commerce_order overview'
+  - 'access commerce_product overview'
+  - 'access commerce_product_attribute overview'
+  - 'access commerce_promotion overview'
+  - 'access commerce_shipping_method overview'
+  - 'access commerce_store overview'
+  - 'access toolbar'
+  - 'administer commerce_order'
+  - 'administer commerce_product'
+  - 'administer commerce_product_attribute'
+  - 'administer commerce_product_type'
+  - 'administer commerce_product_variation_type SKU'
+  - 'administer commerce_shipment'
+  - 'administer commerce_shipment_type'
+  - 'administer commerce_store'
+  - 'administer commerce_store_type'
+  - 'administer commerce_tax_type'
+  - 'bulk generate commerce_promotion_coupon'
+  - 'create clothing commerce_product'
+  - 'create commerce_product_attribute'
+  - 'create commerce_promotion'
+  - 'create commerce_shipping_method'
+  - 'create electronics commerce_product'
+  - 'create online commerce_store'
+  - 'create terms in product_brands'
+  - 'create terms in product_categories'
   - 'delete all revisions'
   - 'delete any article content'
   - 'delete any clothing commerce_product'
+  - 'delete any commerce_promotion'
   - 'delete any default commerce_product'
   - 'delete any electronics commerce_product'
+  - 'delete any online commerce_store'
   - 'delete any page content'
   - 'delete any simplenews_issue content'
   - 'delete article revisions'
   - 'delete commerce_product_attribute'
+  - 'delete commerce_shipping_method'
   - 'delete own article content'
   - 'delete own clothing commerce_product'
   - 'delete own default commerce_product'
@@ -31,3 +73,18 @@ permissions:
   - 'delete own simplenews_issue content'
   - 'delete page revisions'
   - 'delete simplenews_issue revisions'
+  - 'duplicate any commerce_promotion'
+  - 'duplicate any online commerce_store'
+  - 'manage clothing commerce_product_variation'
+  - 'manage default commerce_product_variation'
+  - 'manage default commerce_shipment'
+  - 'manage electronics commerce_product_variation'
+  - 'update any clothing commerce_product'
+  - 'update any commerce_promotion'
+  - 'update any default commerce_product'
+  - 'update any online commerce_store'
+  - 'update commerce_product_attribute'
+  - 'update own clothing commerce_product'
+  - 'view clothing commerce_product'
+  - 'view online commerce_store'
+  - 'view the administration theme'

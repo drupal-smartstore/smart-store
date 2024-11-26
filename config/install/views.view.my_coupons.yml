@@ -292,7 +292,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"coupon\">\r\n<div class=\"coupon-inner\">\r\n<div class=\"coupon-left\">\r\n<div class=\"coupon-name\">{{ name }}</div>\r\n<div class=\"coupon-valid-date\">{{ offer__target_plugin_id }} ( Valid till:  {{ end_date }} )</div>\r\n</div>\r\n<div class=\"coupon-right\">\r\n<div class=\"coupon-date\"><span>Coupon :</span>  {{ coupons_target_id }} </div>\r\n<div class=\"coupon-tc\">View T&amp;C</div>\r\n</div>\r\n</div>\r\n</div>"
+            text: "<div class=\"coupon\">\r\n<div class=\"coupon-inner\">\r\n<div class=\"coupon-left\">\r\n<div class=\"coupon-name\">{{ name }}</div>\r\n<div class=\"coupon-valid-date\">{{ offer__target_plugin_id }} ( Valid till:  {{ end_date }} )</div>\r\n</div>\r\n<div class=\"coupon-right\">\r\n<div class=\"coupon-date\"><span>Coupon :</span>  {{ coupons_target_id }} </div>\r\n<div class=\"coupon-tc\"><a href=\"#\">View T&amp;C</a></div>\r\n</div>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

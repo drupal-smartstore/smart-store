@@ -714,7 +714,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"banner-section\">\r\n<div class=\"banner-img\">{{ field_image }}</div>\r\n<div class=\"banner-content\">\r\n<div class=\"banner-content-inner\">\r\n<div class=\"left-content\">\r\n<div>{{ body }}</div>\r\n<div class=\"button\">{{ field_link }}</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>"
+            text: "<div class=\"banner-section\">\r\n<div class=\"banner-img\">{{ field_image }}</div>\r\n<div class=\"banner-content\">\r\n<div class=\"banner-content-inner\">\r\n<div class=\"left-content\">\r\n<div>{{ body }}</div>\r\n<div class=\"banner-button\">{{ field_link }}</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
